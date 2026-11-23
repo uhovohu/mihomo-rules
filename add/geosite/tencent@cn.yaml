@@ -1,0 +1,6 @@
+payload:
+  # ── 腾讯（原 cn-add） ──
+  - +.tencentmind.com  # 腾讯
+  - +.discuz.run       # Discuz
+  - +.dnspub.com       # DNSPod
+  - +.imtmp.net        # 腾讯 IM

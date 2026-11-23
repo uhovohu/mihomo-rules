@@ -1,0 +1,5 @@
+payload:
+  # ── 通用服务（会抢别人的流量）──
+  - +.host.livekit.cloud            # LiveKit 所有客户的语音服务器
+  - +.turn.livekit.cloud            # LiveKit 所有客户的 TURN 中继
+  - browser-intake-datadoghq.com    # 所有用 Datadog 的网站的统计入口

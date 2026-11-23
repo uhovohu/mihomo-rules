@@ -1,0 +1,21 @@
+payload:
+  # ── HTX 各国站 ──
+  - futures.huobi.ug
+  - www.mokexapp.com
+  - hdm.htx.com.gt
+  - www.htx.com.gt
+  - m.htx.com.gt
+  - www.htx.com.lv
+
+  # ── HTX 自己的存储桶（腾讯云、AWS）──
+  - +.htxcfg-1306115679.cos.ap-beijing.myqcloud.com
+  - +.app-static-1306115679.file.myqcloud.com
+  - +.huobicfg.s3.amazonaws.com
+  - +.huobicfg.s3.ap-northeast-1.amazonaws.com
+
+  # ── 多语言镜像 ──
+  - +.l10n-pro.octu88.com
+  - +.l10n-pro.88maru.com
+  - +.l10n-pro.apru88.com
+
+  # ── 拿不准（腾讯云 PCDN 节点，原文件就有）──

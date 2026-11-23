@@ -1,0 +1,121 @@
+payload:
+  # ── Outlook / Office / 身份认证 ──
+  - +.acompli.com
+  - +.acompli.net
+  - +.outlookmobile.com
+  - +.outlookgroups.ms
+  - +.lync.com
+  - +.skypeforbusiness.com
+  - +.msftidentity.com
+  - +.msauthimages.net
+  - +.microsoftonline-p.net
+  - +.phonefactor.net
+  - +.officeppe.com
+  - +.officeppe.net
+  - +.onmicrosoft.com
+  - +.msappproxy.net
+  - +.oaspapps.com
+  - +.sway-extensions.com
+  - +.assets-yammer.com
+  - +.yammerusercontent.com
+  - +.windows-ppe.net
+  - +.microsoftemail.com
+  - +.microsoft-tst.com
+  - +.microsoftusercontent.com
+  - +.osdinfra.net
+  - +.msrareservices.com
+  - +.wlxrs.com
+  - +.sclive.net
+  - +.mstea.ms
+
+  # ── OneDrive ──
+  - +.1drv.ms
+  - +.onedrive.co
+  - +.onedrive.co.uk
+  - +.onedrive.eu
+  - +.onedrive.net
+  - +.onedrive.org
+
+  # ── Bing / Cortana ──
+  - +.bing.ca
+  - +.bing.co.il
+  - +.bing.co.kr
+  - +.bing.co.uk
+  - +.bing.de
+  - +.bing.fr
+  - +.bing.in
+  - +.bing.it
+  - +.bing.lk
+  - +.bing.org
+  - +.bing.org.uk
+  - +.bing-int.com
+  - +.binginternal.com
+  - +.working-bing-int.com
+  - +.bingit.net
+  - +.bingiton.com
+  - +.bingj.com
+  - +.bingpix.com
+  - +.bingtoolbar.com
+  - +.bingtranslator.com
+  - +.bingviz.com
+  - +.discoverbing.com
+  - +.explorebing.com
+  - +.biying.cn
+  - +.biying.com
+  - +.biying.com.cn
+  - +.cortana.ai
+  - +.cortana.at
+  - +.cortana.es
+
+  # ── MSN / 地图 ──
+  - +.myhomemsn.com
+  - +.msn.com.tw
+  - +.msnmaps.com
+  - +.mapblast.com
+  - +.mappoint.com
+
+  # ── Azure ──
+  - +.azure.us
+  - +.azurefd.us
+  - +.azure-apim.net
+  - +.azurerms.com
+
+  # ── Xbox ──
+  - +.xboxab.net
+  - +.xboxservice.com
+  - +.playfabcn.com
+
+  # ── 其他微软产品 ──
+  - +.clipchamp.com
+  - +.groupme.com
+  - +.hockeyapp.net
+  - +.mesh.com
+  - +.renlifang.com
+  - +.getmicrosoftkey.com
+  - +.microsoftestore.com.hk
+  - +.joinms.com
+  - +.joinmva.com
+  - +.msvevent.com
+  - +.vsmarketplacebadges.dev
+
+  # ── 国内 ──
+  - +.hotmail.cn
+  - +.msn.com.cn
+  - +.microsoftol.com
+  - +.microsoftol.com.cn
+  - +.microsoft-online.cn
+  - +.microsoft-online.com.cn
+  - +.msignitechina.com
+  - +.winmp.cn
+
+  # ── 微软在 Akamai 上被直接访问的地址 ──
+  - prod-video-cms-amp-microsoft-com.akamaized.net
+  - +.prod-video-cms-rt-microsoft-com.akamaized.net
+  - +.statics-marketingsites-neu-ms-com.akamaized.net
+  - prod-streaming-video-msn-com.akamaized.net
+  - msn-com.akamaized.net
+  - static-spartan-neu-s-msn-com.akamaized.net
+
+  # ── 拿不准（看不出归属，原文件就有） ──
+  - +.aicscience.com
+  - +.dwh5.com

@@ -1,0 +1,3 @@
+payload:
+  # ── 同花顺 ──
+  - +.hexin.cn  # 同花顺（含 apm、mobi2audit 子域名）

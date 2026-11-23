@@ -1,0 +1,7 @@
+payload:
+  # ── EngageLab（极光海外）──
+  - +.engagelab.com          # 原在 Bitget
+  - +.engagelab.cc           # 原在 Bitget
+  - +.engage7.com            # 原在拦截文件（sis.push.engage7.com）
+  - +.engageforce.net        # 原在拦截文件（sis.push.engageforce.net）
+  - +.theengagelab.com       # 原在拦截文件（sis.push.theengagelab.com）

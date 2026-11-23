@@ -1,0 +1,6 @@
+payload:
+  # ── 百度（原 cn-add） ──
+  - +.tebaidu.com  # 百度
+
+  # ── 百度网盘（上游 baidu 没收，原在国内网盘合集里）──
+  - +.baidupan.com

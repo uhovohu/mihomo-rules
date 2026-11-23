@@ -1,0 +1,104 @@
+payload:
+  # ── TikTok 核心域名 ──
+  - +.tiktok.in
+  - +.tiktokmusic.app
+  - +.tiktokglobalshop.com
+  - +.tiktokcenter.com
+  - +.topbuzz.com
+  - +.pitaya-clientai.com
+  - +.pipopay.com
+
+  # ── TikTok CDN ──
+  - +.tiktokcdn.net
+  - +.tiktokcdn-in.com
+  - +.tiktokcdn-tx.com
+  - +.ttadsmanager.com
+  - +.ttapis.com
+  - +.ttvbfs.com
+  - +.ttoversea.net
+  - +.ttdns1.com
+  - +.ttdns2.com
+
+  # ── musical.ly ──
+  - +.musemuse.cn
+  - musically.app.link
+  - musically-alternate.app.link
+
+  # ── ByteDance 海外基础设施 ──
+  - +.byteintlapi.com
+  - +.byteintl.com
+  - +.byteintl.net
+  - +.bytegecko-i18n.com
+  - +.byteicdn.com
+  - +.bytetcdn.com
+  - +.bytefcdn-oversea.com
+  - +.bytefcdn-ttpeu.com
+  - +.ipstatp.com
+  - +.isnssdk.com
+  - +.itobsnssdk.com
+  - +.sgpstatp.com
+  - +.sgsnssdk.com
+  - +.hypstarcdn.com
+  - +.faceulv.com
+  - +.yhgfb-static.com
+  - +.xzcs3zlph.com
+  - +.toutiao50.com
+  - +.pangle.io
+  - +.i18n-pglstatp.com
+  - +.oceanapi-i18n.com
+  - pitaya.bytedance.com
+  - pc-mon.zijieapi.com
+
+  # ── pstatp 直播 ──
+  - +.lf1-ttcdn-tos.pstatp.com
+  - +.sf1-ttcdn-tos.pstatp.com
+  - +.sf6-ttcdn-tos.pstatp.com
+  - +.sf16-ttcdn-tos.ipstatp.com
+  - +.pull-f3-hs.pstatp.com
+  - +.pull-f5-hs.pstatp.com
+  - +.pull-f5-hs.flive.pstatp.com
+  - +.pull-f5-mus.pstatp.com
+  - +.pull-flv-f1-hs.pstatp.com
+  - +.pull-flv-f6-hs.pstatp.com
+  - +.pull-flv-l1-hs.pstatp.com
+  - +.pull-flv-l1-mus.pstatp.com
+  - +.pull-flv-l6-hs.pstatp.com
+  - +.pull-hls-l1-mus.pstatp.com
+  - +.pull-l3-hs.pstatp.com
+  - +.pull-rtmp-f1-hs.pstatp.com
+  - +.pull-rtmp-f6-hs.pstatp.com
+  - +.pull-rtmp-l1-hs.pstatp.com
+  - +.pull-rtmp-l1-mus.pstatp.com
+  - +.pull-rtmp-l6-hs.pstatp.com
+
+  # ── TikTok 直接用的 Akamai 地址 ──
+  - v16-tiktokcdn-com.akamaized.net
+  - +.m-p16.akamaized.net
+  - +.m-v16.akamaized.net
+  - +.mpak-odec1.akamaized.net
+  - +.mpak-sinc1.akamaized.net
+  - +.mpak-ssgc1.akamaized.net
+  - +.mpak-suse1.akamaized.net
+  - +.p16-sg-default.akamaized.net
+  - +.p16-va-default.akamaized.net
+  - +.p16hypstarcdn-a.akamaihd.net
+  - +.s16-hypstarcdn-com.akamaized.net
+  - +.v16m-default.akamaized.net
+
+  # ── 国际版飞书 Lark ──
+  - +.larksuite.com
+  - +.larksuite-pre.com
+  - +.larksuitecdn.com
+  - +.larksuiteimg.com
+  - +.larksuiteimg-boe.com
+  - +.larksuiteimg-pre.com
+  - +.larksuite.com.ttdns1.com
+  - +.larksuite.com.ttdns2.com
+  - +.lark-passport-qa-sg.net
+
+  # ── Trae 国际版 ──
+  - trae-api-sg.mchost.guru        # Trae 国际版接口（上游把 mchost.guru 放在国内版 trae 里）
+
+  # ── 沐瞳《无尽对决》──
+  - +.mobilelegends.com
+  - +.moonton.com

@@ -1,0 +1,17 @@
+payload:
+  # ── 路由器 / 局域网设备 ──
+  - +.smthomem2m.aux-home.com
+  - heartbeat.belkin.com
+  - +.linksys.com
+  - +.linksyssmartwifi.com
+  - +.router.asus.com
+
+  # ── WPAD / mDNS 服务发现 ──
+  - +.wpad
+  - +._dns.resolver.arpa
+
+  # ── LAN / 私有域名 ──
+  - +.bogon
+  - +.direct
+  - +.in-addr.arpa      # 覆盖所有 RFC 1918 / RFC 6598 反向 DNS
+  - +.ip6.arpa

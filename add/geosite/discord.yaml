@@ -1,0 +1,28 @@
+payload:
+  # ── Discord 自己的服务 ──
+  - +.discordapp.page.link                                   # 邀请短链
+  - +.discord-attachments-uploads-prd.storage.googleapis.com # Discord 自己的谷歌云存储桶
+  - +.hammerandchisel.ssl.zendesk.com                        # 客服
+  - o64374.ingest.sentry.io                                  # 崩溃上报
+
+  # ── 服务器导航、机器人站 ──
+  - +.top.gg
+  - +.disboard.org
+  - +.discord.center
+  - +.discord.me
+  - +.discord.st
+  - +.discordinvites.net
+  - +.discordbee.com
+  - +.discordbotlist.com
+  - +.discordexpert.com
+  - +.discordhome.com
+  - +.discordhub.com
+  - +.discordlist.me
+  - +.discordlist.space
+  - +.discords.com
+  - +.discordservers.com
+  - +.discordtop.com
+  - +.disforge.com
+  - +.dyno.gg
+  - +.findadiscord.com
+  - +.mee6.xyz

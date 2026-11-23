@@ -1,0 +1,7 @@
+payload:
+  - +.okcoin.com
+  - +.coinall.ltd                         # OKX 旧域名
+
+  # ── 国内镜像 ──
+  - pkg.dejiz.com
+  - contendvc.cnouyi.pizza

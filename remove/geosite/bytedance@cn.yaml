@@ -1,0 +1,15 @@
+payload:
+  # ── 国际版飞书 Lark ──
+  - +.larksuite.com
+  - +.larksuite-pre.com
+  - +.larksuitecdn.com
+  - +.larksuiteimg.com
+  - +.larksuiteimg-boe.com
+  - +.larksuiteimg-pre.com
+  - +.larksuite.com.ttdns1.com
+  - +.larksuite.com.ttdns2.com
+  - +.lark-passport-qa-sg.net
+
+  # ── 字节海外 ──
+  - +.byteintl.net
+  - +.analytics.tiktok.com

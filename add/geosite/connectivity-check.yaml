@@ -1,0 +1,3 @@
+payload:
+  # ── Linux 发行版连通性测试 ──
+  - +.networkcheck.kde.org        # KDE 桌面环境

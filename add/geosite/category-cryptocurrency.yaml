@@ -1,0 +1,21 @@
+payload:
+  # ── 原 Crypto 文件独有 ──
+  - +.appsflayer.com
+  - +.czilladx.com
+
+  # ── 行情、区块浏览器、公链、钱包（原在 Bybit）──
+  - +.geckoterminal.com
+  - +.dappradar.com
+  - +.basescan.org
+  - +.tronscan.org
+  - +.btrscan.com
+  - +.aptoslabs.com
+  - +.aptosnames.com
+  - +.panora.exchange
+  - +.ng-dex.com
+  - +.triple.app
+
+  # ── 公链、钱包、出入金（原在 Bitget）──
+  - +.alchemy.com
+  - +.arbitrum.io
+  - +.paydify.com

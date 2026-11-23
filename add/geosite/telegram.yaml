@@ -1,0 +1,16 @@
+payload:
+  # ── 第三方客户端 ──
+  - api.imem.app
+  - api.swiftgram.app             # Swiftgram
+  - updates.64gr.am               # 64Gram
+  - +.nicegram.com                # Nicegram
+  - +.nicegram.net
+  - +.nicegram.org
+  - +.nicegram.app
+  - +.appvillis.com               # Nicegram 开发商
+
+  # ── Telegram 其他域名 ──
+  - +.legra.ph
+  - +.mbrx.app
+  - +.stel.com
+  - +.telegramdownload.com

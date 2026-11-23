@@ -1,0 +1,7 @@
+payload:
+  # ── 补充 ──
+  - +.ai.com                # 跳转到 ChatGPT
+  - +.openai.fm             # OpenAI 语音演示站
+  - +.openai.fund           # OpenAI 创业基金
+  - +.gpt-oss.com           # gpt-oss 开源模型站
+  - +.openai-staging.com    # OpenAI 测试环境

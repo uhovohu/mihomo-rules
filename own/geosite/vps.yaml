@@ -1,0 +1,20 @@
+# VPS 相关：VPS 商家、比价、中转面板等 → ProxyMisc
+payload:
+  # ── VPS 商家 ──
+  - +.rfchost.com
+  - +.sharon.io
+  - +.meowvps.com
+  - +.meowimg.com          # MeowVPS 图床
+  - +.img.icons8.com       # 图标站，VPS 商家页面在用
+  - +.hkcloudx.com         # HKCloudX（hcxhk 商家）
+  - +.ciallonet.works      # Ciallo Networks
+  - +.ciallonetworks.com   # Ciallo Networks
+  - +.kfcloud.net          # KFCloud（KFCHK 商家）
+  - +.nodehatch.com        # Node Hatch
+  - +.pqs.pw               # PQS 彼得巧私有雲（台湾 VPS 商家）
+  - +.kaze.network         # Kaze 云
+  - +.hbyzn.cn             # 小型 IDC
+
+  # ── VPS 工具 ──
+  - +.pickmyvps.com        # VPS 比价
+  - +.relaypanel.dev       # RelayPanel 中转面板官网

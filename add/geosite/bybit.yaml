@@ -1,0 +1,15 @@
+payload:
+  - +.bybit-aws.com
+  - +.bybitgeorgia.ge
+  - +.jbybit.com
+  - +.byabcd.com
+  - +.bynbc.com
+  - +.niubit.io
+  - +.bybit-exchange.github.io
+  - +.bybit.ada.support                   # 客服
+  - +.wsot2022.com                        # Bybit 办的交易大赛
+
+  # ── 镜像域名 ──
+  - +.ffbbbdc6d3c353211fe2ba39c9f744cd.com
+  - +.ffe390afd658c19dcbf707e0597b846d.de
+  - +.g9904216750.co

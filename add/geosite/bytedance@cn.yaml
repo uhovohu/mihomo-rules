@@ -1,0 +1,164 @@
+payload:
+  # ── 基础设施 / CDN / DNS ──
+  - +.byteeffecttos.com
+  - +.bytesfield.com
+  - +.bytesmanager.com
+  - +.ndcppx.com
+  - +.volcvideos.com
+  - +.zjurl.cn
+
+  # ── 今日头条 ──
+  - +.itoutiaoimg.com
+  - +.itoutiaostatic.com
+  - +.itoutiaovod.com
+  - +.jinritoutiao.com
+  - +.ribaoapi.com
+  - +.ribaocdn.com
+  - +.searchtoutiaoimg.com
+  - +.toutiaohao.cn
+  - +.toutiaohao.com.cn
+  - +.toutiaoribao.cn
+  - +.toutiaoribao.net
+
+  # ── 抖音 ──
+  - +.douyinclips.com
+  - +.douyinhanyu.com
+  - +.douyinmusicclips.com
+  - +.douyinmusicvideo.com
+  - +.douyinshortvideo.com
+  - +.douyinvideo.net
+  - +.dymusictape.com
+  - +.dymusicvideo.com
+  - +.dyshortvideo.com
+  - +.dyvideotape.com
+  - +.hotsoonapp.cn
+  - +.hotsoonapp.com
+  - +.hotsoonapp.net
+  - +.hotsoonvideo.cn
+  - +.hotsoonvideo.com
+  - +.hotsoonvideo.net
+  - +.hotsoonzb.cn
+  - +.hotsoonzb.com
+  - +.hotsoonzb.net
+  - +.ieshs.cn
+  - +.ieshs.com
+  - +.ieshs.net
+  - +.ieshuoshan.cn
+  - +.ieshuoshan.com
+  - +.ieshuoshan.net
+
+  # ── 飞书 / Lark ──
+  - +.feishucontent.com
+  - +.feishustatic.com
+
+  # ── 豆包 ──
+  - +.doubao.cn
+
+  # ── 电商 ──
+  - +.ecom-lightapp.com
+  - +.jinritemai-inc.com
+  - +.maidouke.com
+  - +.temaiapi.com
+
+  # ── 百科 / 悟空问答 ──
+  - +.healthybaike.com
+
+  # ── 皮皮虾 / 内涵段子系列 ──
+  - +.neihandiantai.cn
+  - +.neihandiantai.com
+  - +.neihandiantai.com.cn
+  - +.neihanshequ.cn
+  - +.neihanshequ.com
+
+  # ── 美颜 / 相机 ──
+  - +.faceu.com.cn
+  - +.faceu.net
+  - +.ulikecam.cn
+  - +.ulikecam.mobi
+  - +.ulikecam.net
+
+  # ── 广告系统 ──
+  - +.oceanengine.cn
+  - +.oeleads.cn
+  - +.oeleads.com
+
+  # ── 其他字节产品 ──
+  - +.2333333333333.com
+  - +.bcy.net
+  - +.bcyimg.com
+  - +.bqtalk.com
+  - +.chengzijianzhan.cc
+  - +.chengzijianzhan.cn
+  - +.chengzijianzhan.com
+  - +.chengzijianzhan.net
+  - +.chengzijianzhana.com
+  - +.chengzijianzhanb.com
+  - +.feiliao.com
+  - +.heycan.com
+  - +.jiyunhudong.cn
+  - +.jiyunhudong.com
+  - +.jiyunhudong.net
+  - +.juliangyinqing.cn
+  - +.juliangyinqing.com
+  - +.juliangyinqing.net
+  - +.kundou.cn
+  - +.leadsfields.cn
+  - +.leadsfields.com
+  - +.nhlink.cn
+  - +.nhurl.cn
+  - +.qmoji.mobi
+  - +.qmoji.net
+  - +.shimolife.com
+  - +.smartisan.cn
+  - +.smartisan.com
+  - +.smartisanos.cn
+  - +.smartisanos.com
+  - +.weilayun.com
+  - +.youdianyisi.com
+  - +.zhuxiaobang.com
+
+  # ── 日历类 ──
+  - +.fullluckcalendar.com
+  - +.goodluckcalendar.com
+  - +.inluckcalendar.com
+  - +.luckforcalendar.com
+  - +.luckincalendar.com
+  - +.luckycalendar.cn
+
+  # ── 抖音：字节系核心业务 ──
+  - +.ecombdpage.com    # 抖音电商
+
+  # ── 抖音：PCDN/调度轮换域(随机子域海量,均为抖音P2P-CDN基建) ──
+  - +.pkoplink.com    # 270子域
+  - +.ydycdn.com    # 133子域
+  - +.cjjd14.com    # 80子域
+  - +.qrstuvwxyzab.com    # 60子域
+  - +.qtaeixd.com    # 58子域
+  - +.ctydoh.cn    # 37子域
+  - +.dahhxxttxs.com    # 33子域
+  - +.z1cdn.com    # 18子域
+  - +.sjxydc.com
+  - +.yslidc.com
+  - +.jspcdn.cn
+  - +.xinqiucc.com
+  - +.qiezibenpao.com
+  - +.tianwenca.com
+  - +.dizgslb.com
+  - +.wuchuyun.net
+  - +.hnzkclouds.com
+  - +.comfylink.com
+  - +.jikeiot.cloud
+  - +.ugsdk.cn
+
+  # ── 抖音：douyin ──
+  - +.ahdohpiechei.com
+  - +.douyinvod.com.cloudjscdn.cn
+  - +.vodzj-p3-dk.unigslb.cn
+  - +.douyinvod.com.z.glb4.com
+  - +.douyinvod.com.a.bdydns.com
+  - +.kuiniuca.com
+
+  # ── 抖音：第三方CDN/GSLB(被抖音调度使用) ──
+  - +.bsgslb.cn    # 白山云
+  - +.qnqcdn.net    # 七牛
+  - +.ksyungslb.com    # 金山云GSLB

@@ -1,0 +1,220 @@
+# 成品清单：每个成品一行，顺序 = 配置里规则的顺序（master-table.md）
+#   {}                      上游同名原样（有 add/remove 文件自动合）
+#   from                    上游取哪个文件（默认 = 成品名）
+#   minus                   减掉哪些成品的最终结果
+#   own: true               own/<类>/<名>.yaml 全文
+#   collection: true        合集：再自动减掉所有非合集成品（except 里列的不减）
+#   fallback: true          兜底：不参与合集自动减、不参与重叠检查
+#   check: false            有意跟别人重叠（拦截、只用于嗅探的），不参与重叠检查
+#   lite: true              上游在 geo-lite 目录（不在 geo）
+#   url                     别的上游，mrs 原样转发
+
+geosite:
+  # ── 一、拦截 ──
+  icloudprivaterelay: {}
+  reject: {own: true, check: false}
+  awavenue: {url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.mrs"}
+  ads-misc: {own: true, check: false}
+  category-httpdns-cn: {}
+  win-spy: {}
+
+  # ── 二、内网和豁免 ──
+  private: {}
+  connectivity-check: {collection: true, except: [microsoft]}   # 检测地址归各家；只有微软的留这里（Windows 要真实 IP）
+  sniffer-skip-misc: {own: true, check: false}
+
+  # ── 三、交易所 ──
+
+  bybit: {}
+  binance: {}
+  coinbase: {own: true}
+  bitget: {own: true}
+  huobi: {}
+  okx: {}
+  tradingview: {own: true}
+  bookmap: {own: true}
+  category-cryptocurrency: {minus: [binance, bybit, okx, huobi, coinbase], collection: true}
+
+  # ── 四、海外商家 ──
+  adobe@!cn: {from: adobe, minus: [adobe@cn]}
+  tesla@!cn: {from: tesla, minus: [tesla@cn]}
+  bytedance@!cn: {}
+  disney@!cn: {from: disney, minus: [disney@cn]}
+  steam@!cn: {from: steam, minus: [steam@cn]}
+  taptap@!cn: {}
+  bilibili@!cn: {}
+  category-ip-geo-detect@!cn: {from: category-ip-geo-detect, minus: [category-ip-geo-detect@cn], collection: true}
+  cloudflare@!cn: {from: cloudflare, minus: [cloudflare@cn]}
+  amazon@!cn: {from: amazon, minus: [amazon@cn, primevideo, twitch]}
+  linkedin@!cn: {from: linkedin, minus: [linkedin@cn]}
+  paypal@!cn: {from: paypal, minus: [paypal@cn]}
+  jiguang@!cn: {own: true}
+  category-cas@!cn: {from: category-cas, minus: [category-cas@cn]}
+  akamai@!cn: {from: akamai, minus: [akamai@cn]}
+  youtube: {}
+  google: {minus: [youtube, android]}
+  amp: {}
+  openai: {}
+  anthropic: {own: true}
+  perplexity: {}
+  groq: {}
+  cerebras: {}
+  huggingface: {}
+  cursor: {}
+  elevenlabs: {}
+  comfy: {}
+  comfy-ui-launcher: {}
+  windsurf: {}
+  poe: {}
+  manus: {}
+  jetbrains-ai: {}
+  youmind: {}
+  category-ai-chat-!cn: {collection: true}
+  github: {}
+  vscode: {own: true}
+  github1s: {}
+  discord: {}
+  telegram: {}
+  reddit: {}
+  tumblr: {}
+  line: {}
+  truthsocial: {own: true}
+  meta: {}
+  x: {}
+  spacex: {}
+  neuralink: {}
+  theboringcompany: {}
+  netflix: {}
+  primevideo: {}
+  twitch: {}
+  dazn: {}
+  hbo: {}
+  vimeo: {}
+  rumble: {}
+  plex: {}
+  emby: {own: true}
+  spotify: {}
+  steamunlocked: {}
+  steaminventoryhelper: {}
+  epicgames: {}
+  coinpoker: {own: true}
+  biliintl: {}
+  ookla-speedtest: {}
+  nodeseek: {}
+  vps: {own: true}
+  forum: {own: true}
+  airport: {own: true}
+  proxy-misc: {own: true}
+  microsoft: {minus: [github, vscode, connectivity-check]}
+  apple: {}
+  apple-intelligence: {}
+  appleakamai: {own: true}
+  android: {}
+  f-droid: {}
+  apkpure: {}
+  apkmirror: {}
+  apkcombo: {}
+  wise: {}
+  pay: {own: true}
+  getui: {}
+  jiguang: {}
+  category-stun: {}
+  adobe@cn: {}
+  tesla@cn: {}
+  bytedance@cn: {from: bytedance, minus: [bytedance@!cn]}
+  disney@cn: {}
+  steam@cn: {}
+  taptap@cn: {from: taptap, minus: [taptap@!cn]}
+  bilibili@cn: {from: bilibili, minus: [bilibili@!cn]}
+  category-ip-geo-detect@cn: {collection: true}
+  cloudflare@cn: {}
+  amazon@cn: {}
+  linkedin@cn: {}
+  paypal@cn: {}
+  category-cas@cn: {}
+  stun@cn: {own: true}
+  akamai@cn: {}
+
+  # ── 五、国内商家 ──
+  tencent@!cn: {}
+  alibaba@!cn: {}
+  huawei@!cn: {}
+  xiaomi@!cn: {}
+  netease@!cn: {}
+  jd@!cn: {}
+  xiaohongshu@!cn: {}
+  chinamobile@!cn: {}
+  chinaunicom@!cn: {}
+  chinatelecom@!cn: {}
+  wechat: {own: true}
+  honor: {}
+  meituan: {}
+  baidu: {}
+  kuaishou: {}
+  xunlei: {}
+  meitu: {}
+  smzdm: {}
+  zhihu: {}
+  yy: {}
+  tendcloud: {}
+  wasu: {}
+  geetest: {}
+  ishumei: {}
+  cn-misc: {own: true}
+  cn-misc-realip: {own: true}
+  tencent@cn: {from: tencent, minus: [tencent@!cn, wechat]}
+  alibaba@cn: {from: alibaba, minus: [alibaba@!cn]}
+  huawei@cn: {from: huawei, minus: [huawei@!cn]}
+  xiaomi@cn: {from: xiaomi, minus: [xiaomi@!cn]}
+  netease@cn: {from: netease, minus: [netease@!cn]}
+  jd@cn: {from: jd, minus: [jd@!cn]}
+  xiaohongshu@cn: {from: xiaohongshu, minus: [xiaohongshu@!cn]}
+  chinamobile@cn: {from: chinamobile, minus: [chinamobile@!cn]}
+  chinaunicom@cn: {from: chinaunicom, minus: [chinaunicom@!cn]}
+  chinatelecom@cn: {from: chinatelecom, minus: [chinatelecom@!cn]}
+  nvidia@cn: {}
+  intel@cn: {}
+  synology@cn: {}
+
+  # ── 六、国内分类 ──
+  category-cdn-cn: {collection: true}
+  category-bank-cn: {collection: true}
+  category-securities-cn: {collection: true}
+  category-ntp@!cn: {from: category-ntp, minus: [category-ntp@cn], collection: true}
+  category-ntp@cn: {collection: true}
+  category-netdisk-cn: {collection: true}
+  category-games-cn: {collection: true}
+  category-finance@cn: {collection: true}
+
+  # ── 七、兜底 ──
+  geolocation-!cn: {fallback: true}
+  cn: {fallback: true}
+  geolocation-cn: {fallback: true}
+
+geoip:
+  reject: {own: true, check: false}
+  private: {}
+  sniffer-skip-ip: {own: true, check: false}
+  proxy-misc: {own: true}
+  nodeseek: {own: true}
+  cn-misc: {own: true}
+  amazon: {own: true}
+  bybit: {own: true}
+  binance: {own: true}
+  bitget: {own: true}
+  htx: {own: true}
+  okx: {own: true}
+  bookmap: {own: true}
+  google: {}
+  anthropic: {own: true}
+  discord: {own: true}
+  telegram: {}
+  twitter: {}
+  douyin: {own: true}
+  netflix: {}
+  bilibili: {lite: true}
+  cloudflare: {}
+  apple: {own: true}
+  wechat: {own: true}
+  jingdongcloud: {own: true}
+  cn: {fallback: true}

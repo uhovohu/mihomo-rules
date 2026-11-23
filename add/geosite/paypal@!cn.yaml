@@ -1,0 +1,7 @@
+payload:
+  # ── 补充 ──
+  - +.braintree-api.com           # Braintree 接口（上游未收）
+
+  # ── 专属人机验证 ──
+  - paypal-api.arkoselabs.com     # Arkose 给 PayPal 的专属接口（登录验证）
+  - paypal-api.arkose.com.cn      # 同上（中国）

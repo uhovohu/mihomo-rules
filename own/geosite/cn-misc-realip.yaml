@@ -1,0 +1,28 @@
+# 国内杂项（要真实 IP）→ CN，进国内 DNS 表、真实 IP 表、嗅探豁免
+payload:
+  # ── 向日葵远程控制 ──
+  - +.oray.com
+  - +.oray.net
+  - +.orayimg.com
+
+  # ── 微店 ──
+  - +.sdk.1rtb.net
+  - +.app-tj.adinall.com
+  - +.cdn.1rtb.com
+  - +.s.1rtb.net
+  - +.ssp.1rtb.com
+
+  # ── 唯品会 ──
+  - +.fos-admin.vip.vip.com
+
+  # ── 搜款网 ──
+  - +.vda.vvic.com
+
+  # ── 税务 ──
+  - +.emas.etax.chinatax.gov.cn  # 税务局
+  - +.lcsignx.com                # 开票软件
+  - +.aisinoha.com               # 航天信息
+  - +.plovercrest.com            # 开票软件
+
+  # ── 公安一网通办 ──
+  - appx  # 公安一网通办；查不到出处，失效检查时再看

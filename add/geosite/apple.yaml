@@ -1,0 +1,15 @@
+payload:
+  # ── 被直接访问的 CDN 地址 ──
+  - apple-events.akamaized.net         # 苹果发布会直播
+  - +.cdn-apple-mapkit.com             # 地图 MapKit
+
+  # ── 苹果中继 ──
+  - +.apple-relay.cloudflare.com
+  - +.ohttp-relay1.fastly-edge.com
+
+  # ── 其他苹果域名 ──
+  - +.appstore.com
+
+  # ── 国内 ──
+  - +.cn.appleics.com
+  - +.dispatcher.is.autonavi.com       # 苹果地图国内用高德的数据

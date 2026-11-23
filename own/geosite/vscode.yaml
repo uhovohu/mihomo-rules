@@ -1,0 +1,24 @@
+payload:
+  # ── VSCode 网页版、插件、Webview ──
+  - +.vscode.dev
+  - +.vscode-cdn.net
+  - +.vscode-unpkg.net
+  - +.vscode-webview.net
+  - +.vsassets.io
+  - +.vscodeedu.app
+  - +.vscodeedu.com
+
+  # ── 设置同步 ──
+  - vscode-sync.trafficmanager.net
+  - vscode-sync-insiders.trafficmanager.net
+
+  # ── 插件市场、搜索、下载 ──
+  - marketplace.visualstudio.com
+  - vscode.blob.core.windows.net
+  - vscode.search.windows.net
+  - vscode.download.prss.microsoft.com
+  - vsmarketplacebadge.apphb.com
+  - az764295.vo.msecnd.net               # 原来的 +.vo.msecnd.net 是微软通用 CDN，只留 VSCode 这个节点
+
+  # ── 实验开关 ──
+  - +.vscodeexperiments.azureedge.net

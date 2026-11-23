@@ -1,0 +1,28 @@
+payload:
+  # ── 美团（原 meituan，上游没有的） ──
+  - +.dnse.com
+  - +.meituan.cn
+  - +.meituan.com.cn
+  - +.meituanapi.com
+  - +.meituanusercontent.com
+  - +.mepcloud.com
+  - +.mobike.com
+  - +.mosdns.cn
+  - +.mosdns.com
+  - +.mosdns.net
+  - +.mosmss.com
+  - +.msscdn.com
+  - +.mtimg.com
+  - +.mtmos.com
+  - +.mtmss.com
+  - +.mtmssdn.com
+  - +.mtmssdn0.com
+  - +.mtmssup.com
+  - +.mtmssup0.com
+  - +.mtyuncdn.com
+  - +.neixin.com.cn
+  - +.pipi.cn
+  - +.sankuaiyun.com
+  - +.wandie.com
+  - +.zuitu.com
+  - +.zzhkmaoyan.com

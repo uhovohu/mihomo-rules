@@ -1,0 +1,7 @@
+payload:
+  # ── S3 / Blob CDN ──
+  - github-com.s3.amazonaws.com
+  - +.github-avatars.oss-cn-hongkong.aliyuncs.com
+
+  # ── GitHub 核心 ──
+  - +.help-github.com          # 失效检查时再看

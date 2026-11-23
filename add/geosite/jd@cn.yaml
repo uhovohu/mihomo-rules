@@ -1,0 +1,32 @@
+payload:
+  # ── 京东（原 jingdong，上游没有的） ──
+  - +.baitiao.cn        # 京东白条
+  - +.ibaitiao.com      # 京东白条
+  - +.jdcloud-scdn.net
+  - +.jdcloud-yd.com
+  - +.jdcloudshop.com
+  - +.jdcontent.com
+  - +.jdd-global.com
+  - +.jddtv.cn
+  - +.jddtv.com
+  - +.jdfeijing.com
+  - +.jdfinance.com     # 京东金融
+  - +.jdfmgt.com
+  - +.jdsmartkf.com
+  - +.jdworldwide.com   # 京东全球购
+  - +.wanggou.com       # 京东网购
+  - +.yhcdn.cn          # 1 号店 CDN
+  - +.yihaomall.com     # 1 号店
+  - +.yixun.com         # 易迅
+
+  # ── 京东云 WAF ──
+  - +.jcloudwaf.com
+  - +.jcloudwaftest.cn
+  - +.jcloudwaftest.com
+  - +.jcloudwaftest.net
+
+  # ── 看不出来的（先留着，失效检查时再清） ──
+  - +.info-insur.com
+  - +.shlsyb.com
+  - +.netsim.cn
+  - +.tjjt360.com

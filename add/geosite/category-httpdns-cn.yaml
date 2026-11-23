@@ -1,0 +1,8 @@
+payload:
+  # ── 腾讯云 HTTPDNS（美团调用）──
+  - +.httpdns.qcloud.com                   # 美团调用
+  - +.httpdns.start.qcloud.com             # 美团调用
+
+  # ── 美团 ──
+  - +.meituan.httpdns.qcloud.com
+  - +.meituan.httpdns.start.qcloud.com

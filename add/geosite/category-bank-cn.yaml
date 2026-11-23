@@ -1,0 +1,12 @@
+payload:
+  # ── 中国农业银行 ──
+  - +.abchina.com.cn
+  - +.bankabc.com
+
+  # ── 招商银行 ──
+  - +.cmbchina.com
+  - +.cmbimg.com
+
+  # ── 中原银行 ──
+  - +.zyebank.com
+  - +.zybank.com.cn

@@ -1,0 +1,16 @@
+payload:
+  # ── Envato 素材市场（不是 AI 公司）──
+  - +.envato.com
+  - +.envatousercontent.com
+  - +.envato-static.com
+  - +.themeforest.net
+
+  # ── LivePerson 通用客服聊天平台 ──
+  - +.liveperson.net
+  - +.lpsnmedia.net
+
+  # ── 通用服务（跟 openai 删的同一批：LiveKit 所有客户的语音服务器、Datadog 统计入口）──
+  - +.host.livekit.cloud
+  - +.turn.livekit.cloud
+  - browser-intake-datadoghq.com
+  - http-intake.logs.us5.datadoghq.com
