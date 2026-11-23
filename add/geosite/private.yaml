@@ -15,3 +15,6 @@ payload:
   - +.direct
   - +.in-addr.arpa      # 覆盖所有 RFC 1918 / RFC 6598 反向 DNS
   - +.ip6.arpa
+
+  # ── 家里设备 ──
+  - time.wifiradiofrontier.com   # Good Man 音箱的时间服务器
