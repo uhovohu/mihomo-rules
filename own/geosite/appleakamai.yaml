@@ -68,3 +68,16 @@ payload:
   - +.push-apple.com.akadns.net
   - +.origin-apple.com.akadns.net
   - +.edge-itunes-apple.com.akadns.net
+
+  # ── 补回：设备会直接连的 Akamai 别名（iCloud 邮件、推送等）──
+  - e16991.b.akamaiedge.net
+  - lookup-api.apple.com.edgekey.net
+  - +.appldnld.apple.com.edgesuite.net
+  - +.gsp4-cn.ls.apple.com.edgekey.net
+  - +.itunes.com.edgekey.net
+  - +.ls.apple.com.edgesuite.net
+  - +.store.apple.com.edgekey.net
+  - +.www.apple.com.edgekey.net
+  - +.apple.com.edgekey.net
+  - +.mail.me.com.akadns.net
+  - +.courier2-sandbox-push-apple.com.akadns.net
