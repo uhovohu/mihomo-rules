@@ -39,18 +39,3 @@ payload:
   #- +.time.cloudflare.com  # Cloudflare NTP
   #- +.ntp.ubuntu.com       # Ubuntu 系统默认
   #- +.time.nist.gov        # NIST 标准时间
-
-  # ── 上游 anthropic 有、原来漏的 ──
-  - +.claude.site
-  - +.claude.app
-  - +.claude.dev
-  - +.claude.new
-  - +.claudepages.dev
-  - +.claudestudio.com
-  - +.claudeacademy.com
-  - +.chatbotclaude.com
-  - +.anthropic.team
-  - +.ant.dev
-  - +.antspace.dev
-  - o1158394.ingest.us.sentry.io          # Claude 自己的报错上报
-  - servd-anthropic-website.b-cdn.net     # 官网 CDN
