@@ -49,3 +49,6 @@ payload:
 
   # ── 网易易盾风控 ──
   - +.turingfraud.net
+
+  # ── 国内 App 后台查 IP 用的接口（走直连，让 App 看到国内 IP）──
+  - +.icanhazip.com        # 郑州银行 App 调用
