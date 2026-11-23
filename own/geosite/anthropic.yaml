@@ -39,3 +39,18 @@ payload:
   #- +.time.cloudflare.com  # Cloudflare NTP
   #- +.ntp.ubuntu.com       # Ubuntu 系统默认
   #- +.time.nist.gov        # NIST 标准时间
+
+  # ── Claude 其他官方域名（上游 anthropic 有）──
+  - +.claude.site
+  - +.claude.app
+  - +.claude.dev
+  - +.claude.new
+  - +.claudepages.dev
+  - +.claudestudio.com
+  - +.claudeacademy.com
+  - +.antspace.dev
+  - +.chatbotclaude.com
+  - +.anthropic.team
+  - +.ant.dev
+  - servd-anthropic-website.b-cdn.net     # 官网 CDN
+  - o1158394.ingest.us.sentry.io          # Claude 自己的报错上报
