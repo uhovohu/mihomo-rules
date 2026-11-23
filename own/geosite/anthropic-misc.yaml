@@ -1,7 +1,0 @@
-# Claude 用到的通用第三方服务 → Anthropic 组（防 IP 泄露）
-# 排在所有商家后面：OpenAI、Discord 等自己的 Sentry 地址先被各家接走，剩下的才跟 Claude 走同一个出口
-payload:
-  - +.sentry.io            # 报错上报
-  - +.intercom.io          # 在线客服窗口
-  - +.intercomcdn.com
-  - +.statsigapi.net       # 功能开关 / A/B 测试

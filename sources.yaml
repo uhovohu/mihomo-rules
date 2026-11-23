@@ -116,7 +116,6 @@ geosite:
   apkcombo: {}
   wise: {}
   pay: {own: true}
-  anthropic-misc: {own: true}
   getui: {}
   jiguang: {}
   category-stun: {}
