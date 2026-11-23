@@ -15,6 +15,7 @@ payload:
   - +.dispatcher.is.autonavi.com       # 苹果地图国内用高德的数据
 
   # ── 国内 CDN 别名（设备会直接连，不能删）──
+  - +.apple.com.w.cdngslb.com   # 阿里云 CDN 上的苹果（iCloud 等）
   - +.apple.com.cdn20.com
   - +.apple.com.mwcloudcdn.com
   - +.apple.com.mwcname.com
