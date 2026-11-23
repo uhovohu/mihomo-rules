@@ -18,14 +18,10 @@ payload:
   - +.anthropic-com.ghost.io   # 博客 / CMS 内容
 
   # ── 监控和数据上报（防风控防 IP 泄漏） ──
-  - +.sentry.io                # 错误监控上报
-  - +.statsigapi.net           # 功能开关 / AB 测试
   - +.browser-intake-us5-datadoghq.com
   - +.logs.us5.datadoghq.com
 
   # ── 客服 / 第三方 widget ──
-  - +.intercom.io
-  - +.intercomcdn.com
   - +.cdn.usefathom.com
 
   # ── KYC认证 ──
