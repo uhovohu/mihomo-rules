@@ -13,3 +13,19 @@ payload:
   # ── 国内 ──
   - +.cn.appleics.com
   - +.dispatcher.is.autonavi.com       # 苹果地图国内用高德的数据
+
+  # ── CDN 别名（设备会直接连这些名字，如 iCloud 邮件、推送；不能删） ──
+  - e16991.b.akamaiedge.net
+  - lookup-api.apple.com.edgekey.net
+  - +.appldnld.apple.com.edgesuite.net
+  - +.apple.com.cdn20.com
+  - +.apple.com.mwcloudcdn.com
+  - +.apple.com.mwcname.com
+  - +.gsp4-cn.ls.apple.com.edgekey.net
+  - +.itunes.com.edgekey.net
+  - +.ls.apple.com.edgesuite.net
+  - +.store.apple.com.edgekey.net
+  - +.www.apple.com.edgekey.net
+  - +.apple.com.edgekey.net
+  - +.mail.me.com.akadns.net
+  - +.courier2-sandbox-push-apple.com.akadns.net

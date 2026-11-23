@@ -102,3 +102,43 @@ payload:
   # ── 沐瞳《无尽对决》──
   - +.mobilelegends.com
   - +.moonton.com
+
+  # ── CDN 别名（名字里带 TikTok / 字节的；通用编号节点不放） ──
+  - +.musical.ly.akadns.net
+  - +.tiktokcdn.com.c.worldfcdn.com
+  - +.tiktokcdn-us.com.akamaized.net
+  - +.tiktokv.com.c.worldfcdn.com
+  - +.tiktokv.com.c.worldfcdn2.com
+  - +.tiktokv.eu.edgesuite.net
+  - +.tiktokv.us.edgesuite.net
+  - +.tiktok.com.edgesuite.net
+  - +.tiktok.com.c.footprint.net
+  - +.ttlivecdn.com.akamaized.net
+  - +.ttlivecdn.com.c.worldfcdn.com
+  - +.ttwstatic.com.edgesuite.net
+  - +.muscdn.com.akamaized.net
+  - +.muscdn.com.edgesuite.net
+  - +.muscdn.musical.ly.akadns.net
+  - +.musical.ly.edgekey.net
+  - +.musical.ly.edgesuite.net
+  - +.bytedapm.com.edgesuite.net
+  - +.byteoversea.com.edgekey.net
+  - +.byteoversea.com.edgesuite.net
+  - +.byteoversea.com.bytegeo.akadns.net
+  - +.ibytedtos.com.edgesuite.net
+  - +.ibyteimg.com.akamaized.net
+  - +.ibyteimg.com.edgesuite.net
+  - +.isnssdk.com.edgekey.net
+  - +.byteicdn.com.akamaized.net
+  - +.hypstarcdn.com.akamaized.net
+  - +.hypstarcdn.com.edgesuite.net
+  - +.xzcs3zlph.com.edgesuite.net
+  - +.xzcs3zlph.com.akamaized.net
+  - +.toutiao50.com.edgesuite.net
+  - +.bytewlb.akadns.net
+  - +.bytegeo.akadns.net
+  - +.bytedance.akadns.net
+  - +.bytegeo-v.akadns.net
+  - +.p16-sg-default.edgesuite.net
+  - +.p16-va-default.edgesuite.net
+  - +.p16hypstarcdn-a.akamaihd.net.edgesuite.net

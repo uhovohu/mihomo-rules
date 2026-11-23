@@ -119,3 +119,31 @@ payload:
   # ── 拿不准（看不出归属，原文件就有） ──
   - +.aicscience.com
   - +.dwh5.com
+
+  # ── CDN 别名（名字里带微软的，设备会直接连；通用节点不放） ──
+  - +.e-msedge.net
+  - +.live.com.akadns.net
+  - +.microsoft.com.akadns.net
+  - +.microsoft.com.nsatc.net
+  - +.metron.live.com.nsatc.net
+  - +.msa.akadns6.net
+  - +.oaspapps.com.akadns.net
+  - +.vip5.afdorigin-prod-am02.afdogw.com
+  - +.windows.com.akadns.net
+  - +.livetileedge.dsx.mp.microsoft.com.edgekey.net
+  - www.tm.ak.prd.aadg.akadns.net
+  - i.s1.social.ms.akadns.net
+  - telemetry.appex.search.prod.ms.akadns.net
+  - +.microsoft.akadns.net
+  - pti.store.microsoft.com.unistore.akadns.net
+  - lb1.ms.akadns.net
+  - +.au-msedge.net
+  - +.bing.com.edgekey.net
+  - +.b-msedge.net
+  - +.dc-msedge.net
+  - +.msn.com.nsatc.net
+  - +.skype-dns.akadns.net
+  - +.skype-registar.akadns.net
+  - +.skype-dsn.akadns.net
+  - +.skyprod.akadns.net
+  - +.cn-msedge.net
