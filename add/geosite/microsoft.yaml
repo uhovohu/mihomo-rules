@@ -147,3 +147,10 @@ payload:
   - +.skype-dsn.akadns.net
   - +.skyprod.akadns.net
   - +.cn-msedge.net
+
+  # ── Akamai 别名（设备直接连：Office 更新、应用商店下载）──
+  - officecdn.microsoft.com.edgesuite.net
+  - wscont.apps.microsoft.com.edgesuite.net
+
+  # ── Azure 容器镜像仓库 ──
+  - +.azurecr.io
