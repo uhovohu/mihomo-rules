@@ -52,6 +52,9 @@ payload:
   - sg.pool.ntp.org
   - tw.pool.ntp.org
 
+  # ── 美团 App 直播用的谷歌 STUN（别的设备用的是 stun.l.google.com，不受影响）──
+  - stun3.l.google.com
+
   # ── Infinity 新标签页 ──
   - basic-static-server.infinitynewtab.com # Infinity 新标签页插件静态资源
   - infinitynewtab.com                     # Infinity 官网
