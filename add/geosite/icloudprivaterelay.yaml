@@ -1,0 +1,5 @@
+payload:
+  # ── iCloud 专用代理入口（mask.icloud.com、mask-api.icloud.com）的苹果 DNS 别名 ──
+  - mask.apple-dns.net
+  - apac-mask.wrr.me.apple-dns.net
+  - mask-api.fe2.apple-dns.net
