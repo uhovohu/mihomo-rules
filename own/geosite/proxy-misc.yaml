@@ -13,6 +13,7 @@ payload:
 
   # ── 油猴 Tampermonkey ──
   - +.tampermonkey.net
+  - +.greasyfork.org       # Greasy Fork 脚本站（油猴脚本更新）
 
   # ── Shottr 截图软件 ──
   - shottr.cc               # 官网

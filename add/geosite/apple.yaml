@@ -9,6 +9,7 @@ payload:
 
   # ── 其他苹果域名 ──
   - +.appstore.com
+  - apple-finance.query.yahoo.com      # 股市 App 的行情数据（雅虎为苹果提供）
 
   # ── 国内 ──
   - +.cn.appleics.com
@@ -20,3 +21,7 @@ payload:
   - +.apple.com.cdn20.com
   - +.apple.com.mwcloudcdn.com
   - +.apple.com.mwcname.com
+  - k128.gslb.ksyuncdn.com              # 金山云 CDN 上的苹果
+  - k128-inapp.gslb.ksyuncdn.com        # 金山云 CDN 上的苹果（App 内购）
+  - k128-mzstatic.gslb.ksyuncdn.com     # 金山云 CDN 上的苹果（App Store 图片）
+  - g-page-h1.gslb.ksyuncdn.com         # 金山云 CDN 上的苹果（证书状态 ocsp2）

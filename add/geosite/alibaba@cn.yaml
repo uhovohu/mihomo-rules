@@ -17,6 +17,7 @@ payload:
   - +.cnzz.net             # 友盟 CNZZ 统计
   - +.xalipay.cc           # 支付宝
   - +.xalipay.co           # 支付宝
+  - xalipaynebula          # 支付宝 App 发出的无后缀主机名
   - +.alibabacloudsso.com  # 阿里云 SSO 登录
   - +.aliyunnest.com       # 阿里云
   - +.apsaraun.com         # 阿里云飞天
