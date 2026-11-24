@@ -1,4 +1,0 @@
-# 国内 App 后台调用的查 IP 接口：走国内，让 App 看到国内 IP
-# 只放不带前缀的精确域名；子域名（ipv4.、ipv6. 等，检测网页在用）在 category-ip-geo-detect@!cn
-payload:
-  - icanhazip.com          # 郑州银行 App

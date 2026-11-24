@@ -1,5 +1,4 @@
 # IP 检测：查 IP、测速、测泄露、拨测的网站和接口（国内外都在这里）
-# 不带前缀的 icanhazip.com 单独在 category-ip-geo-detect@cn（国内 App 后台调用）
 payload:
   # ── 查 IP / 测速 / 测泄露 / 拨测 ──
   - +.ippure.com
@@ -14,7 +13,7 @@ payload:
   - +.ip.icu
   - +.ip.im
   - +.ipw.cn
-  - +.icanhazip.com
+  - +.icanhazip.com                # 含 icanhazip.com 本身：郑州银行 App、Coinbase App 后台都会查
   - +.ipify.org
   - +.ipwho.is
   - +.skk.moe

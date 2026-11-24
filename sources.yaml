@@ -126,7 +126,6 @@ geosite:
   steam@cn: {}
   taptap@cn: {from: taptap, minus: [taptap@!cn]}
   bilibili@cn: {from: bilibili, minus: [bilibili@!cn]}
-  category-ip-geo-detect@cn: {own: true}    # 只放国内 App 后台调用的查 IP 接口（不带前缀的 icanhazip.com）
   cloudflare@cn: {}
   amazon@cn: {}
   linkedin@cn: {}

@@ -178,7 +178,6 @@ rule-providers:
 | steam@cn | Steam 国内部分 | 上游 |
 | taptap@cn | TapTap 国内部分 | 上游 − taptap@!cn |
 | bilibili@cn | 哔哩哔哩国内部分 | 上游 − bilibili@!cn |
-| category-ip-geo-detect@cn | 国内 App 后台调用的查 IP 接口（仅精确域名） | 本仓库 |
 | cloudflare@cn | Cloudflare 国内部分 | 上游 |
 | amazon@cn | Amazon 国内部分 | 上游 |
 | linkedin@cn | LinkedIn 国内部分 | 上游 |
