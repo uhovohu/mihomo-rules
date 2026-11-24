@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "30 23 * * *"   # 北京时间 7:30
   workflow_dispatch:
+    inputs:
+      allow_shrink:
+        description: "允许这次条数大减的成品（逗号分隔，如 geosite/xxx）"
+        default: ""
 
 permissions:
   contents: write
@@ -26,7 +30,7 @@ jobs:
       - name: 生成
         env:
           PRIVATE_PATTERNS: ${{ secrets.PRIVATE_PATTERNS }}
-        run: python3 scripts/build.py --out out --prev prev/geo --mihomo ./mihomo
+        run: python3 scripts/build.py --out out --prev prev/geo --mihomo ./mihomo --allow-shrink "${{ inputs.allow_shrink }}"
 
       - name: 强推到 meta 分支（只留一次提交）
         run: |

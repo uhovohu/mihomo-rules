@@ -188,6 +188,7 @@ def main():
     ap.add_argument("--upstream", type=Path, help="本地上游目录；不给就联网拉（线上模式）")
     ap.add_argument("--out", required=True, type=Path)
     ap.add_argument("--prev", type=Path, help="上一版的 geo 目录（70%% 检查用）")
+    ap.add_argument("--allow-shrink", default="", help="这次允许条数大减的成品，逗号分隔，如 geosite/xxx（有意精简时用）")
     ap.add_argument("--mihomo", help="mihomo 程序路径（线上模式转 mrs）")
     a = ap.parse_args()
     online = a.upstream is None
@@ -226,7 +227,7 @@ def main():
             yml.write_text(f"# 来源：{r['source']}\n# 条数：{n}\n"
                            + ("payload:\n" + "\n".join(r["body"]) + "\n" if n else "payload: []\n"), encoding="utf-8")
             prev = count_prev(a.prev / kind / f"{name}.yaml") if a.prev else 0
-            if prev and n < prev * 0.7:
+            if prev and n < prev * 0.7 and f"{kind}/{name}" not in a.allow_shrink.split(","):
                 errors.append(f"{kind}/{name}：{n} 条，上一版 {prev} 条，少于 70%")
             print(f"{kind}/{name}: {n}" + (f"（上一版 {prev}）" if prev else ""))
             if online:
