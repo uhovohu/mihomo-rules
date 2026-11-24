@@ -1,6 +1,7 @@
 payload:
   - +.binance.click
   - +.bnappweb.biz
+  - +.bnappweb.blue                         # 备用域名
   - +.bnliveplay-ag.bblivestream.com      # 币安直播
   - +.aad90d5c0e88c4b4285bd912f64d970d-1403944741.ap-northeast-1.elb.amazonaws.com  # 币安自己的 AWS 负载均衡
   - +.fe4385362baa.20414af6.ap-northeast-1.token.awswaf.com                       # 币安自己的 AWS WAF

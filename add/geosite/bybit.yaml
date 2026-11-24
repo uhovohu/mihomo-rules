@@ -26,3 +26,5 @@ payload:
   - +.tronads.io
   - images.contentstack.io                 # Contentstack 内容平台，App 里的活动图片
   - www.turingfraud.net                    # 网易易盾设备风控（cn-misc 的 +.turingfraud.net 会接走直连）
+  - allocproxylist-prod.callback-api.io    # App 分配接入线路
+  - d1znqpii6yeci9.cloudfront.net          # Bybit 专属 CloudFront（否则被 Amazon 接走）

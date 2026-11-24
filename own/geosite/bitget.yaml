@@ -45,3 +45,12 @@ payload:
   # ── Bitget App 用到的第三方服务（跟 Bitget 同一出口）──
   - +.airbrake.io
   - +.spindlembed.com
+
+  # ── Bitget 钱包的备用域名（随机名字，来自 iPhone App 隐私报告）──
+  - +.drexaphongil.io
+  - +.klorvenathix.pro
+  - +.vrenthaliox.site
+  - +.zaltrimondex.xyz
+  - +.zephrondaquil.co
+  - +.bgw.live
+  - +.bgw.world
