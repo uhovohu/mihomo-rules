@@ -9,6 +9,10 @@ payload:
   - +.bybit.ada.support                   # 客服
   - +.wsot2022.com                        # Bybit 办的交易大赛
 
+  # ── 腾讯云 IM（客服、P2P 聊天）──
+  - 20007249l4s.my-imcloud.com            # Bybit 专用的 IM 入口（20007249 是 Bybit 的应用编号）
+  - shortsgp.im.qcloud.com                # 腾讯云 IM 新加坡公共入口（防泄漏，别家海外 App 也会跟着走这里）
+
   # ── 镜像域名 ──
   - +.ffbbbdc6d3c353211fe2ba39c9f744cd.com
   - +.ffe390afd658c19dcbf707e0597b846d.de
