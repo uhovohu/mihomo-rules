@@ -47,7 +47,8 @@ payload:
   - +.iili.io                              # Freeimage.host
   - +.vgy.me
   - +.ax1x.com                             # 路过图床
-  - +.loli.net                             # SM.MS
+  - +.sm.ms                                # SM.MS
+  - +.loli.net                             # SM.MS 图片地址
 
   # ── SendGrid（邮件链接跳转、打开追踪，Twilio）──
   - +.ct.sendgrid.net
