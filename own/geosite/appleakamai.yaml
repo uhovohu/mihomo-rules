@@ -72,6 +72,7 @@ payload:
   # ── 补回：设备会直接连的 Akamai 别名（iCloud 邮件、推送等）──
   - e16991.b.akamaiedge.net
   - a1366.dscapi6.akamai.net          # 苹果定位服务 gspe1-ssl.ls.apple.com 的最后一跳
+  - a305.dscg1.akamai.net             # TestFlight testflight.apple.com 的最后一跳
   - lookup-api.apple.com.edgekey.net
   - +.appldnld.apple.com.edgesuite.net
   - +.gsp4-cn.ls.apple.com.edgekey.net
