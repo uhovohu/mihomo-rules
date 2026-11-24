@@ -59,6 +59,7 @@ payload:
   - basic-static-server.infinitynewtab.com # Infinity 新标签页插件静态资源
   - infinitynewtab.com                     # Infinity 官网
   - ws.infinitynewtab.com                  # Infinity 同步/Websocket
+  - +.weatheroffer.com                     # Infinity（ExtFans）的天气、推荐接口
 
   # ── OneNav ──
   - +.onenav.h06i.com                      # OneNav 导航/书签管理工具
