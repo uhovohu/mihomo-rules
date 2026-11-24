@@ -160,3 +160,6 @@ payload:
   - +.bsgslb.cn    # 白山云
   - +.qnqcdn.net    # 七牛
   - +.ksyungslb.com    # 金山云GSLB
+
+  # ── 抖音调用的第三方服务 ──
+  - +.yingt.fun                           # 上海莹田科技，子域名按动植物名轮换（orzonera、coelacanth 等）；通用第三方服务（国内），目前只见抖音调用

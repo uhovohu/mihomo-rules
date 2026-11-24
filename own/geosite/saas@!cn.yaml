@@ -41,3 +41,9 @@ payload:
 
   # ── Klipy（GIF 搜索接口）──
   - +.klipy.com
+
+  # ── 公共图床（论坛、网页贴图常用）──
+  - +.postimg.cc                           # Postimages
+  - +.iili.io                              # Freeimage.host
+  - +.vgy.me
+  - +.ax1x.com                             # 路过图床
