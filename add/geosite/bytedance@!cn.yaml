@@ -50,26 +50,7 @@ payload:
   - pc-mon.zijieapi.com
 
   # ── pstatp 直播 ──
-  - +.lf1-ttcdn-tos.pstatp.com
-  - +.sf1-ttcdn-tos.pstatp.com
-  - +.sf6-ttcdn-tos.pstatp.com
   - +.sf16-ttcdn-tos.ipstatp.com
-  - +.pull-f3-hs.pstatp.com
-  - +.pull-f5-hs.pstatp.com
-  - +.pull-f5-hs.flive.pstatp.com
-  - +.pull-f5-mus.pstatp.com
-  - +.pull-flv-f1-hs.pstatp.com
-  - +.pull-flv-f6-hs.pstatp.com
-  - +.pull-flv-l1-hs.pstatp.com
-  - +.pull-flv-l1-mus.pstatp.com
-  - +.pull-flv-l6-hs.pstatp.com
-  - +.pull-hls-l1-mus.pstatp.com
-  - +.pull-l3-hs.pstatp.com
-  - +.pull-rtmp-f1-hs.pstatp.com
-  - +.pull-rtmp-f6-hs.pstatp.com
-  - +.pull-rtmp-l1-hs.pstatp.com
-  - +.pull-rtmp-l1-mus.pstatp.com
-  - +.pull-rtmp-l6-hs.pstatp.com
 
   # ── TikTok 直接用的 Akamai 地址 ──
   - v16-tiktokcdn-com.akamaized.net
