@@ -17,6 +17,15 @@ payload:
   # ── Shottr 截图软件 ──
   - shottr.cc               # 官网
 
+  # ── Chrono 下载管理器（Chrome 插件）──
+  - +.chronodownloader.net
+
+  # ── Icon Kitchen 图标生成网站 ──
+  - +.icon.kitchen
+
+  # ── RustDesk 远程控制 ──
+  - +.rustdesk.com
+
   # ── 代理客户端 ──
   - +.clash.md             # Clash for Apple 客户端官网
 

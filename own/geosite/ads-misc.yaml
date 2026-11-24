@@ -30,6 +30,7 @@ payload:
   - +.scarabresearch.com                  # Emarsys（SAP）营销追踪
   - +.impactradius-event.com               # Impact 联盟营销事件上报
   - +.upsellit.com                         # UpSellit 再营销弹窗
+  - +.wizrocketmail.net                    # CleverTap 邮件打开追踪
 
   # ── 国内广告 SDK ──
   - +.beizi.biz                            # 倍孜广告 SDK（微店 App 调用）

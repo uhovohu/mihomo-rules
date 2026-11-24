@@ -47,3 +47,10 @@ payload:
   - +.iili.io                              # Freeimage.host
   - +.vgy.me
   - +.ax1x.com                             # 路过图床
+  - +.loli.net                             # SM.MS
+
+  # ── SendGrid（邮件链接跳转、打开追踪，Twilio）──
+  - +.ct.sendgrid.net
+
+  # ── Gravatar（通用头像，Automattic）──
+  - +.gravatar.com

@@ -24,3 +24,7 @@ payload:
   - +.cg-mapi.com                  # CoinGlass App 接口
   - +.coinglasscdn.com             # CoinGlass 静态资源
   - mpush-api.aliyun.com           # 阿里云推送注册接口；通用第三方服务（国内），目前只见 CoinGlass 调用
+
+  # ── CoinGlass 网页 ──
+  - +.cgmdsa.com                   # CoinGlass 自建的报错上报（Sentry）
+  - +.termly.io                    # Termly Cookie 同意弹窗；通用第三方服务（海外），目前只见 CoinGlass 调用

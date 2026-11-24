@@ -40,3 +40,6 @@ payload:
 
   # ── 律动 BlockBeats（币圈资讯 App，服务器在国内）──
   - +.blockbeats.cn
+
+  # ── ArcZip 解压软件 ──
+  - +.arczip.app
