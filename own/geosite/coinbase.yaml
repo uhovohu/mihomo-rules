@@ -14,3 +14,8 @@ payload:
   - +.onramper.com
   - +.production.xmtp.network
   - +.wallet.elephant-blue.org
+
+  # ── Coinbase App 用到的第三方服务（跟 Coinbase 同一出口）──
+  - api.sprig.com
+  - api.cloudinary.com
+  - res.cloudinary.com

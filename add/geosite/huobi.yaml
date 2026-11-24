@@ -18,6 +18,11 @@ payload:
   - +.stat.tpns.sgp.tencent.com
   - +.log.tpns.sgp.tencent.com
 
+  # ── HTX App 的日志、推送、上报（跟 HTX 同一出口）──
+  - +.open.woodpeckerlog.com
+  - +.access.pushsdk.com
+  - +.report.daumoon.com
+
   # ── 多语言镜像 ──
   - +.l10n-pro.octu88.com
   - +.l10n-pro.88maru.com

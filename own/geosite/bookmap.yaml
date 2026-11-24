@@ -1,2 +1,5 @@
 payload:
   - +.bookmap.com
+
+  # ── Bookmap 用到的第三方服务（跟 Bookmap 同一出口）──
+  - +.linodeusercontent.com

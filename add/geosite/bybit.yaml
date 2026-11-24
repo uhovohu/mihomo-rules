@@ -17,3 +17,10 @@ payload:
   - +.ffbbbdc6d3c353211fe2ba39c9f744cd.com
   - +.ffe390afd658c19dcbf707e0597b846d.de
   - +.g9904216750.co
+
+  # ── Bybit App 用到的第三方服务（跟 Bybit 同一出口）──
+  - +.herokuapp.com
+  - +.website-files.com
+  - +.mgid.com
+  - +.creativecdn.com
+  - +.tronads.io
