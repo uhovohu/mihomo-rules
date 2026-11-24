@@ -85,3 +85,4 @@ payload:
   - +.courier2-sandbox-push-apple.com.akadns.net
   - +.courier2-push-apple.com.akadns.net           # 苹果推送（正式环境，5223 端口）
   - +.ess-apple.com.akadns.net                     # 苹果 ESS 服务的 Akamai 别名
+  - +.idms-apple.com.akadns.net                    # Apple ID 登录的 Akamai 别名
