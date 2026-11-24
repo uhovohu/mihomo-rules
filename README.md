@@ -271,6 +271,7 @@ rule-providers:
 | okx | OKX 服务器 | 本仓库 |
 | bookmap | Bookmap 服务器 | 本仓库 |
 | openai | ChatGPT App 直接连的 Azure 地址 | 本仓库 |
+| category-cryptocurrency | 加密货币类 App 的服务器地址（CoinGlass） | 本仓库 |
 | google | Google | 上游 |
 | anthropic | Anthropic（AS399358） | 本仓库 |
 | discord | Discord 语音（AS49544） | 本仓库 |

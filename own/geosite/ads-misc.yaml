@@ -23,6 +23,12 @@ payload:
   # ── 国内广告 SDK ──
   - +.beizi.biz                            # 倍孜广告 SDK（微店 App 调用）
 
+  # ── 阿里统计 SDK（CoinGlass、饿了么等 App 调用）──
+  - adash-emas.cn-hangzhou.aliyuncs.com
+  - adashbc.ut.taobao.com
+  - adashxgc.ut.taobao.com
+  - beacon-api.aliyuncs.com
+
   # ── 访问统计 ──
   - stats.v2core.com                       # exe-stats 网页访问计数器
   - tel.shottr.cc                          # Shottr 截图软件使用统计

@@ -26,3 +26,5 @@ payload:
 
   # ── CoinGlass App ──
   - +.cg-mapi.com                  # CoinGlass App 接口
+  - +.coinglasscdn.com             # CoinGlass 静态资源
+  - mpush-api.aliyun.com           # CoinGlass App 调用的阿里云推送注册接口

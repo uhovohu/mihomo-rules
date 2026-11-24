@@ -207,6 +207,7 @@ geoip:
   okx: {own: true}
   bookmap: {own: true}
   openai: {own: true}
+  category-cryptocurrency: {own: true}
   google: {}
   anthropic: {own: true}
   discord: {own: true}
