@@ -8,6 +8,8 @@ payload:
   - +.static.tylhh.net
   - emogine.insights.1688.com                  # 阿里的 App 统计上报（币安 App 里调用）
   - help-static-aliyun-doc.aliyuncs.com        # 阿里云文档静态资源（币安 App 里调用）
+  - d3sknckuh1o9tg.cloudfront.net              # 币安专属的 CloudFront 资源（否则被 Amazon 接走）
+  - o529943.ingest.us.sentry.io                # 币安 App 的报错上报（否则被 Anthropic 的 +.sentry.io 接走）
 
   # ── 专属风控 ──
   - +.addfd325e6e3.cdn4.forter.com  # Forter 给币安的专属节点（带商户编号）
