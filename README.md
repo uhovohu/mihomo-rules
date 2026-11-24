@@ -275,7 +275,6 @@ rule-providers:
 | discord | Discord 语音（AS49544） | 本仓库 |
 | telegram | Telegram | 上游 |
 | twitter | X（Twitter） | 上游 |
-| douyin | 抖音 | 本仓库 |
 | netflix | Netflix | 上游 |
 | bilibili | 哔哩哔哩国内机房 | 上游 |
 | cloudflare | Cloudflare | 上游 |

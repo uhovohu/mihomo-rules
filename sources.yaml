@@ -211,7 +211,6 @@ geoip:
   discord: {own: true}
   telegram: {}
   twitter: {}
-  douyin: {own: true}
   netflix: {}
   bilibili: {lite: true}
   cloudflare: {}
