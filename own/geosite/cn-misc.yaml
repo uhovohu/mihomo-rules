@@ -37,3 +37,6 @@ payload:
 
   # ── 广发信用卡 App 的消息推送（EMQX 云，美国东部；cd1e8550 是广发专属实例号）──
   - cd1e8550.ala.us-east-1.emqxsl.com
+
+  # ── 律动 BlockBeats（币圈资讯 App，服务器在国内）──
+  - +.blockbeats.cn
