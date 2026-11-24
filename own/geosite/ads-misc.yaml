@@ -22,3 +22,10 @@ payload:
 
   # ── 反广告拦截 ──
   - +.html-load.com                        # Ad-Shield 反广告拦截脚本（屏蔽后会反复重试）
+  - +.html-load.cc                         # Ad-Shield 备用域名
+  - +.content-load.com                     # Ad-Shield 备用域名
+  - +.content-loader.com                   # Ad-Shield 备用域名（html-load 被拦后改连这里）
+  - +.css-load.com                         # Ad-Shield 备用域名
+  - +.js-load.com                          # Ad-Shield 备用域名
+  - +.error-report.com                     # Ad-Shield 上报
+  - +.capablejeans.com                     # 跟 Ad-Shield 同时出现的广告放行页（恶意广告）
