@@ -1,0 +1,3 @@
+payload:
+  # ── 上游没收的 STUN 服务器 ──
+  - global.stun.twilio.com                 # Twilio（通讯云服务）的公共 STUN
