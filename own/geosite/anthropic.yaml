@@ -13,8 +13,7 @@ payload:
   - +.anthropic.com.cdn.cloudflare.net  # Cloudflare CDN 节点
   - +.servd-anthropic-website.b-cdn.net # BunnyCDN 静态资源
 
-  # ── 通用第三方服务（防 IP 泄漏，整个后缀跟 Claude 走同一出口；别家的 Sentry 也会被接过来，接受）──
-  - +.sentry.io                # 错误监控上报
+  # ── 通用第三方服务（防 IP 泄漏，整个后缀跟 Claude 走同一出口）──
   - +.statsigapi.net           # 功能开关 / AB 测试
   - +.intercom.io              # 在线客服
   - +.intercomcdn.com
