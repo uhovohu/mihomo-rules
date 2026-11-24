@@ -13,12 +13,12 @@ payload:
   - +.huobicfg.s3.amazonaws.com
   - +.huobicfg.s3.ap-northeast-1.amazonaws.com
 
-  # ── 腾讯云推送新加坡节点（防泄漏，别家海外 App 的推送也会跟着走这里）──
+  # ── 腾讯云推送新加坡节点 ──
   - +.guid.tpns.sgp.tencent.com
   - +.stat.tpns.sgp.tencent.com
   - +.log.tpns.sgp.tencent.com
 
-  # ── HTX App 的日志、推送、上报（跟 HTX 同一出口）──
+  # ── HTX App 的日志、推送、上报──
   - +.open.woodpeckerlog.com
   - +.access.pushsdk.com
   - +.report.daumoon.com
@@ -29,4 +29,4 @@ payload:
   - +.l10n-pro.apru88.com
 
   # ── 拿不准（腾讯云 PCDN 节点，原文件就有）──
-  - +.apd-pcdnwxnat.teg.tencent-cloud.net   # 微信规则的 +.teg.tencent-cloud.net 也会接，HTX 排在前面先接走
+  - +.apd-pcdnwxnat.teg.tencent-cloud.net   # 腾讯云 PCDN 节点

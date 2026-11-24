@@ -1,4 +1,4 @@
-# 亚马逊 IP → Amazon（原 custom-proxy-ip 的「亚马逊」组）
+# 亚马逊 IP
 payload:
   - 13.35.238.33/32
   - 13.35.238.38/32

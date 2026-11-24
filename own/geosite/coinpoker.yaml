@@ -1,5 +1,5 @@
 payload:
-  # ———— CoinPoker 核心（必须走代理）————
+  # ———— CoinPoker 核心————
   - +.coinpoker.com                            # 主站
   - +.coinpoker.biz                            # 主游戏前端
   - +.pokerbaazicdn.com

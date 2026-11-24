@@ -1,4 +1,4 @@
-# VPS 相关：VPS 商家、比价、中转面板等 → ProxyMisc
+# VPS 相关：VPS 商家、比价、中转面板等
 payload:
   # ── VPS 商家 ──
   - +.rfchost.com

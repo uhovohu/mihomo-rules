@@ -15,14 +15,14 @@ payload:
   - +.production.xmtp.network
   - +.wallet.elephant-blue.org
 
-  # ── Coinbase App 用到的第三方服务（跟 Coinbase 同一出口）──
+  # ── Coinbase App 用到的第三方服务──
   - api.sprig.com
   - api.cloudinary.com
   - res.cloudinary.com
   - dp.elephant-blue.org
-  - api3.branch.io                 # Branch 深度链接（别家 App 也用，跟 Coinbase 同一出口）
+  - api3.branch.io                 # Branch 深度链接
   - cdn.branch.io
   - +.sardine.ai                   # Sardine 设备风控
-  - d1dwhf283nul1c.cloudfront.net  # Coinbase 专属 CloudFront（否则被 Amazon 接走）
+  - d1dwhf283nul1c.cloudfront.net  # Coinbase 专属 CloudFront
   - d2l7g2wmr3uf42.cloudfront.net
   - asset-metadata-service-production.s3.amazonaws.com

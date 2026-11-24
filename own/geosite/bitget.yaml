@@ -42,7 +42,7 @@ payload:
   - +.quorbentaxil.cc
   - +.brindovaxel.online
 
-  # ── Bitget App 用到的第三方服务（跟 Bitget 同一出口）──
+  # ── Bitget App 用到的第三方服务──
   - +.airbrake.io
   - +.spindlembed.com
 

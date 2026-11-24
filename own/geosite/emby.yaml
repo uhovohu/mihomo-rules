@@ -1,4 +1,4 @@
-# Emby 影音服务器 → Emby
+# Emby 影音服务器
 payload:
   # ── UHD 国际线路 ──
   - +.uhdnow.com

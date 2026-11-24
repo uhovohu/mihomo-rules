@@ -1,4 +1,4 @@
-# 国内杂项：上游没有单独文件的国内小应用 → CN，进国内 DNS 表
+# 国内杂项：上游没有单独文件的国内小应用
 payload:
   # ── Go 镜像（七牛云） ──
   - +.goproxy.cn
@@ -11,9 +11,7 @@ payload:
   # ── MobTech（ShareSDK、秒验，原归在中国移动里）──
   - +.api.share.mob.com
 
-  # ── 以下原在 custom（自定义直连），并进来 ──
-
-  # ── FutureEcho Pro 大陆直连优化 ──
+  # ── FutureEcho Pro ──
   - +.music01.mefun.vip
 
   # ── 刻度人生 ──
@@ -45,12 +43,10 @@ payload:
   - +.guanchaotv.com       # 视频站，阿里云 / 联通
 
   # ── Bark 推送 ──
-  - api.day.app            # 香港腾讯云，国内可直连
+  - api.day.app            # 服务器在香港腾讯云
 
   # ── 网易易盾风控 ──
   - +.turingfraud.net
 
-  # ── 广发信用卡 App 的消息推送（EMQX 云，服务器在美国东部）──
-  # 银行 App 其余连接都走国内直连，这条也直连，免得同一设备一会儿国内、一会儿海外被银行风控；
-  # 前缀 cd1e8550 是广发专属的实例号，只收这一个，EMQX 别的用户不受影响
+  # ── 广发信用卡 App 的消息推送（EMQX 云，美国东部；cd1e8550 是广发专属实例号）──
   - cd1e8550.ala.us-east-1.emqxsl.com

@@ -20,7 +20,7 @@ payload:
   - +.arbitrum.io
   - +.paydify.com
 
-  # ── 上游合集里的具体地址，被亚马逊的整个后缀减掉了，补回来（排在 Amazon 前面先接）──
+  # ── 上游合集里托管在亚马逊上的具体地址 ──
   - d3r7nsslvs6aaf.cloudfront.net
   - +.rp-static-apne1.s3.ap-northeast-1.amazonaws.com
 

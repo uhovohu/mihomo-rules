@@ -1,4 +1,4 @@
-# 论坛 → ProxyMisc
+# 论坛
 payload:
   - +.nodeplaza.com        # nodeplaza 论坛
   - +.naixi.net            # 奶昔论坛
