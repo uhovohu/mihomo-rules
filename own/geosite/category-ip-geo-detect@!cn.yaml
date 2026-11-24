@@ -72,6 +72,7 @@ payload:
   - +.perfect-privacy.com
   - +.browserleaks.com
   - +.browserleaks.org
+  - +.browserleaks.net                 # BrowserLeaks 的 DNS 泄漏测试子域名
   - +.vpnunlimited.com
   - +.dnsleaktest.com
   - +.dnsleak.com
