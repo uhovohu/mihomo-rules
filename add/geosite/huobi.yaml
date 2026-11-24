@@ -13,6 +13,11 @@ payload:
   - +.huobicfg.s3.amazonaws.com
   - +.huobicfg.s3.ap-northeast-1.amazonaws.com
 
+  # ── 腾讯云推送新加坡节点（防泄漏，别家海外 App 的推送也会跟着走这里）──
+  - +.guid.tpns.sgp.tencent.com
+  - +.stat.tpns.sgp.tencent.com
+  - +.log.tpns.sgp.tencent.com
+
   # ── 多语言镜像 ──
   - +.l10n-pro.octu88.com
   - +.l10n-pro.88maru.com

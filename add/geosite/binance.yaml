@@ -6,6 +6,8 @@ payload:
   - +.fe4385362baa.20414af6.ap-northeast-1.token.awswaf.com                       # 币安自己的 AWS WAF
   - +.fmbxlntehddr.oss-cn-shenzhen.aliyuncs.com                                   # 阿里云上的币安存储桶
   - +.static.tylhh.net
+  - emogine.insights.1688.com                  # 阿里的 App 统计上报（币安 App 里调用）
+  - help-static-aliyun-doc.aliyuncs.com        # 阿里云文档静态资源（币安 App 里调用）
 
   # ── 专属风控 ──
   - +.addfd325e6e3.cdn4.forter.com  # Forter 给币安的专属节点（带商户编号）

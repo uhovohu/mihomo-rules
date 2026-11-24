@@ -123,3 +123,13 @@ payload:
   - +.p16-sg-default.edgesuite.net
   - +.p16-va-default.edgesuite.net
   - +.p16hypstarcdn-a.akamaihd.net.edgesuite.net
+
+  # ── TikTok 直播放在国内 CDN 厂商上的节点（名字带 tiktokcdn、ttlivecdn）──
+  - +.tiktokcdn.com.qlivecdn.com
+  - +.tiktokcdn.com.liveplay.myqcloud.com
+  - +.tiktokcdn.liveplay.myqcloud.com
+  - +.tiktokcdn.livepush.myqcloud.com
+  - +.tiktokcdn.com.baishan-cloud.net
+  - +.tiktokcdn.com.w.kunlunsl.com
+  - +.ttlivecdn.com.ecdnx.com
+  - +.ttlivecdn.com.wsdvs.com
