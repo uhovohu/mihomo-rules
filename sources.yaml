@@ -43,9 +43,9 @@ geosite:
   steam@!cn: {from: steam, minus: [steam@cn]}
   taptap@!cn: {}
   bilibili@!cn: {}
-  category-ip-geo-detect@!cn: {from: category-ip-geo-detect, minus: [category-ip-geo-detect@cn], collection: true}
+  category-ip-geo-detect@!cn: {own: true}   # IP 检测（国内外都在这里，自己维护）
   cloudflare@!cn: {from: cloudflare, minus: [cloudflare@cn]}
-  amazon@!cn: {from: amazon, minus: [amazon@cn, primevideo, twitch]}
+  amazon@!cn: {from: amazon, minus: [amazon@cn, primevideo, twitch, category-ip-geo-detect@!cn]}
   linkedin@!cn: {from: linkedin, minus: [linkedin@cn]}
   paypal@!cn: {from: paypal, minus: [paypal@cn]}
   jiguang@!cn: {own: true}
@@ -126,14 +126,14 @@ geosite:
   steam@cn: {}
   taptap@cn: {from: taptap, minus: [taptap@!cn]}
   bilibili@cn: {from: bilibili, minus: [bilibili@!cn]}
-  category-ip-geo-detect@cn: {collection: true}
+  category-ip-geo-detect@cn: {own: true}    # 只放国内 App 后台调用的查 IP 接口（不带前缀的 icanhazip.com）
   cloudflare@cn: {}
   amazon@cn: {}
   linkedin@cn: {}
   paypal@cn: {}
   category-cas@cn: {}
   stun@cn: {own: true}
-  akamai@cn: {}
+  akamai@cn: {minus: [category-ip-geo-detect@!cn]}
 
   # ── 五、国内商家 ──
   tencent@!cn: {}

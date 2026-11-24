@@ -95,7 +95,7 @@ rule-providers:
 | steam@!cn | Steam 海外部分 | 上游 − steam@cn |
 | taptap@!cn | TapTap 海外部分 | 上游 |
 | bilibili@!cn | 哔哩哔哩海外部分 | 上游 |
-| category-ip-geo-detect@!cn | 海外 IP 查询、测速与地理位置检测站点（合集） | 上游 − category-ip-geo-detect@cn |
+| category-ip-geo-detect@!cn | IP 检测：查 IP、测速、泄露与指纹检测、纯净度评分（国内外站点均在此） | 本仓库 |
 | cloudflare@!cn | Cloudflare 海外部分 | 上游 − cloudflare@cn |
 | amazon@!cn | Amazon 海外部分，含 AWS（Prime Video、Twitch 另有文件） | 上游 − amazon@cn、primevideo、twitch |
 | linkedin@!cn | LinkedIn 海外部分 | 上游 − linkedin@cn |
@@ -178,7 +178,7 @@ rule-providers:
 | steam@cn | Steam 国内部分 | 上游 |
 | taptap@cn | TapTap 国内部分 | 上游 − taptap@!cn |
 | bilibili@cn | 哔哩哔哩国内部分 | 上游 − bilibili@!cn |
-| category-ip-geo-detect@cn | 国内 IP 查询与拨测站点，如 itdog（合集） | 上游 |
+| category-ip-geo-detect@cn | 国内 App 后台调用的查 IP 接口（仅精确域名） | 本仓库 |
 | cloudflare@cn | Cloudflare 国内部分 | 上游 |
 | amazon@cn | Amazon 国内部分 | 上游 |
 | linkedin@cn | LinkedIn 国内部分 | 上游 |
