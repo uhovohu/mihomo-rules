@@ -14,7 +14,7 @@ payload:
   - +.huobicfg.s3.ap-northeast-1.amazonaws.com
 
   # ── 腾讯云推送新加坡节点 ──
-  - +.guid.tpns.sgp.tencent.com
+  - +.guid.tpns.sgp.tencent.com          # 腾讯移动推送 TPNS 新加坡节点；通用第三方服务（国内），目前只见 HTX 调用
   - +.stat.tpns.sgp.tencent.com
   - +.log.tpns.sgp.tencent.com
 

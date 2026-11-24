@@ -119,6 +119,7 @@ geosite:
   getui: {}
   jiguang: {}
   category-stun: {}
+  saas@!cn: {own: true}
   adobe@cn: {}
   tesla@cn: {}
   bytedance@cn: {from: bytedance, minus: [bytedance@!cn]}
@@ -161,6 +162,7 @@ geosite:
   ishumei: {}
   cn-misc: {own: true}
   cn-misc-realip: {own: true}
+  saas@cn: {own: true}
   tencent@cn: {from: tencent, minus: [tencent@!cn, wechat]}
   alibaba@cn: {from: alibaba, minus: [alibaba@!cn]}
   huawei@cn: {from: huawei, minus: [huawei@!cn]}

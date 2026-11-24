@@ -8,21 +8,11 @@ payload:
   - +.shuiyuncang.com
   - apt.25mao.com
 
-  # ── MobTech（ShareSDK、秒验，原归在中国移动里）──
-  - +.api.share.mob.com
-
   # ── FutureEcho Pro ──
   - +.music01.mefun.vip
 
   # ── 刻度人生 ──
   - +.vcards.metowolf.com
-
-  # ── 崩溃日志 / 性能监控（Bugsnag）──
-  - +.otlp.bugsnag.com
-  - +.sessions.bugsnag.com
-
-  # ── 搜款网（OpenInstall 统计）──
-  - stat.openinstall.io
 
   # ── 北京漫星云 ──
   - +.manlaxycloud.com
@@ -44,9 +34,6 @@ payload:
 
   # ── Bark 推送 ──
   - api.day.app            # 服务器在香港腾讯云
-
-  # ── 网易易盾风控 ──
-  - +.turingfraud.net
 
   # ── 广发信用卡 App 的消息推送（EMQX 云，美国东部；cd1e8550 是广发专属实例号）──
   - cd1e8550.ala.us-east-1.emqxsl.com

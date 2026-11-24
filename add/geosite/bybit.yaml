@@ -11,7 +11,7 @@ payload:
 
   # ── 腾讯云 IM（客服、P2P 聊天）──
   - 20007249l4s.my-imcloud.com            # Bybit 专用的 IM 入口（20007249 是 Bybit 的应用编号）
-  - shortsgp.im.qcloud.com                # 腾讯云 IM 新加坡公共入口
+  - shortsgp.im.qcloud.com                # 腾讯云 IM 新加坡公共入口；通用第三方服务（国内），目前只见 Bybit 调用
 
   # ── 镜像域名 ──
   - +.ffbbbdc6d3c353211fe2ba39c9f744cd.com
@@ -19,12 +19,9 @@ payload:
   - +.g9904216750.co
 
   # ── Bybit App 用到的第三方服务──
-  - +.herokuapp.com
-  - +.website-files.com
-  - +.mgid.com
-  - +.creativecdn.com
-  - +.tronads.io
-  - images.contentstack.io                 # Contentstack 内容平台，App 里的活动图片
-  - www.turingfraud.net                    # 网易易盾设备风控
+  - +.herokuapp.com                      # Heroku 应用托管；通用第三方服务（海外），目前只见 Bybit 调用
+  - +.website-files.com                  # Webflow 网站静态资源；通用第三方服务（海外），目前只见 Bybit 调用
+  - images.contentstack.io                 # Contentstack 内容平台，App 里的活动图片；通用第三方服务（海外），目前只见 Bybit 调用
+  - www.turingfraud.net                    # 网易易盾设备风控；通用第三方服务（国内），目前只见 Bybit 调用
   - allocproxylist-prod.callback-api.io    # App 分配接入线路
   - d1znqpii6yeci9.cloudfront.net          # Bybit 专属 CloudFront

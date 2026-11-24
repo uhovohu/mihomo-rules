@@ -5,9 +5,6 @@ payload:
   - +.hammerandchisel.ssl.zendesk.com                        # 客服
   - o64374.ingest.sentry.io                                  # 崩溃上报
 
-  # ── 第三方：GIF 动图 ──
-  - +.klipy.com                                              # Klipy，Discord 里搜 GIF、发 GIF 从这里加载
-
   # ── 服务器导航、机器人站 ──
   - +.top.gg
   - +.disboard.org

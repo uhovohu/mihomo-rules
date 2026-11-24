@@ -40,84 +40,23 @@ payload:
   - sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws
 
   # ———— 监控 / 分析 ————
-  - +.amplitude.com
-  - +.dynatrace.com
+  - +.dynatrace.com                            # Dynatrace 应用性能监控；通用第三方服务（海外），目前只见 CoinPoker 调用
   - o4510980300996608.ingest.de.sentry.io
   - o567116.ingest.us.sentry.io                # Sentry 报错收集(de 区域,tracking 未覆盖)
-  - +.datafa.st                                # 轻量统计
-  - +.analytics.yahoo.com                      # Yahoo 统计（sp / cms / ups 等子域合并）
   - s.yimg.com                                 # Yahoo 静态资源
   
   #- api2.branch.io
   #- app.link
-  # ———— 广告大厂 ————
-  - +.eu-4-id5-sync.com
-  - +.eu-3-id5-sync.com
-  - +.eu-1-id5-sync.com 
-  - +.id5-sync.com
-  - +.rlcdn.com 
-  - +.outbrain.com
-  - +.adform.net                               # Adform DSP（含 a1 / c1 / dmp 子域）
-  - +.adsrvr.org                               # The Trade Desk DSP
-  - +.openx.net                                # OpenX 广告交易
-  - +.casalemedia.com                          # Index Exchange
-  - +.gumgum.com                               # GumGum 广告
-  - +.bidswitch.net                            # IPONWEB 竞价
-  - +.pippio.com                               # LiveRamp 数据
-  - +.eyeota.net                               # Eyeota 受众数据
-  - +.rubiconproject.com                       # Magnite 广告
-  - +.teads.tv                                 # Teads 视频广告
-  - +.exelator.com                             # Nielsen 数据
-  - +.crwdcntrl.net                            # Lotame 数据
-  - +.yieldlab.net                             # Yieldlab 广告
-  - +.pubmatic.com                             # PubMatic 广告
-  - +.360yield.com                             # PubMatic 旗下
-  - +.smartadserver.com                        # Smart AdServer
-  - +.3lift.com                                # TripleLift 广告
-  - +.sharethrough.com                         # Sharethrough 广告
-
-  # ———— 广告小厂 / 不明 ————
-  - +.everesttech.net
+  # ———— 不明 ————
   - tcp.signfuli.com                           # 不明
   - +.adrsbl.io                                # 不明
   - +.adradv.io                                # 不明
-  - +.bidr.io                                  # Beeswax DSP
-  - +.datawrkz.com                             # 不明（含 secure / nodetracker 子域）
   - eu.b2c.com                                 # 不明
   - apixeu.b2c.com                             # 不明
-  - +.seadform.net                             # 不明
-  - +.lijit.com                                # Sovrn 广告
-  - +.match2one.net                            # 程序化广告
-  - +.adition.com                              # Virtual Minds 广告
-  - +.zeotap.com                               # Zeotap 数据平台
-  - +.fwmrm.net                                # FreeWheel 视频广告
-  - +.richaudience.com                         # 广告平台
-  - +.audrte.com                               # Audigent 数据
-  - +.weborama.fr                              # Weborama 数据
-  - +.semasio.net                              # Semasio 受众
-  - +.smaato.net                               # Smaato 广告
-  - +.onaudience.com                           # 受众数据
-  - +.onetag-sys.com                           # OneTag 广告
-  - +.contentexchange.me                       # 广告交换
-  - +.adscale.de                               # 广告平台
-  - +.userreport.com                           # 用户调研
   - +.pgammedia.com                            # 不明
-  - +.agkn.com                                 # Neustar 数据
-  - +.exoclick.com                             # ExoClick 广告
-  - +.w55c.net                                 # MediaMath
-  - +.mathtag.com                              # MediaMath
-  - +.mediarithmics.com                        # 数据平台
-  - +.kargo.com                                # Kargo 广告
   - +.ovjrmipdpv.net
   - +.ltguevmavv.com
   - +.stackharbor.biz
-  - +.omnitagjs.com
-  - +.admanmedia.com
-  - d.turn.com
-  - t.adx.opera.com
-  - cm.adsafety.net
-  - tags.adsafety.net
-  - ads.smartstream.tv
   - gfdsa.hhewjzfa.com
   - +.snippet.anjcdn.org
   - +.snippet.anjouangaming.org
@@ -126,10 +65,9 @@ payload:
   - +.localhubweb.com
   - +.assets.eascdn.net
   - +.bpi.rtactivate.com
-  - +.sync.aniview.com
-  - eu1.clevertap-prod.com
+  - eu1.clevertap-prod.com                      # CleverTap 用户触达、分析；通用第三方服务（海外），目前只见 CoinPoker 调用
   - ds-cdn.prod-east.frontend.public.atl-paas.net
-  - +.atl-paas.net
+  - +.atl-paas.net                              # Atlassian 公共资源；通用第三方服务（海外），目前只见 CoinPoker 调用
   - +.betagammabox.ai
   
 

@@ -43,8 +43,7 @@ payload:
   - +.brindovaxel.online
 
   # ── Bitget App 用到的第三方服务──
-  - +.airbrake.io
-  - +.spindlembed.com
+  - +.airbrake.io                  # Airbrake 报错上报；通用第三方服务（海外），目前只见 Bitget 调用
 
   # ── Bitget 钱包的备用域名（随机名字，来自 iPhone App 隐私报告）──
   - +.drexaphongil.io

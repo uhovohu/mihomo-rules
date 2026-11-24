@@ -2,3 +2,6 @@ payload:
   # ── Grok App 的报错上报、客服（带 Grok 专属编号）──
   - o4508179396558848.ingest.us.sentry.io
   - egv4py1c-ios.mobile-messenger.intercom.com
+
+  # ── X App 的报错上报（带专属编号）──
+  - o30969.ingest.us.sentry.io

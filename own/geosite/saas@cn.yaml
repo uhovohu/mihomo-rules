@@ -1,0 +1,15 @@
+# 国内通用第三方服务：多个 App 共用的 SDK、SaaS 接口
+payload:
+  # ── MobTech（分享、一键登录）──
+  - +.api.share.mob.com                    # ShareSDK 分享
+  - +.zztfly.com                           # 秒验（一键登录）
+
+  # ── DCloud（uni-app 框架）──
+  - +.dcloud.net.cn
+
+  # ── 网易易盾（设备风控）──
+  - +.turingfraud.net
+
+  # ── 服务商不明（抖音、小红书都在连）──
+  - +.tianwenca.com
+  - +.xinqiucc.com

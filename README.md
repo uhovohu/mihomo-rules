@@ -58,7 +58,7 @@ rule-providers:
 | icloudprivaterelay | iCloud 专用代理（Private Relay）入口 | 上游 |
 | reject | 其他拦截项：国内 App 的日志上报和遥测（美团、京东、字节等）、交易所推送、国内 DoH、个别 STUN 和 NTP | 本仓库 |
 | awavenue | 秋风广告规则（AWAvenue），以国内 App 广告为主 | 外部（TG-Twilight/AWAvenue-Ads-Rule） |
-| ads-misc | 其他广告追踪、营销追踪、访问统计、反广告拦截脚本，如 DoubleClick、AppsFlyer、Marketo | 本仓库 |
+| ads-misc | 其他广告追踪、营销追踪、广告投放和受众数据、国内广告 SDK、统计上报、反广告拦截脚本，如 DoubleClick、AppsFlyer、Marketo、穿山甲、Amplitude | 本仓库 |
 | category-httpdns-cn | 国内 HTTPDNS 接口：阿里、百度、腾讯、美团等 | 上游 |
 | win-spy | Windows 遥测和广告 | 上游 |
 
@@ -149,14 +149,14 @@ rule-providers:
 | steamunlocked | SteamUnlocked | 上游 |
 | steaminventoryhelper | Steam Inventory Helper 插件 | 上游 |
 | epicgames | Epic Games | 上游 |
-| coinpoker | CoinPoker：主站、后端、监控和广告 SDK | 本仓库 |
+| coinpoker | CoinPoker：主站、后端、监控和 App 用到的第三方服务 | 本仓库 |
 | biliintl | 哔哩哔哩国际版 | 上游 |
 | ookla-speedtest | Speedtest by Ookla | 上游 |
 | nodeseek | NodeSeek 论坛 | 上游 |
 | vps | VPS 商家、VPS 比价、中转面板官网 | 本仓库 |
 | forum | VPS 及网络技术论坛 | 本仓库 |
 | airport | 代理服务测评站点 | 本仓库 |
-| proxy-misc | 其他海外网站：划词翻译、unpkg、BlackBerry、油猴、部分 Mac 软件作者站点 | 本仓库 |
+| proxy-misc | 其他海外网站：划词翻译、BlackBerry、油猴、部分 Mac 软件作者站点 | 本仓库 |
 | microsoft | Microsoft 全系服务：Windows、Office、Bing、Azure、Copilot（GitHub、VS Code 另有文件） | 上游 − github、vscode、connectivity-check |
 | apple | Apple 全系服务：iCloud、App Store、Apple Music、系统更新、推送，含 CDN 别名 | 上游 |
 | apple-intelligence | Apple Intelligence | 上游 |
@@ -171,6 +171,7 @@ rule-providers:
 | getui | 个推 | 上游 |
 | jiguang | 极光推送 | 上游 |
 | category-stun | STUN 服务器 | 上游 |
+| saas@!cn | 海外通用第三方服务：多个 App 共用的 SDK、SaaS 接口，如 Sentry 公共入口、RevenueCat、OneTrust、Branch、jsDelivr | 本仓库 |
 | adobe@cn | Adobe 国内部分 | 上游 |
 | tesla@cn | Tesla 国内部分 | 上游 |
 | bytedance@cn | 字节跳动国内部分：抖音、头条、西瓜、飞书、火山引擎等，含抖音 PCDN | 上游 − bytedance@!cn |
@@ -214,8 +215,9 @@ rule-providers:
 | wasu | 华数 | 上游 |
 | geetest | 极验验证码 | 上游 |
 | ishumei | 数美风控 | 上游 |
-| cn-misc | 上游没有单独文件的国内小应用和服务，如金十数据、Bark 推送、网易易盾、Go 镜像 | 本仓库 |
+| cn-misc | 上游没有单独文件的国内小应用和服务，如金十数据、Bark 推送、Go 镜像 | 本仓库 |
 | cn-misc-realip | 其他国内服务：向日葵远控、微店、唯品会、税务、公安一网通办 | 本仓库 |
+| saas@cn | 国内通用第三方服务：多个 App 共用的 SDK、SaaS 接口，如 MobTech、DCloud、网易易盾 | 本仓库 |
 | tencent@cn | 腾讯国内部分（微信另有文件） | 上游 − tencent@!cn、wechat |
 | alibaba@cn | 阿里国内部分：淘宝、支付宝、阿里云、高德等 | 上游 − alibaba@!cn |
 | huawei@cn | 华为国内部分 | 上游 − huawei@!cn |

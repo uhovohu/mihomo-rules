@@ -7,6 +7,17 @@ payload:
   - +.saasexch.co                          # 币安广告追踪
   - +.saasexch.com                         # 币安广告追踪
   - +.saasexch.io                          # 币安广告追踪
+  - +.adjust.com                           # Adjust 广告归因
+  - +.adjust.cn                            # Adjust 国内节点
+  - srv.stackadapt.com                     # StackAdapt 广告投放
+  - +.stapecdn.com                         # Stape 服务端追踪（GTM）
+  - +.demdex.net                           # Adobe Audience Manager 受众同步
+  - +.mgid.com                             # MGID 原生广告
+  - +.creativecdn.com                      # RTB House 再营销广告
+  - +.tronads.io                           # 广告网络，服务商不明
+  - +.czilladx.com                         # Coinzilla 币圈广告网络
+  - +.appsflayer.com                       # 拼法像 AppsFlyer 的变体域名
+  - +.spindlembed.com                      # Spindl（Web3 归因、广告）
 
   # ── 营销追踪 ──
   - +.mktoresp.com                         # Marketo 营销追踪
@@ -22,16 +33,104 @@ payload:
 
   # ── 国内广告 SDK ──
   - +.beizi.biz                            # 倍孜广告 SDK（微店 App 调用）
+  - +.sigmob.cn                            # Sigmob 广告 SDK
+  - +.tanx.com                             # 阿里妈妈广告
+  - +.gdtimg.com                           # 腾讯广点通广告素材
+  - +.ugdtimg.com                          # 腾讯广点通广告
+  - +.sdk.1rtb.net                         # 1RTB 广告 SSP（微店 App 调用）
+  - +.app-tj.adinall.com                   # Adinall 广告统计（微店 App 调用）
+  - adttrackingprd.hwwt8.com               # 服务商不明，名字是广告追踪（肯德基 App 调用）
+
+  # ── 国内广告 SDK：穿山甲（字节）──
+  - +.pangolin-sdk-toutiao.com
+  - +.pangolin-sdk-toutiao1.com
+  - +.pangolin-sdk-toutiao-b.com
+  - +.pglstatp-toutiao.com                 # 穿山甲广告素材
 
   # ── 阿里统计 SDK（CoinGlass、饿了么等 App 调用）──
   - adash-emas.cn-hangzhou.aliyuncs.com
   - adashbc.ut.taobao.com
   - adashxgc.ut.taobao.com
   - beacon-api.aliyuncs.com
+  - +.mmstat.com                           # 阿里统计
+  - emogine.insights.1688.com              # 阿里 App 统计上报（币安 App 调用）
+
+  # ── 国内统计 ──
+  - tongji-collector.dcloud.net.cn         # DCloud（uni-app）统计上报
+  - stat.openinstall.io                    # OpenInstall 安装归因统计
+
+  # ── 海外统计 ──
+  - +.scorecardresearch.com                # comScore 统计
+  - +.posthog.com                          # PostHog 产品行为分析
+  - t.fullres.net                          # Fullres 网站统计、广告归因
+  - +.omtrdc.net                           # Adobe Analytics 统计
+  - +.cdn.usefathom.com                    # Fathom 网站统计
+  - +.amplitude.com                        # Amplitude 产品行为分析
+  - +.datafa.st                            # DataFast 网站统计
+  - +.analytics.yahoo.com                  # Yahoo 统计
 
   # ── 访问统计 ──
   - stats.v2core.com                       # exe-stats 网页访问计数器
   - tel.shottr.cc                          # Shottr 截图软件使用统计
+
+  # ── 广告投放、受众数据（原在 coinpoker）──
+  - +.eu-4-id5-sync.com                    # ID5 广告识别同步
+  - +.eu-3-id5-sync.com                    # ID5 广告识别同步
+  - +.eu-1-id5-sync.com                    # ID5 广告识别同步
+  - +.id5-sync.com                         # ID5 广告识别同步
+  - +.rlcdn.com                            # LiveRamp 广告识别同步
+  - +.pippio.com                           # LiveRamp 数据
+  - +.outbrain.com                         # Outbrain 原生广告
+  - +.adform.net                           # Adform DSP
+  - +.seadform.net                         # Adform 备用域名
+  - +.adsrvr.org                           # The Trade Desk DSP
+  - +.openx.net                            # OpenX 广告交易
+  - +.casalemedia.com                      # Index Exchange
+  - +.gumgum.com                           # GumGum 广告
+  - +.bidswitch.net                        # IPONWEB 竞价
+  - +.eyeota.net                           # Eyeota 受众数据
+  - +.rubiconproject.com                   # Magnite 广告
+  - +.teads.tv                             # Teads 视频广告
+  - +.exelator.com                         # Nielsen 数据
+  - +.crwdcntrl.net                        # Lotame 数据
+  - +.yieldlab.net                         # Yieldlab 广告
+  - +.pubmatic.com                         # PubMatic 广告
+  - +.360yield.com                         # Improve Digital 广告
+  - +.smartadserver.com                    # Smart AdServer
+  - +.3lift.com                            # TripleLift 广告
+  - +.sharethrough.com                     # Sharethrough 广告
+  - +.everesttech.net                      # Adobe Advertising 广告
+  - +.bidr.io                              # Beeswax DSP
+  - +.datawrkz.com                         # Datawrkz 广告技术
+  - +.lijit.com                            # Sovrn 广告
+  - +.match2one.net                        # 程序化广告
+  - +.adition.com                          # Virtual Minds 广告
+  - +.zeotap.com                           # Zeotap 数据
+  - +.fwmrm.net                            # FreeWheel 视频广告
+  - +.richaudience.com                     # 广告平台
+  - +.audrte.com                           # Audigent 数据
+  - +.weborama.fr                          # Weborama 数据
+  - +.semasio.net                          # Semasio 受众
+  - +.smaato.net                           # Smaato 广告
+  - +.onaudience.com                       # 受众数据
+  - +.onetag-sys.com                       # OneTag 广告
+  - +.contentexchange.me                   # 广告交换
+  - +.adscale.de                           # 广告平台
+  - +.userreport.com                       # AudienceProject 受众调研
+  - +.agkn.com                             # Neustar 数据
+  - +.exoclick.com                         # ExoClick 广告
+  - +.w55c.net                             # MediaMath
+  - +.mathtag.com                          # MediaMath
+  - +.mediarithmics.com                    # 数据平台
+  - +.kargo.com                            # Kargo 广告
+  - +.omnitagjs.com                        # 广告标签
+  - +.admanmedia.com                       # 广告平台
+  - d.turn.com                             # Amobee 广告
+  - t.adx.opera.com                        # Opera 广告交易
+  - cm.adsafety.net                        # 广告安全、识别同步
+  - tags.adsafety.net                      # 广告安全
+  - ads.smartstream.tv                     # 视频广告
+  - +.sync.aniview.com                     # Aniview 广告识别同步
 
   # ── 反广告拦截 ──
   - +.html-load.com                        # Ad-Shield 反广告拦截脚本（屏蔽后会反复重试）

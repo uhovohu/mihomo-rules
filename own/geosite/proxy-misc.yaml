@@ -8,9 +8,6 @@ payload:
   - +.mac-qiuchenly.yltfspace.com
   - +.xkji.com
 
-  # ── Node.js 包 CDN ──
-  - +.unpkg.com
-
   # ── BlackBerry ──
   - +.blackberry.com
 

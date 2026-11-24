@@ -1,0 +1,43 @@
+# 海外通用第三方服务：多个 App 共用的 SDK、SaaS 接口
+payload:
+  # ── Sentry（报错上报，公共入口）──
+  - ingest.sentry.io                       # 不带客户编号的公共入口；带编号的各归各家
+  - sentry.io                              # 只收主域本身
+
+  # ── RevenueCat（订阅、内购管理）──
+  - +.revenuecat.com
+  - +.rc-backup.com                        # RevenueCat 备用接口域名
+
+  # ── OneTrust（隐私同意管理）──
+  - +.cookielaw.org                        # Cookie 同意弹窗 CDN
+  - +.onetrust.com
+  - +.onetrust.io                          # 同意数据上报
+
+  # ── Hightouch（事件收集）──
+  - +.hightouch-events.com
+
+  # ── Braze（用户触达：推送、站内消息）──
+  - +.braze.com
+
+  # ── Statsig（功能开关、AB 测试）──
+  - +.featureassets.org                    # Statsig 备用接口域名
+  - +.prodregistryv2.org                   # Statsig 备用接口域名
+
+  # ── tawk.to（网页在线客服）──
+  - +.tawk.to
+
+  # ── Bugsnag（报错、性能上报，SmartBear）──
+  - +.bugsnag.com
+
+  # ── Branch（深度链接）──
+  - +.branch.io
+
+  # ── Sprig（用户调研、问卷）──
+  - +.sprig.com
+
+  # ── 公共前端 CDN ──
+  - +.jsdelivr.net                         # jsDelivr
+  - +.unpkg.com                            # unpkg（npm 包 CDN）
+
+  # ── Klipy（GIF 搜索接口）──
+  - +.klipy.com

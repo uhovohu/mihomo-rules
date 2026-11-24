@@ -1,8 +1,4 @@
 payload:
-  # ── 原 Crypto 文件独有 ──
-  - +.appsflayer.com
-  - +.czilladx.com
-
   # ── 行情、区块浏览器、公链、钱包（原在 Bybit）──
   - +.geckoterminal.com
   - +.dappradar.com
@@ -27,4 +23,4 @@ payload:
   # ── CoinGlass App ──
   - +.cg-mapi.com                  # CoinGlass App 接口
   - +.coinglasscdn.com             # CoinGlass 静态资源
-  - mpush-api.aliyun.com           # CoinGlass App 调用的阿里云推送注册接口
+  - mpush-api.aliyun.com           # 阿里云推送注册接口；通用第三方服务（国内），目前只见 CoinGlass 调用

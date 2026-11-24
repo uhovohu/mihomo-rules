@@ -17,6 +17,7 @@ payload:
   - +.statsigapi.net           # 功能开关 / AB 测试
   - +.intercom.io              # 在线客服
   - +.intercomcdn.com
+  - +.intercomassets.com       # Intercom 静态资源
 
   # ── 认证与内容 ──
   - +.anthropic.auth0.com      # OAuth 登录认证
@@ -25,9 +26,6 @@ payload:
   # ── 监控和数据上报 ──
   - +.browser-intake-us5-datadoghq.com
   - +.logs.us5.datadoghq.com
-
-  # ── 客服 / 第三方 widget ──
-  - +.cdn.usefathom.com
 
   # ── KYC认证 ──
   #- +.maps.googleapis.com	     # Google 地图与位置解析
