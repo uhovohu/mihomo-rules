@@ -258,6 +258,7 @@ rule-providers:
 |---|---|---|
 | reject | 其他拦截 IP：联通、电信、移动的部分地址，美团位置上报等 | 本仓库 |
 | private | 局域网和保留地址 | 上游 |
+| ipv6-all | 全部 IPv6 地址（`::/0`） | 本仓库 |
 | sniffer-skip-ip | 国内大厂（腾讯、抖音、小红书等）、国际 CDN 的部分 IP | 本仓库 |
 | proxy-misc | 其他海外 IP：甲骨文、Clouvider / Gcore、Dropbox | 本仓库 |
 | nodeseek | NodeSeek 邮件服务器 | 本仓库 |

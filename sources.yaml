@@ -194,6 +194,7 @@ geosite:
 geoip:
   reject: {own: true, check: false}
   private: {}
+  ipv6-all: {own: true, check: false}   # 全部 IPv6（::/0）
   sniffer-skip-ip: {own: true, check: false}
   proxy-misc: {own: true}
   nodeseek: {own: true}
