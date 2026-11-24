@@ -73,6 +73,7 @@ geosite:
   github: {}
   vscode: {own: true}
   github1s: {}
+  python: {}
   discord: {}
   telegram: {}
   reddit: {}

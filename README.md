@@ -125,6 +125,7 @@ rule-providers:
 | github | GitHub：主站、raw、头像、Copilot、npm | 上游 |
 | vscode | VS Code：网页版、插件市场、设置同步、Webview | 本仓库 |
 | github1s | GitHub1s（以网页版 VS Code 浏览仓库） | 上游 |
+| python | Python 官网、PyPI 包仓库与下载服务器 | 上游 |
 | discord | Discord | 上游 |
 | telegram | Telegram | 上游 |
 | reddit | Reddit | 上游 |
