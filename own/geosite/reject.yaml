@@ -44,8 +44,13 @@ payload:
   # ── 国内 DoH ──
   - ctydoh.cn                         # 国内 DoH (DNS over HTTPS) 节点或追踪接口
 
-  # ── NASA 时间同步 ──
+  # ── 海外校时服务器（美团 App 一打开就同时连这几个）──
   - ntp.nasa.gov                      # NASA 的 NTP 时间同步服务器
+  - asia.pool.ntp.org
+  - hk.pool.ntp.org
+  - jp.pool.ntp.org
+  - sg.pool.ntp.org
+  - tw.pool.ntp.org
 
   # ── Infinity 新标签页 ──
   - basic-static-server.infinitynewtab.com # Infinity 新标签页插件静态资源
