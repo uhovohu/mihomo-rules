@@ -16,9 +16,13 @@ payload:
   - +.knak.io                              # Knak 邮件营销
   - +.cookie-script.com                    # Cookie 同意弹窗
   - track.i.ng                             # i.ng 追踪
+  - +.scarabresearch.com                  # Emarsys（SAP）营销追踪
+  - +.impactradius-event.com               # Impact 联盟营销事件上报
+  - +.upsellit.com                         # UpSellit 再营销弹窗
 
   # ── 访问统计 ──
   - stats.v2core.com                       # exe-stats 网页访问计数器
+  - tel.shottr.cc                          # Shottr 截图软件使用统计
 
   # ── 反广告拦截 ──
   - +.html-load.com                        # Ad-Shield 反广告拦截脚本（屏蔽后会反复重试）
