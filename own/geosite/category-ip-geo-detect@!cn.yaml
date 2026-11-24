@@ -229,3 +229,7 @@ payload:
   # ── VPN 厂商 ──
   - am.i.mullvad.net                       # Mullvad VPN「我的 IP」/ 连接检测
   - ip-info.ff.avast.com                   # Avast SecureLine VPN 取 IP 信息接口
+
+  # ── IP 检测站的后台接口 ──
+  - +.123169.xyz                           # ippure 后台接口
+  - +.999831.xyz                           # ippure 后台接口
