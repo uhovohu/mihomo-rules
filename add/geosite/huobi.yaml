@@ -27,6 +27,3 @@ payload:
   - +.l10n-pro.octu88.com
   - +.l10n-pro.88maru.com
   - +.l10n-pro.apru88.com
-
-  # ── 拿不准（腾讯云 PCDN 节点，原文件就有）──
-  - +.apd-pcdnwxnat.teg.tencent-cloud.net   # 腾讯云 PCDN 节点

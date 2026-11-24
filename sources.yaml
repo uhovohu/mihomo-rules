@@ -206,6 +206,7 @@ geoip:
   htx: {own: true}
   okx: {own: true}
   bookmap: {own: true}
+  openai: {own: true}
   google: {}
   anthropic: {own: true}
   discord: {own: true}
