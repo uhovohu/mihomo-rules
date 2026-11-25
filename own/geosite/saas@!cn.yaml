@@ -37,7 +37,7 @@ payload:
 
   # ── 公共前端 CDN ──
   - +.jsdelivr.net                         # jsDelivr
-  - +.unpkg.com                            # unpkg（npm 包 CDN）
+  - +.unpkg.com                            # unpkg（npm 包 CDN）；mihomo 网页面板的字体从这里加载
 
   # ── Klipy（GIF 搜索接口）──
   - +.klipy.com
