@@ -25,3 +25,5 @@ payload:
   - k128-inapp.gslb.ksyuncdn.com        # 金山云 CDN 上的苹果（App 内购）
   - k128-mzstatic.gslb.ksyuncdn.com     # 金山云 CDN 上的苹果（App Store 图片）
   - g-page-h1.gslb.ksyuncdn.com         # 金山云 CDN 上的苹果（证书状态 ocsp2）
+  - k128-swcdn.gslb.ksyuncdn.com        # 金山云 CDN 上的苹果（证书校验 valid）
+  - +.apple.com.download.ks-cdn.com     # 金山云 CDN 上的苹果（中间一跳）

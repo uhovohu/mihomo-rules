@@ -2,3 +2,7 @@
 payload:
   - +.nodeplaza.com        # nodeplaza 论坛
   - +.naixi.net            # 奶昔论坛
+
+  # ── 虫网 BUG NET ──
+  - +.bug.pw
+  - cdn.tailwindcss.com     # Tailwind CSS 官方 CDN；通用第三方服务（海外），目前只见虫网调用

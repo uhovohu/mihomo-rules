@@ -50,8 +50,14 @@ payload:
   - +.sm.ms                                # SM.MS
   - +.loli.net                             # SM.MS 图片地址
 
-  # ── SendGrid（邮件链接跳转、打开追踪，Twilio）──
-  - +.ct.sendgrid.net
+  # ── SendGrid（邮件链接跳转、图片，Twilio）──
+  - +.sendgrid.net
+
+  # ── Oracle Eloqua（营销邮件图片）──
+  - +.en25.com
+
+  # ── Customer.io（营销邮件链接跳转、图片）──
+  - +.customeriomail.com
 
   # ── Gravatar（通用头像，Automattic）──
   - +.gravatar.com

@@ -31,6 +31,8 @@ payload:
   - +.impactradius-event.com               # Impact 联盟营销事件上报
   - +.upsellit.com                         # UpSellit 再营销弹窗
   - +.wizrocketmail.net                    # CleverTap 邮件打开追踪
+  - +.t.eloqua.com                         # Oracle Eloqua 邮件打开追踪
+  - +.t.en25.com                           # Oracle Eloqua 邮件打开追踪
 
   # ── 国内广告 SDK ──
   - +.beizi.biz                            # 倍孜广告 SDK（微店 App 调用）
@@ -69,6 +71,8 @@ payload:
   - +.amplitude.com                        # Amplitude 产品行为分析
   - +.datafa.st                            # DataFast 网站统计
   - +.analytics.yahoo.com                  # Yahoo 统计
+  - bam.nr-data.net                        # New Relic 网页监测上报
+  - +.matomo.cloud                         # Matomo 网站统计（托管版）
 
   # ── 访问统计 ──
   - stats.v2core.com                       # exe-stats 网页访问计数器

@@ -73,6 +73,7 @@ payload:
   - e16991.b.akamaiedge.net
   - a1366.dscapi6.akamai.net          # 苹果定位服务 gspe1-ssl.ls.apple.com 的最后一跳
   - a305.dscg1.akamai.net             # TestFlight testflight.apple.com 的最后一跳
+  - a937.dscgi3.akamai.net            # cds.apple.com 的最后一跳
   - lookup-api.apple.com.edgekey.net
   - +.appldnld.apple.com.edgesuite.net
   - +.gsp4-cn.ls.apple.com.edgekey.net
