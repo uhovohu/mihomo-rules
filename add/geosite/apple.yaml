@@ -38,3 +38,6 @@ payload:
 
   # ── 网页版 iCloud 邮件 ──
   - relay.icloud-mpp.com               # 邮件隐私保护的图片代理
+
+  # ── Apple 智能 ──
+  - apple-relay.fastly-edge.com        # Apple 智能的隐私中转（Fastly）
