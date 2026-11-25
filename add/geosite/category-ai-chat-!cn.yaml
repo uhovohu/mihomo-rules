@@ -8,6 +8,7 @@ payload:
   - +.t3.codes              # T3 Code，编程 AI 代理控制台
   - +.catrouter.io          # CatRouter 开发者 API 平台
   - +.cat-infra.com         # CatRouter 接口（cpa2 / bus）
+  - +.catrouter-api.com     # CatRouter 接口
 
   # ── Augment Code ──
   - +.augmentcode.com       # Augment Code 编程助手

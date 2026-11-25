@@ -26,3 +26,6 @@ payload:
   - +.wandie.com
   - +.zuitu.com
   - +.zzhkmaoyan.com
+
+  # ── 美团在别家 CDN 上的别名 ──
+  - +.meituan.net.b.baishangeek.cn       # 白山云 CDN

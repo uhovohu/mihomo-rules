@@ -26,6 +26,7 @@ payload:
   - +.getsitectrl.com                      # GetSiteControl 统计上报
   - +.knak.io                              # Knak 邮件营销
   - +.cookie-script.com                    # Cookie 同意弹窗
+  - +.cdn-cookieyes.com                    # CookieYes Cookie 同意弹窗
   - track.i.ng                             # i.ng 追踪
   - +.scarabresearch.com                  # Emarsys（SAP）营销追踪
   - +.impactradius-event.com               # Impact 联盟营销事件上报

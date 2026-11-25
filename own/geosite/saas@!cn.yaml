@@ -59,5 +59,16 @@ payload:
   # ── Customer.io（营销邮件链接跳转、图片）──
   - +.customeriomail.com
 
+  # ── Mailchimp（营销邮件链接跳转、图片，Intuit）──
+  - +.list-manage.com
+  - +.mcusercontent.com
+  - cdn-images.mailchimp.com
+
+  # ── 其他营销邮件服务（链接跳转、图片）──
+  - library.iterable.com                   # Iterable 邮件图片
+  - +.k-trk.com                            # Klaviyo 链接跳转
+  - tracking.inflection.io                 # Inflection 链接跳转
+  - +.sendibt2.com                         # Brevo 链接跳转
+
   # ── Gravatar（通用头像，Automattic）──
   - +.gravatar.com

@@ -163,3 +163,15 @@ payload:
 
   # ── 抖音调用的第三方服务 ──
   - +.yingt.fun                           # 上海莹田科技，子域名按动植物名轮换（orzonera、coelacanth 等）；通用第三方服务（国内），目前只见抖音调用
+
+  # ── 字节在别家 CDN 上的别名 ──
+  - +.douyinvod.com.yangyi19.com
+  - +.douyinvod.com.uyuncdn.com
+  - +.douyinvod.com.ctlcdn.cn              # 天翼云 CDN
+  - +.douyinpic.com.queniuuf.com
+  - +.ndcpp.com.queniuuf.com
+  - +.ndcpp.com.bsgslb.com
+  - +.ndcpp.com.w.kunluncan.com            # 阿里云 CDN
+  - +.volces.com.queniusz.com
+  - +.230b2a2545cfa773.queniubg.com        # 字节在这家 CDN 上的账号编号（抖音视频、字节 CDN 都带）
+  - +.51296c5e.c.cdnhwc1.com               # 字节在华为云 CDN 上的账号编号（抖音视频）

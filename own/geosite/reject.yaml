@@ -64,9 +64,6 @@ payload:
   # ── OneNav ──
   - +.onenav.h06i.com                      # OneNav 导航/书签管理工具
 
-  # ── 网龙 NetDragon ──
-  - +.vc-brain-lq.ndcpp.com                # 某企业/教育机构后端接口 (可能与网龙 NetDragon 有关)
-
   # ── Firefox STUN ──
   - stun.services.mozilla.com
 
@@ -76,9 +73,6 @@ payload:
   # ── voipstunt ──
   - +.stun.voipstunt.com                   # 欧洲 VoIP 电话服务商
 
-  # ── Intercom 客户支持聊天服务 ──
-  - nexus-websocket-a.intercom.io         # Intercom 客户支持聊天服务 WebSocket 连接
-  - browser-intake-us5-datadoghq.com      # Intercom 数据收集/监测接口 (Datadog)
 
   # ── 插件迷 ──
   - weather-api.extfans.com
