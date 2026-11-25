@@ -115,7 +115,6 @@ rule-providers:
 | cursor | Cursor | 上游 |
 | elevenlabs | ElevenLabs | 上游 |
 | comfy | ComfyUI 官网和插件库 | 上游 |
-| comfy-ui-launcher | ComfyUI 启动器 | 上游 |
 | windsurf | Windsurf | 上游 |
 | poe | Poe | 上游 |
 | manus | Manus | 上游 |
@@ -160,7 +159,6 @@ rule-providers:
 | proxy-misc | 其他海外网站：划词翻译、BlackBerry、油猴、部分 Mac 软件作者站点 | 本仓库 |
 | microsoft | Microsoft 全系服务：Windows、Office、Bing、Azure、Copilot（GitHub、VS Code 另有文件） | 上游 − github、vscode、connectivity-check |
 | apple | Apple 全系服务：iCloud、App Store、Apple Music、系统更新、推送，含 CDN 别名 | 上游 |
-| apple-intelligence | Apple Intelligence | 上游 |
 | appleakamai | Apple 设备使用的 Akamai 别名（iCloud 邮件、推送等） | 本仓库 |
 | android | Android | 上游 |
 | f-droid | F-Droid | 上游 |

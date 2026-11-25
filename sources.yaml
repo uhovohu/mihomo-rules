@@ -63,7 +63,6 @@ geosite:
   cursor: {}
   elevenlabs: {}
   comfy: {}
-  comfy-ui-launcher: {}
   windsurf: {}
   poe: {}
   manus: {}
@@ -108,7 +107,6 @@ geosite:
   proxy-misc: {own: true}
   microsoft: {minus: [github, vscode, connectivity-check]}
   apple: {}
-  apple-intelligence: {}
   appleakamai: {own: true}
   android: {}
   f-droid: {}
