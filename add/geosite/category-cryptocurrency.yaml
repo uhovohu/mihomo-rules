@@ -28,3 +28,15 @@ payload:
   # ── CoinGlass 网页 ──
   - +.cgmdsa.com                   # CoinGlass 自建的报错上报（Sentry）
   - +.termly.io                    # Termly Cookie 同意弹窗；通用第三方服务（海外），目前只见 CoinGlass 调用
+
+  # ── Coinalyze 网页 ──
+  # Ad-Shield 反广告拦截：被拦后会不断换新域名重试，所以放行
+  - +.html-load.com                # Ad-Shield；通用第三方服务（海外），目前只见 Coinalyze 调用
+  - +.html-load.cc                 # Ad-Shield 备用域名
+  - +.content-load.com             # Ad-Shield 备用域名
+  - +.content-loader.com           # Ad-Shield 备用域名
+  - +.css-load.com                 # Ad-Shield 备用域名
+  - +.js-load.com                  # Ad-Shield 备用域名
+  - +.coastbranch.mobi             # Ad-Shield 备用域名
+  - +.error-report.com             # Ad-Shield 上报
+  - d20ibregd5rtgz.cloudfront.net  # Ad-Shield 加载脚本（core.js），托管在亚马逊 CloudFront
