@@ -32,6 +32,7 @@ payload:
 
   # ── 字节跳动 ──
   - +.is.snssdk.com                   # 字节跳动 (巨量引擎) 统计/追踪
+  - +.is.snssdk.com.queniukw.com      # 同上，七牛 CDN 上的别名
   - lf-leads-fe-scm.bytecdn.com       # 字节跳动 CDN 静态资源
   - pull-flv-l1.ixigua.com            # 西瓜视频 FLV 视频流拉取节点
 

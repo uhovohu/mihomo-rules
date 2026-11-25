@@ -6,3 +6,7 @@ payload:
   # ── 虫网 BUG NET ──
   - +.bug.pw
   - cdn.tailwindcss.com     # Tailwind CSS 官方 CDN；通用第三方服务（海外），目前只见虫网调用
+
+  # ── Linux.do 论坛 ──
+  - +.linux.do
+  - +.ldstatic.com          # Linux.do 静态资源
