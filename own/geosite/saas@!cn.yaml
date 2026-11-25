@@ -75,3 +75,6 @@ payload:
 
   # ── WordPress 公共资源（Automattic）──
   - s.w.org                                # 表情图片等
+
+  # ── Contentful（网站内容管理的图片 CDN）──
+  - +.ctfassets.net                        # OpenAI 网页、X 在用
