@@ -45,3 +45,6 @@ payload:
   - prj-wuying-mobile.cn-hangzhou.log.aliyuncs.com           # 无影日志上报
   - +.wuying.aliyuncs.com                                    # 无影云电脑接入
   - +.alyasset.com                                           # 阿里云官网静态资源
+
+  # ── 国内 CDN 别名 ──
+  - +.amap.com.queniubl.com                                  # 七牛 CDN 上的高德

@@ -18,3 +18,11 @@ payload:
   # ── VPS 工具 ──
   - +.pickmyvps.com        # VPS 比价
   - +.relaypanel.dev       # RelayPanel 中转面板官网
+
+  # ── 机场 ──
+  - +.tcscloud.net         # TCS
+
+  # ── 域名注册 ──
+  - +.spaceship.com        # Spaceship 域名注册商
+  - +.spaceship-cdn.com    # Spaceship 静态资源
+  - +.engagement.ai        # 在线客服插件；通用第三方服务（海外），目前只见 Spaceship 调用

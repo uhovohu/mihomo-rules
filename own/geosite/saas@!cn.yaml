@@ -72,3 +72,6 @@ payload:
 
   # ── Gravatar（通用头像，Automattic）──
   - +.gravatar.com
+
+  # ── WordPress 公共资源（Automattic）──
+  - s.w.org                                # 表情图片等

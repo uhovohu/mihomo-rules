@@ -35,3 +35,29 @@ payload:
 
   # ── 博客 ──
   - +.wildprobe.com        # 野生网管 网络博客
+
+  # ── Little Snitch（Mac 防火墙）──
+  - +.obdev.at             # 软件更新、地区数据
+
+  # ── 密码泄露查询 ──
+  - api.pwnedpasswords.com # Have I Been Pwned；通用第三方服务（海外），目前只见 Bitwarden 调用
+
+  # ── eSIM 运营商服务 ──
+  - cel.prod.ondemandconnectivity.com  # 爱立信 eSIM 开通服务，iPhone 系统调用
+
+  # ── 维基百科 ──
+  - +.wikipedia.org
+  - +.wikimedia.org
+
+  # ── F6S 软件评测、优惠站 ──
+  - +.f6s.com
+
+  # ── 礼品卡网站 ──
+  - +.opentherank.com      # 礼品卡比价
+  - +.turgame.com          # Turgame（土耳其）
+  - +.turdigital.com       # Turdigital（土耳其）
+  - +.oyunfor.com          # Oyunfor（土耳其）
+  - +.pockyt.io            # Pockyt
+  - assets.tillo.io        # Tillo 礼品卡平台；通用第三方服务（海外），目前只见 Pockyt 调用
+  - widget.trustpilot.com  # Trustpilot 评价插件；通用第三方服务（海外），目前只见 Turgame 调用
+  - cdn.gtranslate.net     # GTranslate 网页翻译插件；通用第三方服务（海外），目前只见 Turgame 调用

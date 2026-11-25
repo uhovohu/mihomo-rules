@@ -175,4 +175,7 @@ payload:
   - +.volces.com.queniusz.com
   - +.douyinvod.com.*.queniubg.com         # 中间一段是随机编码
   - +.bytecdn.com.*.queniubg.com           # 中间一段是随机编码
+  - +.volces.com.*.queniuck.com            # 中间一段是随机编码
+  - l2-toutiao-ipv6-ml.gslb.ksyuncdn.com   # 金山云 CDN 上的今日头条
+  - +.oceanplayable.com                    # 巨量引擎试玩广告素材
   - +.douyinvod.com.*.c.cdnhwc1.com        # 华为云 CDN，中间一段是随机编码

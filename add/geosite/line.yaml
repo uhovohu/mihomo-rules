@@ -1,0 +1,3 @@
+# LINE 补充
+payload:
+  - ly.my.sentry.io         # LINE App 的报错上报（LY 公司专属编号）

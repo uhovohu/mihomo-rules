@@ -5,3 +5,4 @@ payload:
   - +.openai.fund           # OpenAI 创业基金
   - +.gpt-oss.com           # gpt-oss 开源模型站
   - +.openai-staging.com    # OpenAI 测试环境
+  - cdn.auth0.com           # Auth0 登录；通用第三方服务（海外），目前只见 ChatGPT 登录页调用
