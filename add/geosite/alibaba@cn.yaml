@@ -37,3 +37,11 @@ payload:
   - +.hemaapi.com          # 盒马接口
   - +.scdnizuz.com         # 阿里 CDN
   - +.scdnltq5.com         # 阿里 CDN
+
+  # ── 阿里云控制台、无影云电脑（网页） ──
+  - arms-retcode.aliyuncs.com                                # 阿里云 ARMS 前端监控上报
+  - xconsole-open.cn-shanghai.log.aliyuncs.com               # 阿里云控制台日志上报
+  - wuying-webclient-hangzhou.cn-hangzhou.log.aliyuncs.com   # 无影网页版日志上报
+  - prj-wuying-mobile.cn-hangzhou.log.aliyuncs.com           # 无影日志上报
+  - +.wuying.aliyuncs.com                                    # 无影云电脑接入
+  - +.alyasset.com                                           # 阿里云官网静态资源
