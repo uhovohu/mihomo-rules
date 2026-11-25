@@ -173,5 +173,6 @@ payload:
   - +.ndcpp.com.bsgslb.com
   - +.ndcpp.com.w.kunluncan.com            # 阿里云 CDN
   - +.volces.com.queniusz.com
-  - +.230b2a2545cfa773.queniubg.com        # 字节在这家 CDN 上的账号编号（抖音视频、字节 CDN 都带）
-  - +.51296c5e.c.cdnhwc1.com               # 字节在华为云 CDN 上的账号编号（抖音视频）
+  - +.douyinvod.com.*.queniubg.com         # 中间一段是随机编码
+  - +.bytecdn.com.*.queniubg.com           # 中间一段是随机编码
+  - +.douyinvod.com.*.c.cdnhwc1.com        # 华为云 CDN，中间一段是随机编码
