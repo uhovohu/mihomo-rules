@@ -1,6 +1,5 @@
 payload:
   # ── 路由器 / 局域网设备 ──
-  - +.smthomem2m.aux-home.com
   - heartbeat.belkin.com
   - +.linksys.com
   - +.linksyssmartwifi.com
