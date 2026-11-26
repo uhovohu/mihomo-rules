@@ -97,6 +97,7 @@ rule-providers:
 | bilibili@!cn | 哔哩哔哩海外部分 | 上游 |
 | category-ip-geo-detect@!cn | IP 检测：查 IP、测速、泄露与指纹检测、纯净度评分（国内外站点均在此） | 本仓库 |
 | cloudflare@!cn | Cloudflare 海外部分 | 上游 − cloudflare@cn |
+| vercel | Vercel：Next.js、Turborepo、vercel.app 托管站、Grep | 上游 |
 | amazon@!cn | Amazon 海外部分，含 AWS（Prime Video、Twitch 另有文件） | 上游 − amazon@cn、primevideo、twitch |
 | linkedin@!cn | LinkedIn 海外部分 | 上游 − linkedin@cn |
 | paypal@!cn | PayPal 海外部分，含 Braintree | 上游 − paypal@cn |
@@ -125,6 +126,7 @@ rule-providers:
 | vscode | VS Code：网页版、插件市场、设置同步、Webview | 本仓库 |
 | github1s | GitHub1s（以网页版 VS Code 浏览仓库） | 上游 |
 | python | Python 官网、PyPI 包仓库与下载服务器 | 上游 |
+| category-dev | 开发者网站：编程语言、包仓库、开发工具、文档查询（合集） | 上游 |
 | discord | Discord | 上游 |
 | telegram | Telegram | 上游 |
 | reddit | Reddit | 上游 |
@@ -240,6 +242,7 @@ rule-providers:
 | 名称 | 说明 | 来源 |
 |---|---|---|
 | category-cdn-cn | 国内 CDN（合集） | 上游 |
+| category-dev-cn | 国内开发者网站（合集） | 上游 |
 | category-bank-cn | 国内银行（合集） | 上游 |
 | category-securities-cn | 国内证券（合集） | 上游 |
 | category-ntp@!cn | 海外时间服务器，如 `pool.ntp.org`（合集） | 上游 − category-ntp@cn |

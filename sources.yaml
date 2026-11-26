@@ -45,6 +45,7 @@ geosite:
   bilibili@!cn: {}
   category-ip-geo-detect@!cn: {own: true}   # IP 检测（国内外都在这里，自己维护）
   cloudflare@!cn: {from: cloudflare, minus: [cloudflare@cn]}
+  vercel: {}
   amazon@!cn: {from: amazon, minus: [amazon@cn, primevideo, twitch, category-ip-geo-detect@!cn]}
   linkedin@!cn: {from: linkedin, minus: [linkedin@cn]}
   paypal@!cn: {from: paypal, minus: [paypal@cn]}
@@ -73,6 +74,7 @@ geosite:
   vscode: {own: true}
   github1s: {}
   python: {}
+  category-dev: {collection: true}
   discord: {}
   telegram: {}
   reddit: {}
@@ -182,6 +184,7 @@ geosite:
 
   # ── 六、国内分类 ──
   category-cdn-cn: {collection: true}
+  category-dev-cn: {collection: true}
   category-bank-cn: {collection: true}
   category-securities-cn: {collection: true}
   category-ntp@!cn: {from: category-ntp, minus: [category-ntp@cn], collection: true}

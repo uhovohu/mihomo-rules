@@ -1,0 +1,102 @@
+payload:
+  # ── Node.js ──
+  - +.iojs.org
+
+  # ── Node 包管理和版本管理 ──
+  - +.pnpm.io
+  - +.volta.sh
+
+  # ── Deno 包仓库 ──
+  - +.jsr.io
+
+  # ── JS 包 CDN ──
+  - +.esm.sh
+
+  # ── JS 测试和数据库工具（安装时会下载程序） ──
+  - +.cypress.io
+  - +.prisma.io
+  - +.prisma.sh
+
+  # ── JS 构建和代码检查工具 ──
+  - +.vite.dev
+  - +.vitejs.dev
+  - +.eslint.org
+  - +.prettier.io
+  - +.babeljs.io
+  - +.rollupjs.org
+  - +.biomejs.dev
+
+  # ── JS 框架 ──
+  - +.vuejs.org
+  - +.svelte.dev
+  - +.expo.dev
+  - +.expo.io
+  - +.nx.dev
+  - +.nx.app
+
+  # ── Python 工具和库 ──
+  - +.python-poetry.org
+  - +.conda-forge.org
+  - +.numpy.org
+  - +.pydata.org
+  - +.pytorch.org
+
+  # ── Ruby ──
+  - +.bundler.io
+  - +.rubyonrails.org
+
+  # ── PHP ──
+  - +.laravel.com
+  - +.symfony.com
+
+  # ── Java ──
+  - +.adoptium.net
+  - +.maven.org
+  - +.gradle.org
+  - +.sdkman.io
+  - +.spring.io
+
+  # ── 其他语言 ──
+  - +.julialang.org
+  - +.tauri.app
+
+  # ── 开发文档和教程 ──
+  - +.developer.mozilla.org
+  - +.mdn.dev
+  - +.devdocs.io
+  - +.caniuse.com
+  - +.w3schools.com
+  - +.geeksforgeeks.org
+  - +.freecodecamp.org
+  - +.leetcode.com
+
+  # ── 命令和格式速查 ──
+  - +.crontab.guru
+  - +.explainshell.com
+  - +.tldr.sh
+  - +.man7.org
+  - +.ss64.com
+  - +.regexr.com
+  - +.semver.org
+  - +.yaml.org
+  - +.jwt.io
+
+  # ── 在线写代码 ──
+  - +.codepen.io
+  - +.jsfiddle.net
+  - +.codesandbox.io
+  - +.stackblitz.com
+
+  # ── 包信息查询 ──
+  - +.bundlephobia.com
+  - +.libraries.io
+
+  # ── 画图工具 ──
+  - +.excalidraw.com
+  - +.mermaid.live
+
+  # ── 证书和域名检测 ──
+  - +.crt.sh
+  - +.ssllabs.com
+  - +.mxtoolbox.com
+  - +.dnschecker.org

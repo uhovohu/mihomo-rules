@@ -1,0 +1,7 @@
+payload:
+  # ── 菜鸟教程 ──
+  - +.runoob.com
+
+  # ── 国内镜像和中国站 ──
+  - +.cnpmjs.org          # 国内 npm 镜像旧址
+  - +.jetbrains.com.cn    # JetBrains 中国站

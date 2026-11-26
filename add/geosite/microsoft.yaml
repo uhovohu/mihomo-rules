@@ -154,3 +154,7 @@ payload:
 
   # ── Azure 容器镜像仓库 ──
   - +.azurecr.io
+
+  # ── TypeScript、Playwright ──
+  - +.typescriptlang.org
+  - +.playwright.dev

@@ -1,0 +1,6 @@
+payload:
+  # ── Turborepo 新域名 ──
+  - +.turbo.build
+
+  # ── Grep 代码搜索（Vercel 收购） ──
+  - +.grep.app

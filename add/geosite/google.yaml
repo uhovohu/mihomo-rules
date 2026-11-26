@@ -1,3 +1,6 @@
 payload:
   # ── Gemma 开源模型 ──
   - +.gemma.ai              # Gemma 文档站
+
+  # ── Angular 官网 ──
+  - +.angular.dev

@@ -1,0 +1,6 @@
+payload:
+  - +.replit.com  # AI 编程，归海外 AI
+  - +.zed.dev     # AI 编辑器，归海外 AI
+  - +.sentry.io   # 报错上报，各 App 的归各家，公共入口在海外通用服务
+  - +.cnpmjs.org        # 国内 npm 镜像旧址，归国内开发者合集
+  - +.jetbrains.com.cn  # JetBrains 中国站，归国内开发者合集

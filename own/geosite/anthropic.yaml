@@ -57,3 +57,7 @@ payload:
   # ── Anthropic 其他域名（解析到自己的网段）──
   - +.sillylittleguy.org
   - +.interface.feedback
+
+  # ── Bun（JS 运行时；Anthropic 收购） ──
+  - +.bun.sh
+  - +.bun.com
