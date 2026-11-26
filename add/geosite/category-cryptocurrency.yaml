@@ -40,3 +40,7 @@ payload:
   - +.coastbranch.mobi             # Ad-Shield 备用域名
   - +.error-report.com             # Ad-Shield 上报
   - d20ibregd5rtgz.cloudfront.net  # Ad-Shield 加载脚本（core.js），托管在亚马逊 CloudFront
+
+  # ── GMGN（链上交易平台）──
+  - +.gmgn.mobi
+  - +.wsrv.nl                      # 图片代理；通用第三方服务（海外），目前只见 GMGN 调用

@@ -108,6 +108,7 @@ payload:
   # ── iOS 装机工具 ──
   - +.25mao.com            # 猫源，越狱插件源
   - +.dumpapp.com          # DumpApp，IPA 下载、签名
+  - +.82flex.com           # 82Flex，越狱插件开发者（插件授权验证）
 
   # ── 发卡 / 代充站 ──
   - +.wzyp.cn              # 数卡星球
