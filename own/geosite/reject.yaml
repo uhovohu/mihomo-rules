@@ -20,6 +20,9 @@ payload:
   - +.maplocatesdksnapshot.d.meituan.net # 美团地图定位 SDK 抓拍
   - +.route-stats.d.meituan.net          # 美团路由统计
 
+  # ── 抖音 ──
+  - +.vc-brain-lq.ndcpp.com             # 抖音视频调度接口；拦掉让 App 不往常断流的节点分
+
   # ── 京东 ──
   - +.jddebug.com                     # 京东调试与日志收集
   - speedv6.m.jd.com                  # 京东 IPv6 测速/调度
