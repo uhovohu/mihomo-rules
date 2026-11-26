@@ -124,6 +124,8 @@ payload:
   - +.aapq.net
   - +.687511.xyz
   - +.coc.li
+  - +.gatix.link        # iplark 的探测域名
+  - +.gatix.si          # iplark 的探测域名
   - +.tile.openstreetmap.org
   - +.ipsuper.com
   - +.ipapi.is

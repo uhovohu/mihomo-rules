@@ -42,3 +42,6 @@ payload:
 
   # ── Apple 智能 ──
   - apple-relay.fastly-edge.com        # Apple 智能的隐私中转（Fastly）
+
+  # ── iCloud 中国区存储（联通云对象存储）──
+  - +.convection.cn

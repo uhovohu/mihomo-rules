@@ -10,3 +10,6 @@ payload:
   # ── 中原银行 ──
   - +.zyebank.com
   - +.zybank.com.cn
+
+  # ── 郑州银行 ──
+  - +.zzbank.cn

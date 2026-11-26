@@ -48,3 +48,7 @@ payload:
 
   # ── 国内 CDN 别名 ──
   - +.amap.com.queniubl.com                                  # 七牛 CDN 上的高德
+
+  # ── 阿里云通用域名（上游只收了部分地区）──
+  - +.aliyuncs.com
+  - +.alyasset.com         # 阿里云官网静态资源

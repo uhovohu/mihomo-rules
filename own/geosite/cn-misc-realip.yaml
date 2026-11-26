@@ -5,6 +5,9 @@ payload:
   - +.oray.net
   - +.orayimg.com
 
+  # ── ToDesk 远程控制 ──
+  - +.todesk.com
+
   # ── 微店 ──
   - +.s.1rtb.net
 

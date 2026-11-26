@@ -154,6 +154,8 @@ geosite:
   meitu: {}
   smzdm: {}
   zhihu: {}
+  pinduoduo: {}
+  deepseek: {}
   yy: {}
   tendcloud: {}
   wasu: {}

@@ -140,3 +140,7 @@ payload:
 
   # ── 恶意广告 ──
   - +.capablejeans.com                     # 跟 Ad-Shield 同时出现的广告放行页（恶意广告）
+
+  # ── 广告监测 ──
+  - +.qchannel01.cn                        # QuestMobile 广告监测回传
+  - +.in-neo.cn                            # 尼洱市场研究，广告 / 媒介测量

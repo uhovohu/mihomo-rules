@@ -2,3 +2,4 @@ payload:
   # ── 中国移动（原 fakeipfilter，上游没有的） ──
   - +.3gppnetwork.org    # 手机 Wi-Fi 通话（VoWiFi）
   - +.nexusedgeio.com
+  - +.cmecloud.cn        # 移动云
