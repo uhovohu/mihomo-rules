@@ -52,3 +52,13 @@ payload:
   # ── 阿里云通用域名（上游只收了部分地区）──
   - +.aliyuncs.com
   - +.alyasset.com         # 阿里云官网静态资源
+
+  # ── 阿里 AI ──
+  - +.qianwen.com          # 千问
+  - +.tongyi.com           # 通义
+  - +.qwen.ai              # Qwen 国际版
+  - +.qwenlm.ai            # Qwen 对话
+  - +.qoder.cn             # Qoder 编程助手
+  - +.qoder.com.cn
+  - +.modelscope.cn        # 魔搭社区
+  - +.modelscope.com

@@ -211,6 +211,7 @@ rule-providers:
 | zhihu | 知乎 | 上游 |
 | pinduoduo | 拼多多 | 上游 |
 | deepseek | DeepSeek | 上游 |
+| category-ai-cn | 其他国内 AI 服务（合集） | 上游 |
 | yy | YY、多玩、欢聚 | 上游 |
 | tendcloud | TalkingData 统计 | 上游 |
 | wasu | 华数 | 上游 |

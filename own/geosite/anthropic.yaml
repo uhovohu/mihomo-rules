@@ -53,3 +53,7 @@ payload:
   - +.ant.dev
   - servd-anthropic-website.b-cdn.net     # 官网 CDN
   - o1158394.ingest.us.sentry.io          # Claude 自己的报错上报
+
+  # ── Anthropic 其他域名（解析到自己的网段）──
+  - +.sillylittleguy.org
+  - +.interface.feedback

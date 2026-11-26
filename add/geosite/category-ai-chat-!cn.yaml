@@ -19,3 +19,69 @@ payload:
 
   # ── DeepL 翻译 ──
   - +.deepl.com
+
+  # ── MCP 协议官网 ──
+  - +.modelcontextprotocol.io
+  - +.modelcontextprotocol.org
+  - +.modelcontextprotocol.net
+  - +.modelcontextprotocol.com
+
+  # ── 智谱国际版 ──
+  - +.z.ai
+
+  # ── 模型 API 平台 ──
+  - +.replicate.com
+  - +.replicate.delivery
+  - +.fireworks.ai
+  - +.deepinfra.com
+  - +.novita.ai
+
+  # ── 对话、搜索 ──
+  - +.character.ai
+  - +.inflection.ai         # Inflection AI
+  - +.pi.ai                 # Pi，Inflection 的对话助手
+  - +.phind.com
+  - +.you.com
+  - +.genspark.ai
+  - +.lmarena.ai            # 已改名 Arena，跳到 arena.ai
+
+  # ── 编程、做网站 ──
+  - +.replit.com
+  - +.replit.dev
+  - +.replit.app
+  - +.repl.co
+  - +.repl.it
+  - +.v0.app                # v0（Vercel）
+  - +.v0.dev
+  - +.bolt.new
+  - +.lovable.dev
+  - +.kilo.ai               # Kilo 编程助手
+  - +.factory.ai            # Factory 编程智能体
+  - +.ampcode.com           # Amp（Sourcegraph）
+  - +.ampworkers.com
+  - +.cody.dev              # Cody（Sourcegraph）
+  - +.zed.dev               # Zed 编辑器
+  - +.eigent.ai
+
+  # ── 图像、视频、音乐 ──
+  - +.bfl.ai                # Black Forest Labs（FLUX）
+  - +.stability.ai
+  - +.ideogram.ai
+  - +.recraft.ai
+  - +.leonardo.ai
+  - +.civitai.com
+  - +.lumalabs.ai
+  - +.runwayml.com
+  - +.runway.com
+  - +.pika.art
+  - +.heygen.com
+  - +.synthesia.io
+  - +.descript.com
+  - +.suno.com
+  - +.suno.ai
+  - +.udio.com
+
+  # ── 写作、办公 ──
+  - +.grammarly.com
+  - +.gamma.app
+  - +.otter.ai

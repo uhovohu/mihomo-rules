@@ -6,3 +6,4 @@ payload:
   - +.gpt-oss.com           # gpt-oss 开源模型站
   - +.openai-staging.com    # OpenAI 测试环境
   - cdn.auth0.com           # Auth0 登录；通用第三方服务（海外），目前只见 ChatGPT 登录页调用
+  - +.openaicom.imgix.net   # 官网图片（Imgix 上的 OpenAI 专用子域名）

@@ -156,6 +156,7 @@ geosite:
   zhihu: {}
   pinduoduo: {}
   deepseek: {}
+  category-ai-cn: {collection: true}
   yy: {}
   tendcloud: {}
   wasu: {}
