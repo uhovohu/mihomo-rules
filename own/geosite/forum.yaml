@@ -10,3 +10,8 @@ payload:
   # ── Linux.do 论坛 ──
   - +.linux.do
   - +.ldstatic.com          # Linux.do 静态资源
+
+  # ── LowEndTalk 论坛 ──
+  - +.lowendtalk.com
+  - +.lowendbox.com         # LowEndTalk 姊妹站
+  - +.vanillicon.com        # 论坛头像

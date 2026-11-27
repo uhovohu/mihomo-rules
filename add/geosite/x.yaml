@@ -5,3 +5,6 @@ payload:
 
   # ── X App 的报错上报（带专属编号）──
   - o30969.ingest.us.sentry.io
+
+  # ── X Money 的报错上报（带专属编号）──
+  - o438986.ingest.sentry.io

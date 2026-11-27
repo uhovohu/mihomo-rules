@@ -78,6 +78,7 @@ geosite:
   discord: {}
   telegram: {}
   reddit: {}
+  imgur: {}
   tumblr: {}
   line: {}
   truthsocial: {own: true}

@@ -3,3 +3,4 @@ payload:
 
   # ── Bookmap 用到的第三方服务──
   - +.linodeusercontent.com
+  - email-static.useinsider.com   # Insider 营销邮件图片

@@ -130,6 +130,7 @@ rule-providers:
 | discord | Discord | 上游 |
 | telegram | Telegram | 上游 |
 | reddit | Reddit | 上游 |
+| imgur | Imgur 图床 | 上游 |
 | tumblr | Tumblr | 上游 |
 | line | LINE | 上游 |
 | truthsocial | Truth Social | 本仓库 |
