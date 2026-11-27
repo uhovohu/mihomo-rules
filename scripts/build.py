@@ -4,12 +4,13 @@
 本地：python3 scripts/build.py --upstream <上游目录> --out <输出目录> [--prev <上一版 geo 目录>]
 线上：python3 scripts/build.py --out <输出目录> --prev <上一版 geo 目录> --mihomo <mihomo 程序>
 """
-import argparse, os, re, subprocess, sys, tempfile, urllib.request
+import argparse, json, os, re, subprocess, sys, tempfile, urllib.request
 from pathlib import Path
 import yaml
 
 UPSTREAM_URL = "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/{tree}/{kind}/{name}.list"  # tree: geo，或 geo-lite（lite: true）
-KINDS = {"geosite": "domain", "geoip": "ipcidr"}  # 目录名 → mihomo convert-ruleset 的类型
+KINDS = {"geosite": "domain", "geoip": "ipcidr"}
+LSRULES = {"anthropic": "Anthropic 拦截"}  # 这些规则另出一份 Little Snitch 订阅（lsrules/<名>.lsrules，所有进程优先拒绝）  # 目录名 → mihomo convert-ruleset 的类型
 ENTRY = re.compile(r"^\s*-\s*['\"]?([^'\"#\s]+)['\"]?")  # 规则文件里的一条
 
 
@@ -149,6 +150,22 @@ class Builder:
 
 # ── 检查 ──
 
+def write_lsrules(out, name, title):
+    """geosite 的 +.x 是域名连子域名，x 是单个主机；geoip 是网段。放进同一个文件的三条拒绝规则"""
+    site = read_rule_file(out / "geo" / "geosite" / f"{name}.yaml")[0]
+    ip = read_rule_file(out / "geo" / "geoip" / f"{name}.yaml")[0]
+    groups = {"remote-domains": [e[2:] for e in site if e.startswith("+.")],
+              "remote-hosts": [e for e in site if not e.startswith("+.")],
+              "remote-addresses": ip}
+    rules = [{"action": "deny", "priority": "high", "process": "any", "direction": "outgoing", k: v}
+             for k, v in groups.items() if v]
+    f = out / "lsrules" / f"{name}.lsrules"
+    f.parent.mkdir(parents=True, exist_ok=True)
+    f.write_text(json.dumps({"name": title, "description": f"由 mihomo 规则 {name} 生成，勾选即拦截",
+                             "rules": rules}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"lsrules/{name}: " + "、".join(f"{k} {len(v)}" for k, v in groups.items()))
+
+
 def count_prev(path):
     return sum(1 for l in path.read_text(encoding="utf-8").splitlines() if ENTRY.match(l)) if path.exists() else 0
 
@@ -236,8 +253,11 @@ def main():
 
         errors += check_overlap(kind, results, spec)
 
+    for name, title in LSRULES.items():
+        write_lsrules(a.out, name, title)
+
     for p in filter(None, os.environ.get("PRIVATE_PATTERNS", "").splitlines()):
-        for f in a.out.rglob("*.yaml"):
+        for f in [*a.out.rglob("*.yaml"), *a.out.rglob("*.lsrules")]:
             if p.strip() and p.strip() in f.read_text(encoding="utf-8"):
                 errors.append(f"私人内容出现在 {f.relative_to(a.out)}")
 
