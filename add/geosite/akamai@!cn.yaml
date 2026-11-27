@@ -1,0 +1,3 @@
+payload:
+  # ── Akamai mPulse（网页性能统计）──
+  - +.go-mpulse.net

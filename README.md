@@ -173,6 +173,7 @@ rule-providers:
 | getui | 个推 | 上游 |
 | jiguang | 极光推送 | 上游 |
 | category-stun | STUN 服务器 | 上游 |
+| notion | Notion | 上游 |
 | saas@!cn | 海外通用第三方服务：多个 App 共用的 SDK、SaaS 接口，如 Sentry 公共入口、RevenueCat、OneTrust、Branch、jsDelivr | 本仓库 |
 | adobe@cn | Adobe 国内部分 | 上游 |
 | tesla@cn | Tesla 国内部分 | 上游 |

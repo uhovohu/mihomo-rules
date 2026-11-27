@@ -14,6 +14,8 @@ payload:
   # ── 油猴 Tampermonkey ──
   - +.tampermonkey.net
   - +.greasyfork.org       # Greasy Fork 脚本站（油猴脚本更新）
+  - favicon.yandex.net     # Yandex 网站图标接口，油猴脚本 AC-baidu 在用
+  - +.wedata.net           # AutoPagerize 规则库，油猴脚本在用
 
   # ── Shottr 截图软件 ──
   - shottr.cc               # 官网

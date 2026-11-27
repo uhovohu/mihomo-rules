@@ -4,6 +4,12 @@ payload:
   - ingest.sentry.io                       # 不带客户编号的公共入口；带编号的各归各家
   - sentry.io                              # 只收主域本身
 
+  # ── Segment（数据统计，Twilio 旗下）──
+  - +.segment.io
+
+  # ── Datadog（运行监控，公共入口）──
+  - browser-intake-datadoghq.com           # 不带客户区域的公共入口；带专属地址的各归各家
+
   # ── RevenueCat（订阅、内购管理）──
   - +.revenuecat.com
   - +.rc-backup.com                        # RevenueCat 备用接口域名

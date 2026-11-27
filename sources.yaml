@@ -121,6 +121,7 @@ geosite:
   getui: {}
   jiguang: {}
   category-stun: {}
+  notion: {}
   saas@!cn: {own: true}
   adobe@cn: {}
   tesla@cn: {}
