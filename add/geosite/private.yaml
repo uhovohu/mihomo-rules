@@ -17,3 +17,6 @@ payload:
 
   # ── 家里设备 ──
   - time.wifiradiofrontier.com   # Good Man 音箱的时间服务器
+
+  # ── 解析到本机 127.0.0.1 的域名 ──
+  - localhost.jdjingmai.com      # 京麦工作台本地服务
