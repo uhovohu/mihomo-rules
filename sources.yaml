@@ -219,8 +219,10 @@ geoip:
   category-cryptocurrency: {own: true}
   google: {}
   anthropic: {own: true}
+  github: {own: true}
   discord: {own: true}
   telegram: {}
+  facebook: {}
   twitter: {}
   netflix: {}
   bilibili: {lite: true}

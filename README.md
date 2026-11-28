@@ -283,8 +283,10 @@ rule-providers:
 | category-cryptocurrency | 加密货币类 App 的服务器地址（CoinGlass） | 本仓库 |
 | google | Google | 上游 |
 | anthropic | Anthropic（AS399358） | 本仓库 |
+| github | GitHub 的 git SSH 服务器（官方公布的地址段） | 本仓库 |
 | discord | Discord 语音（AS49544） | 本仓库 |
 | telegram | Telegram | 上游 |
+| facebook | Meta（Facebook、Instagram、WhatsApp） | 上游 |
 | twitter | X（Twitter） | 上游 |
 | netflix | Netflix | 上游 |
 | bilibili | 哔哩哔哩国内机房 | 上游 |
