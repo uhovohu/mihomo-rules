@@ -1,0 +1,133 @@
+# 来源：上游 category-ai-chat-!cn − 删减 − 其他所有规则集 + 补充
+# 条数：118
+payload:
+  # ── 上游 category-ai-chat-!cn ──
+  - +.agentclientprotocol.com
+  - +.anythingllm.com
+  - +.arena.ai
+  - +.artificialanalysis.ai
+  - +.chutes.ai
+  - +.clawhub.ai
+  - +.cline.bot
+  - +.clipdrop.co
+  - +.coderabbit.ai
+  - +.cohere.ai
+  - +.cohere.com
+  - +.commandcode.ai
+  - +.context7.com
+  - +.crewai.com
+  - +.deepwiki.com
+  - +.deepwiki.org
+  - +.devin.ai
+  - +.diabrowser.com
+  - +.diabrowser.engineering
+  - +.dify.ai
+  - +.dreamgen.com
+  - +.duck.ai
+  - +.h2o.ai
+  - +.jasper.ai
+  - +.kimi.ai
+  - +.kiro.dev
+  - +.langchain.com
+  - +.lmstudio.ai
+  - +.lovart.ai
+  - +.magnific.com
+  - +.midjourney.com
+  - +.minimax.io
+  - +.mistral.ai
+  - +.moonshot.ai
+  - +.mozilla.ai
+  - +.notegpt.io
+  - +.nousresearch.com
+  - +.novelai.net
+  - +.ollama.com
+  - +.openart.ai
+  - +.openclaw.ai
+  - +.opencode.ai
+  - +.openrouter.ai
+  - +.openspec.dev
+  - +.plannotator.ai
+  - +.qoder.com
+  - +.sider.ai
+  - +.spicywriter.com
+  - +.syntx.ai
+  - +.talkai.info
+  - +.tapnow.ai
+  - +.tripo3d.ai
+  - +.typesafe.ai
+  # ── AI 中转 / API 平台 ──
+  - +.derouter.ai           # DeRouter，Claude / GPT API 中转
+  - +.derouter.network      # DeRouter 另一个域名
+  - +.newmax.ai             # NewMax AI 自动化平台
+  - +.9aib.com              # 9AIB AI 聊天站
+  - +.nextchat.club         # NextChat API
+  - +.t3.codes              # T3 Code，编程 AI 代理控制台
+  - +.catrouter.io          # CatRouter 开发者 API 平台
+  - +.cat-infra.com         # CatRouter 接口（cpa2 / bus）
+  - +.catrouter-api.com     # CatRouter 接口
+  # ── Augment Code ──
+  - +.augmentcode.com       # Augment Code 编程助手
+  # ── 其他 AI ──
+  - +.together.xyz          # Together AI 接口
+  - +.poke.com              # Poke，通过 iMessage 聊天的 AI 助手
+  # ── DeepL 翻译 ──
+  - +.deepl.com
+  # ── MCP 协议官网 ──
+  - +.modelcontextprotocol.io
+  - +.modelcontextprotocol.org
+  - +.modelcontextprotocol.net
+  - +.modelcontextprotocol.com
+  # ── 智谱国际版 ──
+  - +.z.ai
+  # ── 模型 API 平台 ──
+  - +.replicate.com
+  - +.replicate.delivery
+  - +.fireworks.ai
+  - +.deepinfra.com
+  - +.novita.ai
+  # ── 对话、搜索 ──
+  - +.character.ai
+  - +.inflection.ai         # Inflection AI
+  - +.pi.ai                 # Pi，Inflection 的对话助手
+  - +.phind.com
+  - +.you.com
+  - +.genspark.ai
+  - +.lmarena.ai            # 已改名 Arena，跳到 arena.ai
+  # ── 编程、做网站 ──
+  - +.replit.com
+  - +.replit.dev
+  - +.replit.app
+  - +.repl.co
+  - +.repl.it
+  - +.v0.app                # v0（Vercel）
+  - +.v0.dev
+  - +.bolt.new
+  - +.lovable.dev
+  - +.kilo.ai               # Kilo 编程助手
+  - +.factory.ai            # Factory 编程智能体
+  - +.ampcode.com           # Amp（Sourcegraph）
+  - +.ampworkers.com
+  - +.cody.dev              # Cody（Sourcegraph）
+  - +.zed.dev               # Zed 编辑器
+  - +.eigent.ai
+  # ── 图像、视频、音乐 ──
+  - +.bfl.ai                # Black Forest Labs（FLUX）
+  - +.stability.ai
+  - +.ideogram.ai
+  - +.recraft.ai
+  - +.leonardo.ai
+  - +.civitai.com
+  - +.lumalabs.ai
+  - +.runwayml.com
+  - +.runway.com
+  - +.pika.art
+  - +.heygen.com
+  - +.synthesia.io
+  - +.descript.com
+  - +.suno.com
+  - +.suno.ai
+  - +.udio.com
+  # ── 写作、办公 ──
+  - +.grammarly.com
+  - +.gamma.app
+  - +.otter.ai

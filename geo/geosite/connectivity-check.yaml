@@ -1,0 +1,24 @@
+# 来源：上游 connectivity-check − 其他所有规则集 + 补充
+# 条数：19
+payload:
+  # ── 上游 connectivity-check ──
+  - +.detectportal.firefox.com
+  - +.firefox-portal-detection.com
+  - +.kuketz.de
+  - +.msftconnecttest.com
+  - +.msftncsi.com
+  - +.network-test.debian.org
+  - conn1.oppomobile.com
+  - conn2.oppomobile.com
+  - connectivity-check.ubuntu.com
+  - connectivity.samsung.com.cn
+  - edge-http.microsoft.com
+  - networkcheck.kde.org
+  - nmcheck.gnome.org
+  - ping.archlinux.org
+  - redirect.archlinux.org
+  - wifi.vivo.com.cn
+  - www.qualcomm.cn
+  - www.qualcomm.com
+  # ── Linux 发行版连通性测试 ──
+  - +.networkcheck.kde.org        # KDE 桌面环境

@@ -1,0 +1,6 @@
+# 来源：上游 geetest
+# 条数：2
+payload:
+  # ── 上游 geetest ──
+  - +.geetest.com
+  - geetest.datasink.sensorsdata.cn

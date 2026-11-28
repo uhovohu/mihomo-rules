@@ -1,0 +1,8 @@
+# 来源：上游 windsurf
+# 条数：4
+payload:
+  # ── 上游 windsurf ──
+  - +.codeium.com
+  - +.codeiumdata.com
+  - +.windsurf.build
+  - +.windsurf.com

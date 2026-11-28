@@ -1,0 +1,76 @@
+# 来源：上游 category-ai-cn − 删减 − 其他所有规则集 + 补充
+# 条数：69
+payload:
+  # ── 上游 category-ai-cn ──
+  - +.ai-indeed.com
+  - +.aispeech.com
+  - +.antafu.com
+  - +.antaq.com
+  - +.aorizon.cn
+  - +.baichuan-ai.com
+  - +.bigmodel.cn
+  - +.chatglm.cn
+  - +.codebuddy.cn
+  - +.dui.ai
+  - +.duiopen.com
+  - +.dumate.cn
+  - +.favonis.cloud
+  - +.favonis.com
+  - +.favonis.space
+  - +.faxingbao.com
+  - +.hailuoai.com
+  - +.happyhorse.cn
+  - +.happyshrimp.cn
+  - +.kakaxing.com
+  - +.kechuangai.com
+  - +.kimi.com
+  - +.kling-ai.com
+  - +.klingai.com
+  - +.liblib.art
+  - +.liblib.cloud
+  - +.liblib.tv
+  - +.linka2a.net
+  - +.mcpworld.com
+  - +.meta.law
+  - +.metaso.cn
+  - +.miaoda.cn
+  - +.miaoyanai.com
+  - +.minimaxi.com
+  - +.moonshot.cn
+  - +.n.cn
+  - +.namiso.com
+  - +.nia-teams.com
+  - +.qianwenai.com
+  - +.rwkv.cn
+  - +.rwkv.com
+  - +.safeskill.cn
+  - +.senseaudio.cn
+  - +.senseavatar.com
+  - +.sensecore.cn
+  - +.sensefoundry.cn
+  - +.sensenova.cn
+  - +.sensetime.com
+  - +.shunjing.xin
+  - +.skillhub.cn
+  - +.sleeplesshorizon.cn
+  - +.tapnow.top
+  - +.tiangong.cn
+  - +.workbuddy.cn
+  - +.xiaohuanxiong.com
+  - +.xiezuocat.com
+  - +.xinghuo.xfyun.cn
+  - +.xingyeai.com
+  - +.yzsgo.com
+  - +.zhiexa.com
+  - +.zhipuai.cn
+  - +.zhipucn.com
+  - ai.zhaomi.cn
+  # ── 硅基流动 ──
+  - +.siliconflow.cn
+  - +.siliconflow.com
+  # ── 阶跃星辰 ──
+  - +.stepfun.com
+  - +.stepfun.ai
+  # ── PPIO 派欧云 ──
+  - +.ppio.cn
+  - +.ppio.com

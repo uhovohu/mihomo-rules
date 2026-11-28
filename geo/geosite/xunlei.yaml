@@ -1,0 +1,19 @@
+# 来源：上游 xunlei + 补充
+# 条数：14
+payload:
+  # ── 上游 xunlei ──
+  - +.00cdn.com
+  - +.88cdn.com
+  - +.8uri.cn
+  - +.guangyacdn.com
+  - +.guangyapan.com
+  - +.kanimg.com
+  - +.p2cdn.com
+  - +.sandai.net
+  - +.thundercdn.com
+  - +.thunderurl.com
+  - +.xunlei.com
+  - +.xycdn.com
+  - +.xycloud.com
+  # ── 迅雷（原 fakeipfilter，上游没有的） ──
+  - +.n0808.com

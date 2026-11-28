@@ -1,0 +1,28 @@
+# 来源：自己维护
+# 条数：16
+payload:
+# Emby 影音服务器
+  # ── UHD 国际线路 ──
+  - +.uhdnow.com
+  - +.v1.uhdnow.com
+  - +.global.uhdnow.com
+  - +.v1-vod1.uhdnow.com
+  
+  # ── 守候Emby ──
+  - +.cn2gias.uk
+ 
+  # ── FutureEcho ──
+  - +.music.mefun.org
+  - video.easyemby.com
+  
+  - +.insav.tv
+  - +.kzmm27.com
+  - +.yanyunhome.com
+  - +.bhstz.com
+  - +.lnh7.com
+
+  # ── 测试线路（原 custom 的 emby 组）──
+  - lax-cdn-test.uhdgo.net
+  - lx-us1.lxy1015.top
+  - test2-cdn.uhdgo.net
+  - uhdtest.902541.xyz

@@ -1,0 +1,54 @@
+# 来源：上游 meituan + 补充
+# 条数：48
+payload:
+  # ── 上游 meituan ──
+  - +.100.me
+  - +.51ping.com
+  - +.baobaoaichi.cn
+  - +.ddcorp.net
+  - +.ddfresh.net
+  - +.ddimg.mobi
+  - +.ddmaicai.net
+  - +.ddmc.mobi
+  - +.dduser.mobi
+  - +.ddxq.mobi
+  - +.dianping.com
+  - +.dpfile.com
+  - +.imaicai.mobi
+  - +.maoyan.com
+  - +.meituan.com
+  - +.meituan.net
+  - +.mtyun.com
+  - +.neixin.cn
+  - +.sankuai.com
+  # ── 美团（原 meituan，上游没有的） ──
+  - +.dnse.com
+  - +.meituan.cn
+  - +.meituan.com.cn
+  - +.meituanapi.com
+  - +.meituanusercontent.com
+  - +.mepcloud.com
+  - +.mobike.com
+  - +.mosdns.cn
+  - +.mosdns.com
+  - +.mosdns.net
+  - +.mosmss.com
+  - +.msscdn.com
+  - +.mtimg.com
+  - +.mtmos.com
+  - +.mtmss.com
+  - +.mtmssdn.com
+  - +.mtmssdn0.com
+  - +.mtmssup.com
+  - +.mtmssup0.com
+  - +.mtyuncdn.com
+  - +.neixin.com.cn
+  - +.pipi.cn
+  - +.sankuaiyun.com
+  - +.wandie.com
+  - +.zuitu.com
+  - +.zzhkmaoyan.com
+  # ── 美团在别家 CDN 上的别名 ──
+  - +.meituan.net.c.cdnhwc3.com          # 华为云 CDN
+  - +.meituan.net.w.alikunlun.net        # 阿里云 CDN
+  - +.meituan.net.b.baishangeek.cn       # 白山云 CDN

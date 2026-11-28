@@ -1,0 +1,65 @@
+# 来源：自己维护
+# 条数：35
+payload:
+  # ── 核心服务 ──
+  - +.anthropic.com            # Anthropic 主站核心
+  - +.claude.ai                # Claude 网页版入口
+  - +.claude.com               # Claude 备用域名
+  - +.clau.de                  # Claude 短域名（重定向）
+  - +.claudemcpclient.com      # Claude MCP 客户端通信
+  - +.claudemcpcontent.com
+  - +.claudeusercontent.com    # Claude 用户内容 / 附件
+
+  # ── CDN 和基础设施 ──
+  - +.cdn.anthropic.com                 # Anthropic CDN 资源
+  - +.anthropic.com.cdn.cloudflare.net  # Cloudflare CDN 节点
+  - +.servd-anthropic-website.b-cdn.net # BunnyCDN 静态资源
+
+  # ── Claude 用到的第三方服务 ──
+  - +.statsigapi.net           # 功能开关 / AB 测试
+  - +.intercom.io              # 在线客服
+  - +.intercomcdn.com
+  - +.intercomassets.com       # Intercom 静态资源
+
+  # ── 认证与内容 ──
+  - +.anthropic.auth0.com      # OAuth 登录认证
+  - +.anthropic-com.ghost.io   # 博客 / CMS 内容
+
+  # ── 监控和数据上报 ──
+  - +.browser-intake-us5-datadoghq.com
+  - +.logs.us5.datadoghq.com
+
+  # ── KYC认证 ──
+  #- +.maps.googleapis.com	     # Google 地图与位置解析
+  
+  # ── NTP time ──          # Claude Code 在运行时，会暗中请求这些 NTP 服务器来校验你的真实系统时区 有需求请取消注释
+  #- +.pool.ntp.org         # 全球开源 NTP 池
+  #- +.time.windows.com     # Windows 系统默认
+  #- +.time.apple.com       # 苹果 macOS/iOS 默认
+  #- +.time.google.com      # 谷歌默认
+  #- +.time.cloudflare.com  # Cloudflare NTP
+  #- +.ntp.ubuntu.com       # Ubuntu 系统默认
+  #- +.time.nist.gov        # NIST 标准时间
+
+  # ── Claude 其他官方域名（上游 anthropic 有）──
+  - +.claude.site
+  - +.claude.app
+  - +.claude.dev
+  - +.claude.new
+  - +.claudepages.dev
+  - +.claudestudio.com
+  - +.claudeacademy.com
+  - +.antspace.dev
+  - +.chatbotclaude.com
+  - +.anthropic.team
+  - +.ant.dev
+  - servd-anthropic-website.b-cdn.net     # 官网 CDN
+  - o1158394.ingest.us.sentry.io          # Claude 自己的报错上报
+
+  # ── Anthropic 其他域名（解析到自己的网段）──
+  - +.sillylittleguy.org
+  - +.interface.feedback
+
+  # ── Bun（JS 运行时；Anthropic 收购） ──
+  - +.bun.sh
+  - +.bun.com

@@ -1,0 +1,8 @@
+# 来源：自己维护
+# 条数：2
+payload:
+  # ── Discord 语音网段（AS49544）──
+  - 66.22.192.0/18
+
+  # ── Discord 语音、网关（Cloudflare 为 Discord 分配的网段，三台设备的 App 隐私报告 / Little Snitch 都有）──
+  - 104.29.128.0/19

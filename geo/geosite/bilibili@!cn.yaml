@@ -1,0 +1,8 @@
+# 来源：上游 bilibili@!cn
+# 条数：4
+payload:
+  # ── 上游 bilibili@!cn ──
+  - +.bilibili.tv
+  - +.biliintl.com
+  - +.dreamcast.hk
+  - upos-hz-mirrorakam.akamaized.net

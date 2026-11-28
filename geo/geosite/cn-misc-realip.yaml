@@ -1,0 +1,29 @@
+# 来源：自己维护
+# 条数：12
+payload:
+# 国内杂项：远程控制、内网穿透等国内应用
+  # ── 向日葵远程控制 ──
+  - +.oray.com
+  - +.oray.net
+  - +.orayimg.com
+
+  # ── ToDesk 远程控制 ──
+  - +.todesk.com
+
+  # ── 微店 ──
+  - +.s.1rtb.net
+
+  # ── 唯品会 ──
+  - +.fos-admin.vip.vip.com
+
+  # ── 搜款网 ──
+  - +.vda.vvic.com
+
+  # ── 税务 ──
+  - +.emas.etax.chinatax.gov.cn  # 税务局
+  - +.lcsignx.com                # 开票软件
+  - +.aisinoha.com               # 航天信息
+  - +.plovercrest.com            # 开票软件
+
+  # ── 公安一网通办 ──
+  - appx  # 公安一网通办；查不到出处，失效检查时再看

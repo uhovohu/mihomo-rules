@@ -1,0 +1,27 @@
+# 来源：上游 xiaohongshu − xiaohongshu@!cn + 补充
+# 条数：22
+payload:
+  # ── 上游 xiaohongshu ──
+  - +.askdiandian.com
+  - +.diandianlife.top
+  - +.redelight.cn
+  - +.rnote.com
+  - +.xhscdn.com
+  - +.xhscdn.net
+  - +.xhslink.com
+  - +.xhsrcdn.com
+  - +.xiaohongshu.com
+  # ── 小红书（原 cn-add，上游没有的） ──
+  - +.xhsurl.com             # 小红书短链
+  - +.cdnxhs.com             # 小红书 CDN
+  - +.xingin.net             # 小红书（行吟）
+  - +.aboutmgzn.com          # 小红书
+  - +.redelight.net          # 小红书
+  - +.redelight.biz          # 小红书
+  - +.redelight.info         # 小红书
+  - +.iselect.red            # 小红书
+  - +.yuukoo.red             # 小红书
+  - +.yuukoo.net             # 小红书
+  - +.yuukoo.info            # 小红书
+  - +.yuukoo.biz             # 小红书
+  - +.xingludalogistics.com  # 小红书物流

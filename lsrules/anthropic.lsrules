@@ -1,0 +1,69 @@
+{
+  "name": "Anthropic 拦截",
+  "description": "由 mihomo 规则 anthropic 生成，勾选即拦截",
+  "rules": [
+    {
+      "action": "deny",
+      "priority": "high",
+      "process": "any",
+      "direction": "outgoing",
+      "remote-domains": [
+        "anthropic.com",
+        "claude.ai",
+        "claude.com",
+        "clau.de",
+        "claudemcpclient.com",
+        "claudemcpcontent.com",
+        "claudeusercontent.com",
+        "cdn.anthropic.com",
+        "anthropic.com.cdn.cloudflare.net",
+        "servd-anthropic-website.b-cdn.net",
+        "statsigapi.net",
+        "intercom.io",
+        "intercomcdn.com",
+        "intercomassets.com",
+        "anthropic.auth0.com",
+        "anthropic-com.ghost.io",
+        "browser-intake-us5-datadoghq.com",
+        "logs.us5.datadoghq.com",
+        "claude.site",
+        "claude.app",
+        "claude.dev",
+        "claude.new",
+        "claudepages.dev",
+        "claudestudio.com",
+        "claudeacademy.com",
+        "antspace.dev",
+        "chatbotclaude.com",
+        "anthropic.team",
+        "ant.dev",
+        "sillylittleguy.org",
+        "interface.feedback",
+        "bun.sh",
+        "bun.com"
+      ]
+    },
+    {
+      "action": "deny",
+      "priority": "high",
+      "process": "any",
+      "direction": "outgoing",
+      "remote-hosts": [
+        "servd-anthropic-website.b-cdn.net",
+        "o1158394.ingest.us.sentry.io"
+      ]
+    },
+    {
+      "action": "deny",
+      "priority": "high",
+      "process": "any",
+      "direction": "outgoing",
+      "remote-addresses": [
+        "160.79.104.0/23",
+        "2607:6bc0::/48",
+        "209.249.57.0/24",
+        "2607:6bc0:11::/48"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# 来源：上游 wise + 补充
+# 条数：5
+payload:
+  # ── 上游 wise ──
+  - +.transferwise.com
+  - +.wise.com
+  # ── 补充 ──
+  - +.wi.se                  # 官方短链
+  - +.wise-sandbox.com       # 沙盒 API
+  - +.transferwise.tech      # 技术域名（沙盒等）

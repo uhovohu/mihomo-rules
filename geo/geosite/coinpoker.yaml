@@ -1,0 +1,84 @@
+# 来源：自己维护
+# 条数：58
+payload:
+  # ———— CoinPoker 核心————
+  - +.coinpoker.com                            # 主站
+  - +.coinpoker.biz                            # 主游戏前端
+  - +.pokerbaazicdn.com
+  - +.quantumsprout.net                        # 后端 API
+  - +.coincashier-m1.com                       # 支付收银台
+  - +.thecloudinfra.com                        # WebSocket 实时通信
+  - +.cliprushgaming.com                       # 游戏相关子品牌
+  - +.coinpoker1.com                           # CF 加速 CDN
+  - pro-in-app-device-m-v2.csftr.com           # CF 加速 CDN
+  - r2.cpcloudbridge.com
+  - pages-app.com
+  - m-gsosikpxom-ovjrmipdpv-net-pragmaticplay.cpcasino.cloud
+  - +.coinpoker.ai
+
+  # ———— CloudFront 基础设施 ————
+  - d2bykaxvqgqb85.cloudfront.net
+  - d36vgdcqgezjgr.cloudfront.net
+  - d2df0cv2coy003.cloudfront.net
+  - d7nyfwsarnqp7.cloudfront.net
+  - d26s3bt6yeixto.cloudfront.net
+  - d12n4sdz9sv2g7.cloudfront.net
+  - d1bk2jo4nt0s4w.cloudfront.net
+  - d3nxjax74tiuet.cloudfront.net
+  - d1f41kibrpebrc.cloudfront.net
+  - d11vj49eiwzxhj.cloudfront.net
+  - d36r46gbgvqx8s.cloudfront.net
+  - dxvwdy1olq9a3.cloudfront.net
+
+  - dm7lr0s4n6vk6.webdevicejs.com
+  - 8a9c0892fa3ac9b4b459c997ef9ccfb752e954cb.csftr.com
+
+  # ———— AWS 基础设施 ————
+  - ov-1d104299d2a447049cdc73700c9309f7.ecs.us-west-2.on.aws
+  - e1-0850197d5e074be58352ddc860645af6.ecs.us-east-1.on.aws
+  - 5z-2b6b7616f94640c2840d1841e1ac24c3.ecs.us-east-1.on.aws
+  - k6-e4e4123be8e54363900a90353991ca93.ecs.us-west-1.on.aws
+  - md-eecad2978f7a43f5b7838c919258e6de.ecs.us-east-2.on.aws
+  - sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws
+
+  # ———— 监控 / 分析 ————
+  - +.dynatrace.com                            # Dynatrace 应用性能监控；通用第三方服务（海外），目前只见 CoinPoker 调用
+  - o4510980300996608.ingest.de.sentry.io
+  - o567116.ingest.us.sentry.io                # Sentry 报错收集(de 区域,tracking 未覆盖)
+  - s.yimg.com                                 # Yahoo 静态资源
+  
+  #- api2.branch.io
+  #- app.link
+  # ———— 不明 ————
+  - tcp.signfuli.com                           # 不明
+  - +.adrsbl.io                                # 不明
+  - +.adradv.io                                # 不明
+  - eu.b2c.com                                 # 不明
+  - apixeu.b2c.com                             # 不明
+  - +.pgammedia.com                            # 不明
+  - +.ovjrmipdpv.net
+  - +.ltguevmavv.com
+  - +.stackharbor.biz
+  - gfdsa.hhewjzfa.com
+  - +.snippet.anjcdn.org
+  - +.snippet.anjouangaming.org
+  - +.coinpokerbackend.com
+  - +.viralrespawn.com
+  - +.localhubweb.com
+  - +.assets.eascdn.net
+  - +.bpi.rtactivate.com
+  - eu1.clevertap-prod.com                      # CleverTap 用户触达、分析；通用第三方服务（海外），目前只见 CoinPoker 调用
+  - ds-cdn.prod-east.frontend.public.atl-paas.net
+  - +.atl-paas.net                              # Atlassian 公共资源；通用第三方服务（海外），目前只见 CoinPoker 调用
+  - +.betagammabox.ai
+  
+
+
+  # ———— 暂时注释 ————
+  #- +.googleapis.com                          # Google Cloud
+  #- +.gstatic.com                             # Google 静态资源
+  #- +.google-analytics.com                    # Google 统计
+  #- +.sentry.io                               # 前端报错收集
+  #- +.cloudfront.net                          # AWS CloudFront 静态资源
+  #- +.cloudflare.com                          # Cloudflare
+  #- +.cloudflareinsights.com                  # Cloudflare Web Analytics

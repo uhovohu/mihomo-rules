@@ -1,0 +1,12 @@
+# 来源：上游 perplexity + 补充
+# 条数：7
+payload:
+  # ── 上游 perplexity ──
+  - +.perplexity.ai
+  - +.perplexity.com
+  - +.pplx.ai
+  - ppl-ai-file-upload.s3.amazonaws.com
+  - pplx-res.cloudinary.com
+  # ── Perplexity ──
+  - +.perplexitylabs.ai     # Perplexity Labs
+  - +.perplexitychat.ai     # Perplexity 备用域名

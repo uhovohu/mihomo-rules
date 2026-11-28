@@ -1,0 +1,11 @@
+# 来源：上游 pinduoduo
+# 条数：7
+payload:
+  # ── 上游 pinduoduo ──
+  - +.pddcdn.com
+  - +.pddim.com
+  - +.pddpic.com
+  - +.pddugc.com
+  - +.pinduoduo.com
+  - +.pinduoduo.net
+  - +.yangkeduo.com

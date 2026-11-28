@@ -1,0 +1,11 @@
+# 来源：上游 tesla − tesla@cn
+# 条数：7
+payload:
+  # ── 上游 tesla ──
+  - +.solarcity.com
+  - +.tesla.com
+  - +.tesla.services
+  - +.teslaenergy.services
+  - +.teslamotors.com
+  - +.teslazta.net
+  - +.ts.la

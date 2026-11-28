@@ -1,0 +1,5 @@
+# 来源：上游 category-finance@cn − 其他所有规则集
+# 条数：1
+payload:
+  # ── 上游 category-finance@cn ──
+  - +.ifastps.com.cn

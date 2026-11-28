@@ -1,0 +1,5 @@
+# 来源：自己维护
+# 条数：2
+payload:
+  - +.tradingview.com
+  - o981304.ingest.sentry.io           # 崩溃上报

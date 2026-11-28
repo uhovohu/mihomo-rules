@@ -1,0 +1,64 @@
+# 来源：上游 binance + 补充
+# 条数：59
+payload:
+  # ── 上游 binance ──
+  - +.binance.cc
+  - +.binance.charity
+  - +.binance.cloud
+  - +.binance.co
+  - +.binance.com
+  - +.binance.info
+  - +.binance.me
+  - +.binance.net
+  - +.binance.org
+  - +.binance.us
+  - +.binance.vision
+  - +.binanceapi.com
+  - +.binancecnt.com
+  - +.binanceru.net
+  - +.binancezh.be
+  - +.binancezh.biz
+  - +.binancezh.cc
+  - +.binancezh.co
+  - +.binancezh.com
+  - +.binancezh.info
+  - +.binancezh.ink
+  - +.binancezh.kim
+  - +.binancezh.link
+  - +.binancezh.live
+  - +.binancezh.mobi
+  - +.binancezh.net
+  - +.binancezh.pro
+  - +.binancezh.sh
+  - +.binancezh.top
+  - +.bmwweb.solutions
+  - +.bnappweb.black
+  - +.bnbchain.org
+  - +.bnbstatic.com
+  - +.bntrace.com
+  - +.bsappapi.cc
+  - +.bsappapi.com
+  - +.bscdnweb.com
+  - +.nftstatic.com
+  - +.saasexch.cc
+  - +.saasexch.co
+  - +.saasexch.com
+  - +.saasexch.info
+  - +.saasexch.io
+  - zftksc.cdn-settings.appsflyersdk.com
+  - zftksc.launches.appsflyersdk.com
+  - +.binance.click
+  - +.bnappweb.biz
+  - +.bnappweb.blue                         # 备用域名
+  - +.bnliveplay-ag.bblivestream.com      # 币安直播
+  - +.aad90d5c0e88c4b4285bd912f64d970d-1403944741.ap-northeast-1.elb.amazonaws.com  # 币安自己的 AWS 负载均衡
+  - +.fe4385362baa.20414af6.ap-northeast-1.token.awswaf.com                       # 币安自己的 AWS WAF
+  - +.fmbxlntehddr.oss-cn-shenzhen.aliyuncs.com                                   # 阿里云上的币安存储桶
+  - +.static.tylhh.net
+  - +.static.qa1fdg.net                      # 币安静态资源（备用域名）
+  - help-static-aliyun-doc.aliyuncs.com        # 阿里云文档静态资源；通用第三方服务（国内），目前只见币安调用
+  - d3sknckuh1o9tg.cloudfront.net              # 币安专属的 CloudFront 资源
+  - o529943.ingest.us.sentry.io                # 币安 App 的报错上报
+  - o529943.ingest.sentry.io                   # 币安 App 的报错上报（另一个入口）
+  # ── 专属风控 ──
+  - +.addfd325e6e3.cdn4.forter.com  # Forter 给币安的专属节点（带商户编号）

@@ -1,0 +1,27 @@
+# 来源：自己维护
+# 条数：16
+payload:
+  - +.coinbase.com
+
+  # Coinbase 基础设施域，App 和 Exchange 的部分后端/遥测端点走这里
+  - +.cbhq.net
+
+  # Coinbase Wallet 的深链/短链域（go.cb-w.com，WalletConnect 跳转常见）
+  - +.cb-w.com
+
+  # 可选：Base 链（Coinbase 孵化的 L2），如果你用 Base 生态就加上
+  - +.base.org
+  - +.base.app
+  - +.wallet-api-production.s3.amazonaws.com
+  - +.onramper.com                # Onramper 法币入金聚合；通用第三方服务（海外），目前只见 Coinbase 调用
+  - +.production.xmtp.network
+  - +.wallet.elephant-blue.org
+
+  # ── Coinbase App 用到的第三方服务──
+  - api.cloudinary.com            # Cloudinary 图片接口；通用第三方服务（海外），目前只见 Coinbase 调用
+  - res.cloudinary.com            # Cloudinary 图片托管；通用第三方服务（海外），目前只见 Coinbase 调用
+  - dp.elephant-blue.org
+  - +.sardine.ai                   # Sardine 设备风控；通用第三方服务（海外），目前只见 Coinbase 调用
+  - d1dwhf283nul1c.cloudfront.net  # Coinbase 专属 CloudFront
+  - d2l7g2wmr3uf42.cloudfront.net
+  - asset-metadata-service-production.s3.amazonaws.com

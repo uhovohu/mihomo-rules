@@ -1,0 +1,92 @@
+# 来源：自己维护
+# 条数：87
+payload:
+  - e10499.dsce9.akamaiedge.net
+  - e6858.dscx.akamaiedge.net
+  - e2885.e9.akamaiedge.net
+  - e673.dsce9.akamaiedge.net
+  - e17437.dsct.akamaiedge.net
+  - e3925.dscx.akamaiedge.net
+  - e673.dscx.akamaiedge.net
+  - e11408.d.akamaiedge.net
+  - e12919.dscd.akamaiedge.net
+  - e1329.g.akamaiedge.net
+  - e14313.g.akamaiedge.net
+  - e16126.dscg.akamaiedge.net
+  - e17437.dscb.akamaiedge.net
+  - e5949.dscg.akamaiedge.net
+  - e5977.dsce9.akamaiedge.net
+  - e6858.dsce9.akamaiedge.net
+  - e6987.a.akamaiedge.net
+  - e6987.e9.akamaiedge.net
+  - e8143.dscb.akamaiedge.net
+  - e2063.e9.akamaiedge.net
+  - e383.g.akamaiedge.net
+  - e4686.dsce9.akamaiedge.net
+  - e2490.dscf.akamaiedge.net
+  - e4805.dsca.akamaiedge.net
+  - e4233.a.akamaiedge.net
+  - e8195.b.akamaiedge.net
+  - e13169.g.akamaiedge.net
+  - e10794.dscb.akamaiedge.net
+  - e99365.dscg.akamaiedge.net
+  - e8374.dsce1.akamaiedge.net
+  - e13395.dscb.akamaiedge.net
+  - e5516.dscd.akamaiedge.net
+  - e10669.dscb.akamaiedge.net
+  - e6858.dscd.akamaiedge.net
+  - e2490.dscb.akamaiedge.net
+  - e9959.dsce9.akamaiedge.net
+  - e2850.a.akamaiedge.net
+  - e5871.e9.akamaiedge.net
+  - e7438.g.akamaiedge.net
+  - e6931.dsce9.akamaiedge.net
+  - a1512.g4.akamai.net
+  - a1943.dscg2.akamai.net
+  - a1479.g4.akamai.net
+  - a1972.dscd.akamai.net
+  - a1051.b.akamai.net
+  - a1864.gi3.akamai.net
+  - a2047.dscb.akamai.net
+  - a196.gi3.akamai.net
+  - a239.gi3.akamai.net
+  - a1793.dscgi3.akamai.net
+  - a1806.dscw154.akamai.net
+  - a68.dscw27.akamai.net
+  - a2.da1.akamai.net
+  - +.a1.w11.akamai.net
+  - +.p-events-delivery.akamaized.net
+  - +.apple.com.akadns.net
+  - +.apple.com.akamaized.net
+  - +.apple.com.akamaized-staging.net
+  - +.www.apple.com.cn.edgekey.net.globalredir.akadns.net
+  - +.apple.com.edgekey.net.globalredir.akadns.net
+  - +.ls-apple.com.akadns.net
+  - +.ls4-apple.com.akadns.net
+  - +.icloud.com.akadns.net
+  - +.cdn-apple.com.akadns.net
+  - +.apple-support.akadns.net
+  - +.apps-apple.com.akadns.net
+  - +.push-apple.com.akadns.net
+  - +.origin-apple.com.akadns.net
+  - +.edge-itunes-apple.com.akadns.net
+
+  # ── 补回：设备会直接连的 Akamai 别名（iCloud 邮件、推送等）──
+  - e16991.b.akamaiedge.net
+  - a1366.dscapi6.akamai.net          # 苹果定位服务 gspe1-ssl.ls.apple.com 的最后一跳
+  - a305.dscg1.akamai.net             # TestFlight testflight.apple.com 的最后一跳
+  - a937.dscgi3.akamai.net            # cds.apple.com 的最后一跳
+  - lookup-api.apple.com.edgekey.net
+  - +.appldnld.apple.com.edgesuite.net
+  - +.gsp4-cn.ls.apple.com.edgekey.net
+  - +.itunes.com.edgekey.net
+  - +.ls.apple.com.edgesuite.net
+  - +.store.apple.com.edgekey.net
+  - +.www.apple.com.edgekey.net
+  - +.apple.com.edgekey.net
+  - +.mail.me.com.akadns.net
+  - +.courier2-sandbox-push-apple.com.akadns.net
+  - +.courier2-push-apple.com.akadns.net           # 苹果推送（正式环境，5223 端口）
+  - +.ess-apple.com.akadns.net                     # 苹果 ESS 服务的 Akamai 别名
+  - +.idms-apple.com.akadns.net                    # Apple ID 登录的 Akamai 别名
+  - mzstorekit.lb-apple.com.akadns.net             # App 内购 mzstorekit.itunes.apple.com 的 Akamai 别名

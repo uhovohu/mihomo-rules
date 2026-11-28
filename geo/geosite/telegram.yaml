@@ -1,0 +1,39 @@
+# 来源：上游 telegram + 补充
+# 条数：33
+payload:
+  # ── 上游 telegram ──
+  - +.cdn-telegram.org
+  - +.comments.app
+  - +.contest.com
+  - +.fragment.com
+  - +.graph.org
+  - +.quiz.directory
+  - +.t.me
+  - +.tdesktop.com
+  - +.telega.one
+  - +.telegra.ph
+  - +.telegram-cdn.org
+  - +.telegram.dog
+  - +.telegram.me
+  - +.telegram.org
+  - +.telegram.space
+  - +.telesco.pe
+  - +.tg.dev
+  - +.ton.org
+  - +.toncenter.com
+  - +.tx.me
+  - +.usercontent.dev
+  # ── 第三方客户端 ──
+  - api.imem.app
+  - api.swiftgram.app             # Swiftgram
+  - updates.64gr.am               # 64Gram
+  - +.nicegram.com                # Nicegram
+  - +.nicegram.net
+  - +.nicegram.org
+  - +.nicegram.app
+  - +.appvillis.com               # Nicegram 开发商
+  # ── Telegram 其他域名 ──
+  - +.legra.ph
+  - +.mbrx.app
+  - +.stel.com
+  - +.telegramdownload.com

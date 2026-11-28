@@ -1,0 +1,8 @@
+# 来源：上游 comfy
+# 条数：4
+payload:
+  # ── 上游 comfy ──
+  - +.comfy.org
+  - +.comfyci.org
+  - +.comfyregistry.org
+  - +.oystermercury.top

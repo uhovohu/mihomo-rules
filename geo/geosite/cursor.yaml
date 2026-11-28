@@ -1,0 +1,11 @@
+# 来源：上游 cursor + 补充
+# 条数：6
+payload:
+  # ── 上游 cursor ──
+  - +.cursor-cdn.com
+  - +.cursor.com
+  - +.cursor.sh
+  - +.cursorapi.com
+  - +.cursorvm.com
+  # ── Continue（已被 Cursor 收购）──
+  - +.continue.dev

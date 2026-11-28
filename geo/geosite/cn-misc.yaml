@@ -1,0 +1,124 @@
+# 来源：自己维护
+# 条数：61
+payload:
+# 国内杂项：上游没有单独文件的国内小应用
+  # ── Go 镜像（七牛云） ──
+  - +.goproxy.cn
+  - +.goproxy.io
+
+  # ── 水便利（微信小程序） ──
+  - +.shuiyuncang.com
+
+  # ── FutureEcho Pro ──
+  - +.music01.mefun.vip
+
+  # ── 刻度人生 ──
+  - +.vcards.metowolf.com
+
+  # ── 北京漫星云 ──
+  - +.manlaxycloud.com
+
+  # ── 金十数据 ──
+  - +.jin10.com
+
+  # ── Whinbrook 推送 ──
+  - +.whinbrook.com        # 推送服务，联通江苏，端口 9681
+
+  # ── OneClip 剪贴板同步 ──
+  - +.oneclip.cloud        # 腾讯云
+
+  # ── NewMax 国内站 ──
+  - +.newmax.cc            # 电信
+
+  # ── 观潮 TV ──
+  - +.guanchaotv.com       # 视频站，阿里云 / 联通
+
+  # ── Bark 推送 ──
+  - api.day.app            # 服务器在香港腾讯云
+
+  # ── 广发信用卡 App 的消息推送（EMQX 云，美国东部；cd1e8550 是广发专属实例号）──
+  - cd1e8550.ala.us-east-1.emqxsl.com
+
+  # ── 律动 BlockBeats（币圈资讯 App，服务器在国内）──
+  - +.blockbeats.cn
+
+  # ── ArcZip 解压软件 ──
+  - +.arczip.app
+
+  # ── OPPO 商城 / 欢太 ──
+  - +.oppo.com
+  - +.oppo.cn
+  - +.heytap.com
+  - +.heytapmobi.com
+  - +.heytapcs.com
+  - +.heytapdownload.com
+  - +.heytapimage.com
+  - +.allawnfs.com
+  - +.allawnofs.com
+  - +.allawntech.com
+  - +.opstatics.com
+  - +.myoas.com            # OPPO 商城
+
+  # ── 美的美居 ──
+  - +.midea.com
+  - +.midea.cn
+  - +.midea.com.cn
+  - +.smartmidea.net
+  - +.msmartlife.cn
+  - +.msmartlife.com
+  - +.mdcdn.cn
+
+  # ── 奥克斯空调 ──
+  - +.aux-home.com
+  - +.auxgroup.com
+  - +.auxsmart.com.cn
+  - +.auxshop.cn
+  - +.auxshop.com
+
+  # ── 唯品会 ──
+  - +.vip.com
+  - +.appsimg.com
+
+  # ── 微店 ──
+  - +.weidian.com
+  - +.geilicdn.com
+
+  # ── 汇付天下（支付）──
+  - +.huifu.com
+  - +.cloudpnr.com
+
+  # ── 北京一卡通 ──
+  - +.bmac.com.cn
+
+  # ── 完美邮箱（111 / 88 邮箱）──
+  - +.111.com
+  - +.88.com
+
+  # ── MobTech（App 内嵌的一键登录、验证 SDK）──
+  - +.tec73.com
+
+  # ── 购物党（比价浏览器插件）──
+  - +.gwdang.com
+
+  # ── Infinity 新标签页（浏览器插件）──
+  - +.infinitynewtab.com
+  - +.inftab.com
+
+  # ── 聚合图床 ──
+  - +.imgdb.cn
+
+  # ── iOS 装机工具 ──
+  - +.25mao.com            # 猫源，越狱插件源
+  - +.dumpapp.com          # DumpApp，IPA 下载、签名
+  - +.82flex.com           # 82Flex，越狱插件开发者（插件授权验证）
+
+  # ── 发卡 / 代充站 ──
+  - +.wzyp.cn              # 数卡星球
+  - +.ldxp.cn              # 链动小铺
+  - +.dittocdn.com         # 跟这两个站同时出现，应是图片源
+
+  # ── 归属未知：下载更新域名（移动 CDN）；目前只见 iPhone 连 ──
+  - +.hbttl.cn
+
+  # ── 归属未知：园林绿化公司网站；只见 iPhone 连过一次 ──
+  - +.baixingyllh.com

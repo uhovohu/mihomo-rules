@@ -1,0 +1,35 @@
+# 来源：上游 openai − 删减 + 补充
+# 条数：29
+payload:
+  # ── 上游 openai ──
+  - +.chat.com
+  - +.chatgpt.com
+  - +.chatgpt.livekit.cloud
+  - +.chatgpt.site
+  - +.crixet.com
+  - +.oaistatic.com
+  - +.oaistatsig.com
+  - +.oaiusercontent.com
+  - +.openai.com
+  - +.openai.com.cdn.cloudflare.net
+  - +.openai.org
+  - +.sora.com
+  - o33249.ingest.sentry.io
+  - o33249.ingest.us.sentry.io
+  - openai.qualtrics.com
+  - openaiapi-site.azureedge.net
+  - openaiassets.blob.core.windows.net
+  - openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - openaicom.imgix.net
+  - openaicomproductionae4b.blob.core.windows.net
+  - production-openaicom-storage.azureedge.net
+  # ── 补充 ──
+  - +.ai.com                # 跳转到 ChatGPT
+  - +.openai.fm             # OpenAI 语音演示站
+  - +.openai.fund           # OpenAI 创业基金
+  - +.gpt-oss.com           # gpt-oss 开源模型站
+  - +.openai-staging.com    # OpenAI 测试环境
+  - cdn.auth0.com           # Auth0 登录；通用第三方服务（海外），目前只见 ChatGPT 登录页调用
+  - +.openaicom.imgix.net   # 官网图片（Imgix 上的 OpenAI 专用子域名）
+  # ── Astral（uv、Ruff；OpenAI 收购） ──
+  - +.astral.sh

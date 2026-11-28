@@ -1,0 +1,8 @@
+# 来源：上游 plex
+# 条数：4
+payload:
+  # ── 上游 plex ──
+  - +.plex.com
+  - +.plex.services
+  - +.plex.tv
+  - +.plexapp.com

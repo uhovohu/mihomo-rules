@@ -1,0 +1,32 @@
+# 来源：上游 yy + 补充
+# 条数：27
+payload:
+  # ── 上游 yy ──
+  - +.duowan.com
+  - +.dwstatic.com
+  - +.yy.com
+  - +.yyeshop.cn
+  - +.yystatic.com
+  # ── YY 语音 / 多玩 / 欢聚（原 fakeipfilter、公开配置 duowan，上游没有的） ──
+  - +.5253.com
+  - +.bcshipgo.com
+  - +.bigda.com
+  - +.blogchina.org
+  - +.chinaduo.com
+  - +.duowan.cn
+  - +.duowan.com.cn
+  - +.hiido.cn
+  - +.hiido.com
+  - +.hiido.net
+  - +.huanju.cn
+  - +.huanju.net
+  - +.huanjuyun.com
+  - +.joyy.com
+  - +.joyyinc.com
+  - +.joyyued.com
+  - +.pikoplay.com
+  - +.vooedit.com
+  - +.yy.com.cn
+  - +.yyclouds.com
+  - +.yygamedev.com
+  - +.zhiniu8.com

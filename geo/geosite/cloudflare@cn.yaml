@@ -1,0 +1,23 @@
+# 来源：上游 cloudflare@cn
+# 条数：19
+payload:
+  # ── 上游 cloudflare@cn ──
+  - +.cf-china.info
+  - +.cf-ns.com
+  - +.cf-ns.net
+  - +.cf-ns.site
+  - +.cf-ns.tech
+  - +.cftest5.cn
+  - +.cftest6.cn
+  - +.cftest7.com
+  - +.cftest8.com
+  - +.cloudflare-cn.com
+  - +.cloudflareanycast.net
+  - +.cloudflarechina.cn
+  - +.cloudflarecn.net
+  - +.cloudflareglobal.net
+  - +.cloudflareinsights-cn.com
+  - +.cloudflareperf.com
+  - +.cloudflareprod.com
+  - +.cloudflarestaging.com
+  - +.cloudflarestoragegw.com

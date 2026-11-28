@@ -1,0 +1,16 @@
+# 来源：上游 reddit
+# 条数：12
+payload:
+  # ── 上游 reddit ──
+  - +.redd.it
+  - +.reddit.app.link
+  - +.reddit.com
+  - +.reddit.map.fastly.net
+  - +.redditblog.com
+  - +.reddithelp.com
+  - +.redditinc.com
+  - +.redditmail.com
+  - +.redditmedia.com
+  - +.redditspace.com
+  - +.redditstatic.com
+  - +.redditstatus.com

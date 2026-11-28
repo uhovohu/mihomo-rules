@@ -1,0 +1,7 @@
+# 来源：上游 imgur
+# 条数：3
+payload:
+  # ── 上游 imgur ──
+  - +.imgur.com
+  - +.imgur.io
+  - +.imgurinc.com

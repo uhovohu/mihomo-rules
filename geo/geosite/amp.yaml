@@ -1,0 +1,10 @@
+# 来源：上游 amp
+# 条数：6
+payload:
+  # ── 上游 amp ──
+  - +.amp.dev
+  - +.ampproject.com
+  - +.ampproject.net
+  - +.ampproject.org
+  - amp.akamaized.net
+  - cdn.ampproject.org

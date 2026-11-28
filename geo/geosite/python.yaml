@@ -1,0 +1,10 @@
+# 来源：上游 python
+# 条数：6
+payload:
+  # ── 上游 python ──
+  - +.pycon.org
+  - +.pypa.io
+  - +.pypi.io
+  - +.pypi.org
+  - +.python.org
+  - +.pythonhosted.org

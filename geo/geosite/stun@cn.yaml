@@ -1,0 +1,10 @@
+# 来源：自己维护
+# 条数：6
+payload:
+  # ── 国内 STUN（各商家文件覆盖不到的）──
+  - +.stun.itc.cn              # 搜狐/阿里：响应极快，兼容性极佳
+  - +.stun.telecom.com.cn      # 中国电信：电信宽带用户建议保留
+  - +.stun.unicom.com.cn       # 中国联通：联通宽带用户建议保留
+  - +.stun.hit.edu.cn          # 哈工大：教育网环境延迟极低
+  - +.stun.pku.edu.cn          # 北京大学：北方教育网骨干节点
+  - +.stun.tuna.tsinghua.edu.cn # 清华大学：高校网络环境下非常稳定

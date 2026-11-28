@@ -1,0 +1,7 @@
+# 来源：上游 steaminventoryhelper
+# 条数：3
+payload:
+  # ── 上游 steaminventoryhelper ──
+  - +.sih-db.com
+  - +.sih.app
+  - +.steaminventoryhelper.com

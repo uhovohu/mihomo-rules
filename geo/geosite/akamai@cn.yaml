@@ -1,0 +1,15 @@
+# 来源：上游 akamai@cn − category-ip-geo-detect@!cn
+# 条数：11
+payload:
+  # ── 上游 akamai@cn ──
+  - +.accdn.com.cn
+  - +.akadns88.net
+  - +.akadns99.net
+  - +.akamai.com
+  - +.akcdn.com.cn
+  - +.aptdn.net
+  - +.edgekey88.net
+  - +.janrain.biz
+  - +.janrainservices.com
+  - +.skycdn.com.cn
+  - +.tl88.net

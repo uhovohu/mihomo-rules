@@ -1,0 +1,11 @@
+# 来源：上游 notion
+# 条数：7
+payload:
+  # ── 上游 notion ──
+  - +.notion-static.com
+  - +.notion-status.com
+  - +.notion.com
+  - +.notion.new
+  - +.notion.site
+  - +.notion.so
+  - +.notionusercontent.com

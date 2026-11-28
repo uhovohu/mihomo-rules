@@ -1,0 +1,11 @@
+# 来源：上游 icloudprivaterelay + 补充
+# 条数：6
+payload:
+  # ── 上游 icloudprivaterelay ──
+  - +.mask-api.icloud.com
+  - +.mask-h2.icloud.com
+  - +.mask.icloud.com
+  # ── iCloud 专用代理入口（mask.icloud.com、mask-api.icloud.com）的苹果 DNS 别名 ──
+  - mask.apple-dns.net
+  - apac-mask.wrr.me.apple-dns.net
+  - mask-api.fe2.apple-dns.net

@@ -1,0 +1,20 @@
+# 来源：上游 chinatelecom − chinatelecom@!cn + 补充
+# 条数：15
+payload:
+  # ── 上游 chinatelecom ──
+  - +.189.cn
+  - +.189cube.com
+  - +.189smarthome.com
+  - +.21cn.com
+  - +.bestpay.cn
+  - +.bestpay.com.cn
+  - +.chinatelecom-h.com
+  - +.chinatelecom.com.cn
+  - +.chntel.com
+  - +.dlife.cn
+  - +.mnc011.mcc460.pub.3gppnetwork.org
+  - +.play.cn
+  - +.tv189.com
+  - +.vnet.cn
+  # ── 中国电信（原 fakeipfilter，上游没有的） ──
+  - +.id6.me  # 天翼账号

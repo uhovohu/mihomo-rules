@@ -1,0 +1,239 @@
+# 来源：自己维护
+# 条数：217
+payload:
+# IP 检测：查 IP、测速、测泄露、拨测的网站和接口（国内外都在这里）
+  # ── 查 IP / 测速 / 测泄露 / 拨测 ──
+  - +.ippure.com
+  - +.itdog.cn
+  - +.whatismyip.akamai.com
+  - +.changeip.com
+  - +.api.nn.ci
+  - +.ifconfig.me
+  - +.ifconfig.io
+  - +.ident.me
+  - +.ip.sb
+  - +.ip.icu
+  - +.ip.im
+  - +.ipw.cn
+  - +.icanhazip.com                # 含 icanhazip.com 本身：郑州银行 App、Coinbase App 后台都会查
+  - +.ipify.org
+  - +.ipwho.is
+  - +.skk.moe
+  - +.ipregistry.co
+  - +.ip-api.com
+  - +.ipinfo.io
+  - +.ip2location.io
+  - +.ipgeolocation.io
+  - +.ip.zxinc.org
+  - +.ipaddress.com
+  - +.ipdata.co
+  - +.db-ip.com
+  - +.ipstack.com
+  - +.whatismyip.com
+  - +.ipip.net
+  - +.ip.la
+  - +.ip-cdn.com
+  - +.whatismyipaddress.com
+  - +.whatismyipaddress.info
+  - +.ipchaxun.com
+  - +.ipchaxun.net
+  - +.ip138.com
+  - +.myip.la
+  - +.scamalytics.com
+  - +.ping0.cc
+  - +.chapangzhan.com
+  - +.boce.com
+  - +.my-ip.io
+  - +.seeip.org
+  - +.ipapi.co
+  - +.abstractapi.com
+  - +.whoisxmlapi.com
+  - +.whatsmyip.com
+  - +.geoapify.com
+  - +.ifconfig.co
+  - +.ip.gs
+  - +.ip.me
+  - +.ip2location.com
+  - +.ip.network
+  - +.ipcost.com
+  - +.ipworld.info
+  - +.ipapi.com
+  - +.ip125.com
+  - +.extreme-ip-lookup.com
+  - +.ip.nf
+  - +.ipwhois.app
+  - +.myexternalip.com
+  - +.myip.com
+  - +.42.pl
+  - +.surfsharkdns.com
+  - +.ttt.sh
+  - +.abuseipdb.com
+  - +.whoer.net
+  - +.ipjiance.com
+  - +.ipleak.net
+  - +.perfect-privacy.com
+  - +.browserleaks.com
+  - +.browserleaks.org
+  - +.browserleaks.net                 # BrowserLeaks 的 DNS 泄漏测试子域名
+  - +.vpnunlimited.com
+  - +.dnsleaktest.com
+  - +.dnsleak.com
+  - +.expressvpn.com
+  - +.nordvpn.com
+  - +.surfshark.com
+  - +.ipwhois.io
+  - +.whrq.net
+  - +.astrill.com
+  - +.astrill.org
+  - +.dnsleak.asn247.net
+  - +.pixelscan.net
+  - +.ip.guide
+  - +.ipqualityscore.com
+  - +.ipip.ee
+  - +.v6test.snozzages.com
+  - +.ipv6.br
+  - +.reallyfreegeoip.org
+  - +.iplark.com
+  - +.myip.wtf
+  - +.bgp.tools
+  - +.ip123.in
+  - +.ipcheck.ing
+  - +.ipaddress.my
+  - +.vpng.net
+  - +.cip.cc
+  - +.httpbin.org
+  - +.ping.sx
+  - api.hpbp.io
+  - ip.bjango.com
+  - ip.istatmenus.app
+  - api.leo.moe
+  - checkip.amazonaws.com
+  - vercel-cors-three.vercel.app
+  - test.b-cdn.net
+  - testvideo.b-cdn.net
+  - ipv4.duiadns.net
+  - ip.900cha.com
+  - ipv4.excathedra.co
+  - ipv6.duiadns.ne
+  - ipv6.joram.it
+  - ipv6.mudgee.host
+  - ipv6.nsx.de
+  - ipv6.stdio.be
+  - ipv4-overseas.itdog.plus
+  - ipv4.lvhai.org
+  - public-us-pingsx.api.clonoth.com
+  - +.contabo.net
+  - +.aapq.net
+  - +.687511.xyz
+  - +.coc.li
+  - +.gatix.link        # iplark 的探测域名
+  - +.gatix.si          # iplark 的探测域名
+  - +.tile.openstreetmap.org
+  - +.ipsuper.com
+  - +.ipapi.is
+
+  # ── 节点纯净度 / 泄露检测 ──
+  - +.cleanip.io         # CleanIP 节点纯净度检测
+  - +.cleanipcdn.com     # CleanIP 静态资源
+  - +.proxypurity.com    # ProxyPurity 代理纯净度检测
+  - +.ilatency.com       # NodePing 在线 Ping / 全球拨测
+  - +.net.coffee         # ip.net.coffee IP 查询
+  - +.geojs.io           # IP 归属地接口
+  - +.bigdatacloud.net   # IP 归属地接口
+  - +.nexscan.net        # 浏览器指纹环境真实性检测
+
+  # ════ 以下为补充（取自上游 category-ip-geo-detect）════
+  # ── IP 查询接口 ──
+  - checkip.dyndns.org                     # DynDNS 老牌 checkip 接口，大量路由器和脚本在用
+  - checkip.dyndns.com                     # DynDNS checkip 接口（.com）
+  - checkip.dyn.com                        # Dyn checkip 接口
+  - checkip.global.api.aws                 # AWS 全球 checkip 接口
+  - checkip.dns.he.net                     # Hurricane Electric DDNS 的 checkip 接口
+  - myip.dnsomatic.com                     # DNS-O-Matic（OpenDNS）取公网 IP 接口
+  - ip1.dynupdate.no-ip.com                # No-IP DDNS 取公网 IP 接口
+  - get-my-ip.ddns.softether-network.net   # SoftEther VPN 内置 DDNS 取 IP 接口
+  - ipv4.ddnspod.com                       # DNSPod DDNS 取 IPv4 接口
+  - ipv6.ddnspod.com                       # DNSPod DDNS 取 IPv6 接口
+  - ip4.istatmenus.app                     # iStat Menus 菜单栏取 IPv4 接口
+  - ip6.istatmenus.app                     # iStat Menus 菜单栏取 IPv6 接口
+  - +.ipv4-internet.yandex.net             # Yandex Internetometer 取 IPv4 接口
+  - +.ipv6-internet.yandex.net             # Yandex Internetometer 取 IPv6 接口
+  - +.ipv4.internet.yandex.net             # Yandex Internetometer 取 IPv4 接口（另一写法）
+  - +.ipv6.internet.yandex.net             # Yandex Internetometer 取 IPv6 接口（另一写法）
+  - ip.3322.net                            # 希网 3322 DDNS 取公网 IP 接口
+  - ip.taobao.com                          # 淘宝 IP 地址库接口
+  - +.whois.pconline.com.cn                # 太平洋网络 IP 归属地接口，国内脚本常用
+  - +.jsonip.com                           # JSON 格式返回公网 IP
+  - +.wtfismyip.com                        # 开发者常用的纯文本 / JSON 取 IP 接口
+  - +.ipecho.net                           # ipecho.net/plain 纯文本取 IP
+  - +.l2.io                                # l2.io/ip 纯文本取 IP
+  - +.eth0.me                              # curl eth0.me 纯文本取 IP
+  - +.ipquery.io                           # IPQuery 免费 IP 归属地 / 风险 API
+  - +.freeipapi.com                        # FreeIPAPI 免费 IP 归属地 API
+  - +.iplocate.io                          # IPLocate IP 归属地 API
+  - +.ipbase.com                           # ipbase IP 归属地 API
+  - +.geoplugin.net                        # geoPlugin IP 归属地 API
+  - +.country.is                           # 返回 IP 所在国家的极简 API
+  - +.api-bdc.net                          # BigDataCloud 的 API 域名
+  - +.bigdatacloud.com                     # BigDataCloud IP 归属地服务主站
+  - +.maxmind.com                          # MaxMind GeoIP 数据库厂商，含 GeoIP 在线查询
+  - +.ipinfodb.com                         # IPInfoDB IP 归属地 API
+
+  # ── IP 查询网站 ──
+  - +.ip.cn                                # 国内老牌 IP 查询站
+  - +.ip111.cn                             # 国内常用的多出口 IP 对比查询
+  - +.cz88.net                             # 纯真 IP 库官网，国内 IP 归属地查询
+  - mip.chinaz.com                         # 站长之家 IP 查询（移动版）
+  - +.iplocation.net                       # 多家 IP 库归属地对比查询
+  - +.ipchicken.com                        # 老牌查 IP 网站
+  - +.whatismyisp.com                      # 查 IP 和运营商
+  - +.tracemyip.org                        # 查 IP、追踪和指纹信息
+  - +.showmyip.com                         # 查 IP 网站
+  - +.whatsmyip.org                        # 查 IP 网站，附端口扫描等工具
+  - +.myip.ms                              # IP / 主机 / 托管商查询
+  - +.bgp.he.net                           # Hurricane Electric BGP 工具，查 IP 段和 ASN
+  - +.ip4.me                               # 极简 IPv4 查询
+  - +.ip6.me                               # 极简 IPv6 查询
+  - +.2ip.ru                               # 俄语区最常用的查 IP 网站
+  - +.ugtop.com                            # 日本常用查 IP 网站（確認くん）
+
+  # ── 测速 ──
+  - ip-check-perf.radar.cloudflare.com     # Cloudflare Radar 测速 / 连接质量检测
+  - ipv4-check-perf.radar.cloudflare.com   # Cloudflare Radar 测速 IPv4 端点
+  - ipv6-check-perf.radar.cloudflare.com   # Cloudflare Radar 测速 IPv6 端点
+  - +.check-host.net                       # 全球多节点 Ping / HTTP / TCP 拨测
+  - +.test-ipv6.com                        # IPv6 连通性测试
+  - +.testipv6.cn                          # IPv6 连通性测试（国内镜像）
+
+  # ── 泄露 / 指纹检测 ──
+  - +.bash.ws                              # DNS 泄露测试（底子里只有不带前缀的 bash.ws，这条连子域一起管）
+  - +.dnscheck.tools                       # DNS 解析器 / DNSSEC / 泄露检测
+  - check.torproject.org                   # Tor 官方：检测是否经由 Tor 出口
+  - +.browserscan.net                      # BrowserScan 浏览器指纹 / WebRTC 检测
+  - +.iphey.com                            # 浏览器指纹真实性检测
+  - +.deviceinfo.io                        # 设备 / 浏览器指纹信息检测
+  - +.todetect.net                         # ToDetect 浏览器指纹检测
+  - +.todetect.cn                          # ToDetect 浏览器指纹检测（国内）
+  - ip-scan.adspower.net                   # AdsPower 指纹浏览器的 IP 检测接口
+
+  # ── 纯净度 / 风险评分 ──
+  - +.ipqs.com                             # IPQualityScore 短域名
+  - +.proxycheck.io                        # proxycheck.io 代理 / VPN 检测 API
+  - +.getipintel.net                       # GetIPIntel 代理 / VPN 概率评分
+  - +.iphub.info                           # IPHub 代理 / 机房 IP 检测
+  - +.spur.us                              # Spur 住宅代理 / VPN 识别
+  - +.criminalip.io                        # Criminal IP 威胁情报 / IP 风险
+  - +.fraudguard.io                        # FraudGuard IP 风险评分
+  - +.vpnapi.io                            # vpnapi.io VPN / 代理检测 API
+  - +.ip2proxy.com                         # IP2Location 旗下代理检测
+  - +.greip.io                             # Greip IP 欺诈 / 代理检测
+  - +.ipvoid.com                           # IPVoid IP 黑名单查询
+  - +.apivoid.com                          # APIVoid IP 信誉 API
+
+  # ── VPN 厂商 ──
+  - am.i.mullvad.net                       # Mullvad VPN「我的 IP」/ 连接检测
+  - ip-info.ff.avast.com                   # Avast SecureLine VPN 取 IP 信息接口
+
+  # ── IP 检测站的后台接口 ──
+  - +.123169.xyz                           # ippure 后台接口
+  - +.999831.xyz                           # ippure 后台接口

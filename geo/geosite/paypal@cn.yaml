@@ -1,0 +1,16 @@
+# 来源：上游 paypal@cn
+# 条数：12
+payload:
+  # ── 上游 paypal@cn ──
+  - +.anfutong.cn
+  - +.anfutong.com.cn
+  - +.beibao.cn
+  - +.beibao.com.cn
+  - +.paypal.com.cn
+  - +.paypal.net.cn
+  - +.paypal.org.cn
+  - +.paypalcommunity.cn
+  - +.paypalhere.cn
+  - +.paypalhere.com.cn
+  - +.xn--bnq297cix3a.cn
+  - +.xoom.net.cn

@@ -1,0 +1,41 @@
+# 来源：上游 category-cas@cn + 补充
+# 条数：35
+payload:
+  # ── 上游 category-cas@cn ──
+  - +.alphassl.com
+  - +.dcocsp.cn
+  - +.digicert.cn
+  - +.easy-signing.com
+  - +.globalsign.cn
+  - +.globalsign.com
+  - +.globalsigncdn.com
+  - +.oemssl.cn
+  - +.oemssl.cn.cdn.cloudflare.net
+  - +.sectigochina.com
+  - +.sectigochina.com.cdn.cloudflare.net
+  - +.sslcom.cn
+  - +.trust-provider.cn
+  - c.pki.goog
+  - cdn.globalsigncdn.com.cdn.cloudflare.net
+  - certs-lb.apple.com.akadns.net
+  - certs.apple.com
+  - crl-lb.apple.com.akadns.net
+  - crl.apple.com
+  - crl.globalsign.net
+  - crl.pki.goog
+  - crls.pki.goog
+  - i.pki.goog
+  - o.pki.goog
+  - ocsp.apple.com
+  - ocsp.pki.goog
+  - ocsp2.apple.com
+  - pki-goog.l.google.com
+  - valid.apple.com
+  - valid.origin-apple.com.akadns.net
+  - www.entrust.cn
+  # ── 亚洲诚信（TrustAsia）──
+  - +.trustasia.com
+  - +.trustasia.cn
+  - +.myssl.com
+  # ── 沃通（WoTrus）──
+  - +.crlocsp.cn

@@ -1,0 +1,11 @@
+# 来源：上游 chinatelecom@!cn
+# 条数：7
+payload:
+  # ── 上游 chinatelecom@!cn ──
+  - +.chinatelecomglobal.com
+  - +.chinatelecomhk.com
+  - +.ctexcel.ca
+  - +.ctexcel.com
+  - +.ctexcel.com.hk
+  - +.ctexcel.fr
+  - +.ctexcel.us

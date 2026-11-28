@@ -1,0 +1,35 @@
+# 来源：上游 vercel + 补充
+# 条数：29
+payload:
+  # ── 上游 vercel ──
+  - +.ai-sdk.dev
+  - +.err.sh
+  - +.hyper.is
+  - +.nextjs.org
+  - +.now.sh
+  - +.skills.sh
+  - +.static.fun
+  - +.title.sh
+  - +.turborepo.org
+  - +.vercel-dns.com
+  - +.vercel-status.com
+  - +.vercel.app
+  - +.vercel.blog
+  - +.vercel.com
+  - +.vercel.dev
+  - +.vercel.events
+  - +.vercel.live
+  - +.vercel.pub
+  - +.vercel.sh
+  - +.vercel.store
+  - +.zeit-world.co.uk
+  - +.zeit-world.com
+  - +.zeit-world.net
+  - +.zeit-world.org
+  - +.zeit.co
+  - +.zeit.sh
+  - +.zeitworld.com
+  # ── Turborepo 新域名 ──
+  - +.turbo.build
+  # ── Grep 代码搜索（Vercel 收购） ──
+  - +.grep.app

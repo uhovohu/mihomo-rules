@@ -1,0 +1,92 @@
+# 来源：上游 category-dev-cn − 其他所有规则集 + 补充
+# 条数：85
+payload:
+  # ── 上游 category-dev-cn ──
+  - +.aardio.com
+  - +.ads.unitychina.cn
+  - +.aixcoder.com
+  - +.apifox.cn
+  - +.apifox.com
+  - +.apipost.cn
+  - +.apipost.net
+  - +.asktug.com
+  - +.atomgit.com
+  - +.baltamatica.cn
+  - +.baltamatica.com
+  - +.baltamatica.net
+  - +.baltamatica.org.cn
+  - +.blogjava.net
+  - +.cnblogs.com
+  - +.cnblogs.vip
+  - +.cnitblog.com
+  - +.cnweblog.com
+  - +.cocos.com
+  - +.codechina.net
+  - +.cppblog.com
+  - +.csdn.com
+  - +.csdn.net
+  - +.csdn.net.cn
+  - +.csdnimg.cn
+  - +.csto.com
+  - +.datasea.cn
+  - +.dengguobi.com
+  - +.ejoy.com
+  - +.frontjs.com
+  - +.gitbook.cn
+  - +.gitchat.cn
+  - +.gitcode.com
+  - +.gitcode.net
+  - +.gitee.com
+  - +.gitee.io
+  - +.houyicaiji.com
+  - +.iteye.com
+  - +.jinglingbiaozhu.com
+  - +.jinrishici.com
+  - +.kaifayun.com
+  - +.kaihong.com
+  - +.mysxl.cn
+  - +.nnthink.com
+  - +.oend.net
+  - +.openkylin.top
+  - +.openvela.com
+  - +.oschina.net
+  - +.pgyer.com
+  - +.php.cn
+  - +.phpweblog.net
+  - +.pingcap.cn
+  - +.pingcap.com
+  - +.pingcode.com
+  - +.programmer.com.cn
+  - +.programmer.net.cn
+  - +.ruby-china.org
+  - +.rubyconfchina.org
+  - +.segmentfault.com
+  - +.sifou.com
+  - +.splash-ads.cdn.unity.cn
+  - +.splash-ads.unitychina.cn
+  - +.sxl.cn
+  - +.sxlcdn.cn
+  - +.sxlcdn.com
+  - +.teachblog.net
+  - +.tidb.ai
+  - +.tidb.net
+  - +.tidbcloud.com
+  - +.tikv.org
+  - +.tipdm.org
+  - +.tracup.com
+  - +.u3d.cn
+  - +.ubuntukylin.com
+  - +.unity.cn
+  - +.unity3dcloud.cn
+  - +.unityads.unity.cn
+  - +.unityads.unitychina.cn
+  - +.unitychina.cn
+  - +.weboss.hk
+  - +.zuidaima.com
+  # ── 菜鸟教程 ──
+  - +.runoob.com
+  # ── 国内镜像和中国站 ──
+  - +.cnpmjs.org          # 国内 npm 镜像旧址
+  - +.jetbrains.com.cn    # JetBrains 中国站
+  # ── GitHub 加速镜像 ──
+  - +.ghfast.top

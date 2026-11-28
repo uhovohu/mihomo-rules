@@ -1,0 +1,12 @@
+# 来源：上游 dazn
+# 条数：8
+payload:
+  # ── 上游 dazn ──
+  - +.dazn-api.com
+  - +.dazn.com
+  - +.dazndn.com
+  - +.daznfeeds.com
+  - +.daznplayer.com
+  - +.daznservices.com
+  - +.indazn.com
+  - +.indaznlab.com

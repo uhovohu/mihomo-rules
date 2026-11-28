@@ -1,0 +1,26 @@
+# 来源：上游 line + 补充
+# 条数：21
+payload:
+  # ── 上游 line ──
+  - +.gcld-line.com
+  - +.lin.ee
+  - +.line-apps-beta.com
+  - +.line-apps-rc.com
+  - +.line-apps.com
+  - +.line-beta.me
+  - +.line-cdn.net
+  - +.line-scdn.net
+  - +.line.biz
+  - +.line.me
+  - +.line.naver.jp
+  - +.linecorp.com
+  - +.linefriends.com
+  - +.linefriends.com.tw
+  - +.linegame.jp
+  - +.linemobile.com
+  - +.linemyshop.com
+  - +.lineshoppingseller.com
+  - +.linetv.tw
+  - +.nhncorp.jp
+# LINE 补充
+  - ly.my.sentry.io         # LINE App 的报错上报（LY 公司专属编号）

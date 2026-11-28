@@ -1,0 +1,80 @@
+# 来源：自己维护
+# 条数：37
+payload:
+# 代理杂项：上游没有单独文件的零散海外网站
+  # ── 划词翻译 ──
+  - +.www.hcfy.ai
+
+  # ── Mac 软件作者的个人站 ──
+  - +.qiuchenly.us.kg
+  - +.mac-qiuchenly.yltfspace.com
+  - +.xkji.com
+
+  # ── BlackBerry ──
+  - +.blackberry.com
+
+  # ── 油猴 Tampermonkey ──
+  - +.tampermonkey.net
+  - +.greasyfork.org       # Greasy Fork 脚本站（油猴脚本更新）
+  - favicon.yandex.net     # Yandex 网站图标接口，油猴脚本 AC-baidu 在用
+  - +.wedata.net           # AutoPagerize 规则库，油猴脚本在用
+
+  # ── Shottr 截图软件 ──
+  - shottr.cc               # 官网
+
+  # ── Chrono 下载管理器（Chrome 插件）──
+  - +.chronodownloader.net
+
+  # ── Icon Kitchen 图标生成网站 ──
+  - +.icon.kitchen
+
+  # ── RustDesk 远程控制 ──
+  - +.rustdesk.com
+
+  # ── Tuxera NTFS（Mac 读写 NTFS 软件）──
+  - +.tuxera.com
+
+  # ── 代理客户端 ──
+  - +.clash.md             # Clash for Apple 客户端官网
+
+  # ── 博客 ──
+  - +.wildprobe.com        # 野生网管 网络博客
+
+  # ── Little Snitch（Mac 防火墙）──
+  - +.obdev.at             # 软件更新、地区数据
+
+  # ── 密码泄露查询 ──
+  - api.pwnedpasswords.com # Have I Been Pwned；通用第三方服务（海外），目前只见 Bitwarden 调用
+
+  # ── eSIM 运营商服务 ──
+  - cel.prod.ondemandconnectivity.com  # 爱立信 eSIM 开通服务，iPhone 系统调用
+
+  # ── 维基百科 ──
+  - +.wikipedia.org
+  - +.wikimedia.org
+
+  # ── F6S 软件评测、优惠站 ──
+  - +.f6s.com
+
+  # ── 礼品卡网站 ──
+  - +.opentherank.com      # 礼品卡比价
+  - +.turgame.com          # Turgame（土耳其）
+  - +.turdigital.com       # Turdigital（土耳其）
+  - +.oyunfor.com          # Oyunfor（土耳其）
+  - +.pockyt.io            # Pockyt
+  - +.yuansfer.com         # Pockyt 原名 Yuansfer，跨境支付
+  - assets.tillo.io        # Tillo 礼品卡平台；通用第三方服务（海外），目前只见 Pockyt 调用
+  - widget.trustpilot.com  # Trustpilot 评价插件；通用第三方服务（海外），目前只见 Turgame 调用
+  - cdn.gtranslate.net     # GTranslate 网页翻译插件；通用第三方服务（海外），目前只见 Turgame 调用
+
+  # ── Parallels Desktop（虚拟机软件：登录、更新）──
+  - +.parallels.com
+  - +.parallels.cn
+
+  # ── 归属未知：邮件回调地址（腾讯云新加坡加速）；目前只见邮件 App 连 ──
+  - +.suredeliverses.com
+
+  # ── NicNames 域名注册商（营销邮件）──
+  - +.nicnames.com
+  - cdn96615.cdn.mn        # 邮件图片（CDN.MN 图片加速，NicNames 旗下）
+  - +.dm.ua                # 邮件里连的地址

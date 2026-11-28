@@ -1,0 +1,9 @@
+# 来源：上游 huggingface + 补充
+# 条数：4
+payload:
+  # ── 上游 huggingface ──
+  - +.hf.co
+  - +.hf.space
+  - +.huggingface.co
+  # ── Gradio（Hugging Face 收购） ──
+  - +.gradio.app
