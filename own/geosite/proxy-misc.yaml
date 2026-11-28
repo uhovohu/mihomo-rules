@@ -72,6 +72,7 @@ payload:
   # ── 归属未知：邮件回调地址（腾讯云新加坡加速）；目前只见邮件 App 连 ──
   - +.suredeliverses.com
 
-  # ── 归属未知：营销邮件里的图片；目前只见邮件 App 连 ──
-  - cdn96615.cdn.mn        # CDN.MN 图片加速
-  - +.dm.ua
+  # ── NicNames 域名注册商（营销邮件）──
+  - +.nicnames.com
+  - cdn96615.cdn.mn        # 邮件图片（CDN.MN 图片加速，NicNames 旗下）
+  - +.dm.ua                # 邮件里连的地址
