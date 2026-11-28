@@ -71,3 +71,7 @@ payload:
 
   # ── 归属未知：邮件回调地址（腾讯云新加坡加速）；目前只见邮件 App 连 ──
   - +.suredeliverses.com
+
+  # ── 归属未知：营销邮件里的图片；目前只见邮件 App 连 ──
+  - cdn96615.cdn.mn        # CDN.MN 图片加速
+  - +.dm.ua
